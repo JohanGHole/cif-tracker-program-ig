@@ -1,3 +1,3 @@
 # IG
 
-Feel free to modify this index page with your own awesome content!
+Generated using IG generation app for tracker programs.
