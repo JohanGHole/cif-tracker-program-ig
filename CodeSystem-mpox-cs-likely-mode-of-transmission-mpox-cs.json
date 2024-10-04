@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-likely-mode-of-transmission-mpox-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-likely-mode-of-transmission-mpox-cs</b></p><a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs\"> </a><a name=\"hcmpox-cs-likely-mode-of-transmission-mpox-cs\"> </a><a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ANIMAL_TO_HUMAN_TRANSMISSION<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-ANIMAL_TO_HUMAN_TRANSMISSION\"> </a></td><td>Animal to human transmission</td></tr><tr><td style=\"white-space:nowrap\">HEALTHCARE_ASSOCIATED<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-HEALTHCARE_ASSOCIATED\"> </a></td><td>Healthcare-associated</td></tr><tr><td style=\"white-space:nowrap\">TRANSMISSION_IN_LABORATORY_OCCUPATIONAL_EXPOSURE<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-TRANSMISSION_IN_LABORATORY_OCCUPATIONAL_EXPOSURE\"> </a></td><td>Transmission in a laboratory due to occupational exposure</td></tr><tr><td style=\"white-space:nowrap\">TRANSMISSION_MOTHER_TO_CHILD_DURING_PREGNANCY_OR_BIRTH<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-TRANSMISSION_MOTHER_TO_CHILD_DURING_PREGNANCY_OR_BIRTH\"> </a></td><td>Transmission from mother to child during pregnancy or at birth</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_CONTAMINATED_MATERIAL<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-CONTACT_WITH_CONTAMINATED_MATERIAL\"> </a></td><td>Contact with contaminated material (e.g., bedding, clothing, objects)</td></tr><tr><td style=\"white-space:nowrap\">PERSON_TO_PERSON_EXCLUDING<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-PERSON_TO_PERSON_EXCLUDING\"> </a></td><td>Person-to-person (excluding mother-to-child, healthcare-associated or sexual transmission)</td></tr><tr><td style=\"white-space:nowrap\">SEXUAL_TRANSMISSION<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-SEXUAL_TRANSMISSION\"> </a></td><td>Sexual transmission</td></tr><tr><td style=\"white-space:nowrap\">PARENTERAL_TRANSMISSION<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-PARENTERAL_TRANSMISSION\"> </a></td><td>Parenteral transmission, including intraveneous drugs use and transfusion</td></tr><tr><td style=\"white-space:nowrap\">OTHER_TRANSMISSION<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-OTHER_TRANSMISSION\"> </a></td><td>Other transmission</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-likely-mode-of-transmission-mpox-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSLikelyModeOfTransmissionMpoxCS",
+  "title" : "MPOX CS: Likely mode of transmission (Mpox)",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "ANIMAL_TO_HUMAN_TRANSMISSION",
+    "display" : "Animal to human transmission"
+  },
+  {
+    "code" : "HEALTHCARE_ASSOCIATED",
+    "display" : "Healthcare-associated"
+  },
+  {
+    "code" : "TRANSMISSION_IN_LABORATORY_OCCUPATIONAL_EXPOSURE",
+    "display" : "Transmission in a laboratory due to occupational exposure"
+  },
+  {
+    "code" : "TRANSMISSION_MOTHER_TO_CHILD_DURING_PREGNANCY_OR_BIRTH",
+    "display" : "Transmission from mother to child during pregnancy or at birth"
+  },
+  {
+    "code" : "CONTACT_WITH_CONTAMINATED_MATERIAL",
+    "display" : "Contact with contaminated material (e.g., bedding, clothing, objects)"
+  },
+  {
+    "code" : "PERSON_TO_PERSON_EXCLUDING",
+    "display" : "Person-to-person (excluding mother-to-child, healthcare-associated or sexual transmission)"
+  },
+  {
+    "code" : "SEXUAL_TRANSMISSION",
+    "display" : "Sexual transmission"
+  },
+  {
+    "code" : "PARENTERAL_TRANSMISSION",
+    "display" : "Parenteral transmission, including intraveneous drugs use and transfusion"
+  },
+  {
+    "code" : "OTHER_TRANSMISSION",
+    "display" : "Other transmission"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

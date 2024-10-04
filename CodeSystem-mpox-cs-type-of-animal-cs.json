@@ -1,0 +1,56 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-type-of-animal-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-type-of-animal-cs</b></p><a name=\"mpox-cs-type-of-animal-cs\"> </a><a name=\"hcmpox-cs-type-of-animal-cs\"> </a><a name=\"mpox-cs-type-of-animal-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-type-of-animal-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PETS_EXCLUDING_RODENTS<a name=\"mpox-cs-type-of-animal-cs-PETS_EXCLUDING_RODENTS\"> </a></td><td>Pets excluding rodents</td></tr><tr><td style=\"white-space:nowrap\">RODENT_PETS<a name=\"mpox-cs-type-of-animal-cs-RODENT_PETS\"> </a></td><td>Rodent pets</td></tr><tr><td style=\"white-space:nowrap\">DOMESTIC_ANIMALS<a name=\"mpox-cs-type-of-animal-cs-DOMESTIC_ANIMALS\"> </a></td><td>Domestic animals</td></tr><tr><td style=\"white-space:nowrap\">WILD_ANIMALS_MONKEY_OTHER_NON_HUMAN_PRIMATES<a name=\"mpox-cs-type-of-animal-cs-WILD_ANIMALS_MONKEY_OTHER_NON_HUMAN_PRIMATES\"> </a></td><td>Wild animals - monkey, other non-human primates</td></tr><tr><td style=\"white-space:nowrap\">WILD_ANIMALS_RODENTS<a name=\"mpox-cs-type-of-animal-cs-WILD_ANIMALS_RODENTS\"> </a></td><td>Wild animals - rodents</td></tr><tr><td style=\"white-space:nowrap\">WILD_ANIMALS_OTHER<a name=\"mpox-cs-type-of-animal-cs-WILD_ANIMALS_OTHER\"> </a></td><td>Wild animals - other</td></tr><tr><td style=\"white-space:nowrap\">CAPTIVE_WILDLIFE<a name=\"mpox-cs-type-of-animal-cs-CAPTIVE_WILDLIFE\"> </a></td><td>Captive wildlife</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-type-of-animal-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-type-of-animal-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSTypeOfAnimalCS",
+  "title" : "MPOX CS: Type of animal",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "PETS_EXCLUDING_RODENTS",
+    "display" : "Pets excluding rodents"
+  },
+  {
+    "code" : "RODENT_PETS",
+    "display" : "Rodent pets"
+  },
+  {
+    "code" : "DOMESTIC_ANIMALS",
+    "display" : "Domestic animals"
+  },
+  {
+    "code" : "WILD_ANIMALS_MONKEY_OTHER_NON_HUMAN_PRIMATES",
+    "display" : "Wild animals - monkey, other non-human primates"
+  },
+  {
+    "code" : "WILD_ANIMALS_RODENTS",
+    "display" : "Wild animals - rodents"
+  },
+  {
+    "code" : "WILD_ANIMALS_OTHER",
+    "display" : "Wild animals - other"
+  },
+  {
+    "code" : "CAPTIVE_WILDLIFE",
+    "display" : "Captive wildlife"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  }]
+}

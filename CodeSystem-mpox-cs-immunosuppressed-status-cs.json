@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-immunosuppressed-status-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-immunosuppressed-status-cs</b></p><a name=\"mpox-cs-immunosuppressed-status-cs\"> </a><a name=\"hcmpox-cs-immunosuppressed-status-cs\"> </a><a name=\"mpox-cs-immunosuppressed-status-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-immunosuppressed-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">YES_DUE_TO_DISEASES<a name=\"mpox-cs-immunosuppressed-status-cs-YES_DUE_TO_DISEASES\"> </a></td><td>Yes - Due to diseases</td></tr><tr><td style=\"white-space:nowrap\">YES_DUE_TO_MEDICATION<a name=\"mpox-cs-immunosuppressed-status-cs-YES_DUE_TO_MEDICATION\"> </a></td><td>Yes - Due to medication</td></tr><tr><td style=\"white-space:nowrap\">YES_REASON_UNKNOWN<a name=\"mpox-cs-immunosuppressed-status-cs-YES_REASON_UNKNOWN\"> </a></td><td>Yes - Reason unknown</td></tr><tr><td style=\"white-space:nowrap\">NO<a name=\"mpox-cs-immunosuppressed-status-cs-NO\"> </a></td><td>No</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-immunosuppressed-status-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-immunosuppressed-status-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSImmunosuppressedStatusCS",
+  "title" : "MPOX CS: Immunosuppressed status",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "YES_DUE_TO_DISEASES",
+    "display" : "Yes - Due to diseases"
+  },
+  {
+    "code" : "YES_DUE_TO_MEDICATION",
+    "display" : "Yes - Due to medication"
+  },
+  {
+    "code" : "YES_REASON_UNKNOWN",
+    "display" : "Yes - Reason unknown"
+  },
+  {
+    "code" : "NO",
+    "display" : "No"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

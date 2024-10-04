@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-relationship-case-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet mpox-cs-relationship-case-vs</b></p><a name="mpox-cs-relationship-case-vs"> </a><a name="hcmpox-cs-relationship-case-vs"> </a><a name="mpox-cs-relationship-case-vs-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-mpox-cs-relationship-case-cs.html"><code>http://example.org/CodeSystem/mpox-cs-relationship-case-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/mpox-cs-relationship-case-vs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSRelationshipCaseVS"/>
+  <title value="MPOX CS: Relationship case value set"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://example.org/CodeSystem/mpox-cs-relationship-case-cs"/>
+    </include>
+  </compose>
+</ValueSet>

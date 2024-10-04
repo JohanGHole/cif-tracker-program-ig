@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mpox-cs-place-animal-contact-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-place-animal-contact-cs</b></p><a name=\"mpox-cs-place-animal-contact-cs\"> </a><a name=\"hcmpox-cs-place-animal-contact-cs\"> </a><a name=\"mpox-cs-place-animal-contact-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HOME<a name=\"mpox-cs-place-animal-contact-cs-HOME\"> </a></td><td>Home</td></tr><tr><td style=\"white-space:nowrap\">MARKET<a name=\"mpox-cs-place-animal-contact-cs-MARKET\"> </a></td><td>Market</td></tr><tr><td style=\"white-space:nowrap\">FARM<a name=\"mpox-cs-place-animal-contact-cs-FARM\"> </a></td><td>Farm</td></tr><tr><td style=\"white-space:nowrap\">WORKPLACE<a name=\"mpox-cs-place-animal-contact-cs-WORKPLACE\"> </a></td><td>Workplace</td></tr><tr><td style=\"white-space:nowrap\">OUTDOOR_URBAN<a name=\"mpox-cs-place-animal-contact-cs-OUTDOOR_URBAN\"> </a></td><td>Outdoor - urban</td></tr><tr><td style=\"white-space:nowrap\">OUTDOOR_RURAL<a name=\"mpox-cs-place-animal-contact-cs-OUTDOOR_RURAL\"> </a></td><td>Outdoor - rural</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-place-animal-contact-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MPOXCSPlaceAnimalContactCS"] ; # 
+  fhir:title [ fhir:v "MPOX CS: Place animal contact"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-10-04T08:16:56+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org/" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "HOME" ] ;
+     fhir:display [ fhir:v "Home" ]
+  ] [
+     fhir:code [ fhir:v "MARKET" ] ;
+     fhir:display [ fhir:v "Market" ]
+  ] [
+     fhir:code [ fhir:v "FARM" ] ;
+     fhir:display [ fhir:v "Farm" ]
+  ] [
+     fhir:code [ fhir:v "WORKPLACE" ] ;
+     fhir:display [ fhir:v "Workplace" ]
+  ] [
+     fhir:code [ fhir:v "OUTDOOR_URBAN" ] ;
+     fhir:display [ fhir:v "Outdoor - urban" ]
+  ] [
+     fhir:code [ fhir:v "OUTDOOR_RURAL" ] ;
+     fhir:display [ fhir:v "Outdoor - rural" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

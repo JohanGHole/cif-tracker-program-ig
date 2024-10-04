@@ -1,0 +1,36 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-current-status-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-current-status-cs</b></p><a name=\"mpox-cs-current-status-cs\"> </a><a name=\"hcmpox-cs-current-status-cs\"> </a><a name=\"mpox-cs-current-status-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-current-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIVE<a name=\"mpox-cs-current-status-cs-ALIVE\"> </a></td><td>Alive</td></tr><tr><td style=\"white-space:nowrap\">DEAD<a name=\"mpox-cs-current-status-cs-DEAD\"> </a></td><td>Dead</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN_LOST_TO_FOLLOW_UP<a name=\"mpox-cs-current-status-cs-UNKNOWN_LOST_TO_FOLLOW_UP\"> </a></td><td>Unknown/Lost to follow up</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-current-status-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSCurrentStatusCS",
+  "title" : "MPOX CS: Current status",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "ALIVE",
+    "display" : "Alive"
+  },
+  {
+    "code" : "DEAD",
+    "display" : "Dead"
+  },
+  {
+    "code" : "UNKNOWN_LOST_TO_FOLLOW_UP",
+    "display" : "Unknown/Lost to follow up"
+  }]
+}

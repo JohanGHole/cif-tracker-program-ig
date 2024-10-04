@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-clade-mpox-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet mpox-cs-clade-mpox-vs</b></p><a name="mpox-cs-clade-mpox-vs"> </a><a name="hcmpox-cs-clade-mpox-vs"> </a><a name="mpox-cs-clade-mpox-vs-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-mpox-cs-clade-mpox-cs.html"><code>http://example.org/CodeSystem/mpox-cs-clade-mpox-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/mpox-cs-clade-mpox-vs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSCladeMpoxVS"/>
+  <title value="MPOX CS: Clade Mpox value set"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://example.org/CodeSystem/mpox-cs-clade-mpox-cs"/>
+    </include>
+  </compose>
+</ValueSet>

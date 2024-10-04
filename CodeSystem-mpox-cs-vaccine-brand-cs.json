@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-vaccine-brand-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-vaccine-brand-cs</b></p><a name=\"mpox-cs-vaccine-brand-cs\"> </a><a name=\"hcmpox-cs-vaccine-brand-cs\"> </a><a name=\"mpox-cs-vaccine-brand-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-vaccine-brand-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MVA-BN<a name=\"mpox-cs-vaccine-brand-cs-MVA-BN\"> </a></td><td>MVA-BN</td></tr><tr><td style=\"white-space:nowrap\">LC16<a name=\"mpox-cs-vaccine-brand-cs-LC16\"> </a></td><td>LC16</td></tr><tr><td style=\"white-space:nowrap\">ACAM2000<a name=\"mpox-cs-vaccine-brand-cs-ACAM2000\"> </a></td><td>ACAM2000</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-vaccine-brand-cs-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-vaccine-brand-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-vaccine-brand-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSVaccineBrandCS",
+  "title" : "MPOX CS: Vaccine brand",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "MVA-BN",
+    "display" : "MVA-BN"
+  },
+  {
+    "code" : "LC16",
+    "display" : "LC16"
+  },
+  {
+    "code" : "ACAM2000",
+    "display" : "ACAM2000"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

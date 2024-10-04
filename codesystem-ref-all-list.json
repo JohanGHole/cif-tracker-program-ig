@@ -1,0 +1,417 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/CodeSystem/gen---countries-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GENCountriesCS",
+      "title" : "GEN - Countries",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-gen---countries-vs.html" : "GEN - Countries value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-animal-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSAnimalStatusCS",
+      "title" : "MPOX CS: Animal status",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-animal-status-vs.html" : "MPOX CS: Animal status value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-case-classification-crf-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSCaseClassificationCRFCS",
+      "title" : "MPOX CS: Case classification (CRF)",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-case-classification-crf-vs.html" : "MPOX CS: Case classification (CRF) value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-clade-mpox-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSCladeMpoxCS",
+      "title" : "MPOX CS: Clade Mpox",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-clade-mpox-vs.html" : "MPOX CS: Clade Mpox value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-contact-frequency-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSContactFrequencyCS",
+      "title" : "MPOX CS: Contact frequency",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-contact-frequency-vs.html" : "MPOX CS: Contact frequency value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-current-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSCurrentStatusCS",
+      "title" : "MPOX CS: Current status",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-current-status-vs.html" : "MPOX CS: Current status value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-gender-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSGenderCS",
+      "title" : "MPOX CS: Gender",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-gender-vs.html" : "MPOX CS: Gender value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSGenderSexualPartnersCS",
+      "title" : "MPOX CS: Gender sexual partners",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-gender-sexual-partners-vs.html" : "MPOX CS: Gender sexual partners value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-hand-hygiene-ppe-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSHandHygienePPECS",
+      "title" : "MPOX CS: Hand hygiene PPE",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-hand-hygiene-ppe-vs.html" : "MPOX CS: Hand hygiene PPE value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-hiv-status-assessment-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSHIVStatusAssessmentCS",
+      "title" : "MPOX CS: HIV status assessment",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-hiv-status-assessment-vs.html" : "MPOX CS: HIV status assessment value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-hiv-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSHIVStatusCS",
+      "title" : "MPOX CS: HIV status",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-hiv-status-vs.html" : "MPOX CS: HIV status value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-immunosuppressed-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSImmunosuppressedStatusCS",
+      "title" : "MPOX CS: Immunosuppressed status",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-immunosuppressed-status-vs.html" : "MPOX CS: Immunosuppressed status value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSLikelyModeOfTransmissionMpoxCS",
+      "title" : "MPOX CS: Likely mode of transmission (Mpox)",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-likely-mode-of-transmission-mpox-vs.html" : "MPOX CS: Likely mode of transmission (Mpox) value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-maximum-duration-encounters-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSMaximumDurationEncountersCS",
+      "title" : "MPOX CS: Maximum duration encounters",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-maximum-duration-encounters-vs.html" : "MPOX CS: Maximum duration encounters value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-outcome-disease-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSOutcomeDiseaseCS",
+      "title" : "MPOX CS: Outcome disease",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-outcome-disease-vs.html" : "MPOX CS: Outcome disease value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSPlaceAnimalContactCS",
+      "title" : "MPOX CS: Place animal contact",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-place-animal-contact-vs.html" : "MPOX CS: Place animal contact value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-ppe-used-during-exposure-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSPPEUsedDuringExposureCS",
+      "title" : "MPOX CS: PPE used during exposure",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-ppe-used-during-exposure-vs.html" : "MPOX CS: PPE used during exposure value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-pregnancy-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSPregnancyStatusCS",
+      "title" : "MPOX CS: Pregnancy status",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-pregnancy-status-vs.html" : "MPOX CS: Pregnancy status value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-protected-sex-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSProtectedSexCS",
+      "title" : "MPOX CS: Protected sex",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-protected-sex-vs.html" : "MPOX CS: Protected sex value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-relationship-case-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSRelationshipCaseCS",
+      "title" : "MPOX CS: Relationship case",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-relationship-case-vs.html" : "MPOX CS: Relationship case value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-result-sample-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSResultSampleCS",
+      "title" : "MPOX CS: Result sample",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-result-sample-vs.html" : "MPOX CS: Result sample value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-sex-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSSexCS",
+      "title" : "MPOX CS: Sex",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-sex-vs.html" : "MPOX CS: Sex value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-sexual-behavior-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSSexualBehaviorCS",
+      "title" : "MPOX CS: Sexual behavior",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-sexual-behavior-vs.html" : "MPOX CS: Sexual behavior value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-sexual-partner-last-3-months-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSSexualPartnerLast3MonthsCS",
+      "title" : "MPOX CS: Sexual partner last 3 months",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-sexual-partner-last-3-months-vs.html" : "MPOX CS: Sexual partner last 3 months value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-type-of-animal-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSTypeOfAnimalCS",
+      "title" : "MPOX CS: Type of animal",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-type-of-animal-vs.html" : "MPOX CS: Type of animal value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSTypeOfContactForwardTracingCS",
+      "title" : "MPOX CS: Type of contact (forward tracing)",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-type-of-contact-forward-tracing-vs.html" : "MPOX CS: Type of contact (forward tracing) value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-vaccination-current-event-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSVaccinationCurrentEventCS",
+      "title" : "MPOX CS: Vaccination current event",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-vaccination-current-event-vs.html" : "MPOX CS: Vaccination current event value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-vaccine-brand-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSVaccineBrandCS",
+      "title" : "MPOX CS: Vaccine brand",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-vaccine-brand-vs.html" : "MPOX CS: Vaccine brand value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-vaccine-doses-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSVaccineDosesCS",
+      "title" : "MPOX CS: Vaccine doses",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-vaccine-doses-vs.html" : "MPOX CS: Vaccine doses value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-viral-load-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSViralLoadCS",
+      "title" : "MPOX CS: Viral load",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-viral-load-vs.html" : "MPOX CS: Viral load value set"
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-yes-no-unknown-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSYesNoUnknownCS",
+      "title" : "MPOX CS: Yes/No/Unknown",
+      "description" : null,
+      "uses" : {
+      },
+      "ValueSet-mpox-cs-yes-no-unknown-vs.html" : "MPOX CS: Yes/No/Unknown value set"
+    },
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
+    },
+    {
+      "url" : "http://hl7.org/fhir/link-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "oids" : ["2.16.840.1.113883.4.642.4.424"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-link-type.html" : "LinkType"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ContactRole2",
+      "title" : "contactRole2",
+      "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+      "oids" : ["2.16.840.1.113883.18.58"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html" : "Patient Contact Relationship "
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "MaritalStatus",
+      "title" : "MaritalStatus",
+      "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+      "oids" : ["2.16.840.1.113883.5.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "NullFlavor",
+      "title" : "NullFlavor",
+      "description" : "A collection of codes specifying why a valid value is not present.",
+      "oids" : ["2.16.840.1.113883.5.1008"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+    }
+  ]
+}

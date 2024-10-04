@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/mpox-cs-current-status-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mpox-cs-current-status-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-current-status-cs</b></p><a name=\"mpox-cs-current-status-cs\"> </a><a name=\"hcmpox-cs-current-status-cs\"> </a><a name=\"mpox-cs-current-status-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-current-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIVE<a name=\"mpox-cs-current-status-cs-ALIVE\"> </a></td><td>Alive</td></tr><tr><td style=\"white-space:nowrap\">DEAD<a name=\"mpox-cs-current-status-cs-DEAD\"> </a></td><td>Dead</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN_LOST_TO_FOLLOW_UP<a name=\"mpox-cs-current-status-cs-UNKNOWN_LOST_TO_FOLLOW_UP\"> </a></td><td>Unknown/Lost to follow up</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/mpox-cs-current-status-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MPOXCSCurrentStatusCS"] ; # 
+  fhir:title [ fhir:v "MPOX CS: Current status"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-10-04T08:16:56+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org/" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ALIVE" ] ;
+     fhir:display [ fhir:v "Alive" ]
+  ] [
+     fhir:code [ fhir:v "DEAD" ] ;
+     fhir:display [ fhir:v "Dead" ]
+  ] [
+     fhir:code [ fhir:v "UNKNOWN_LOST_TO_FOLLOW_UP" ] ;
+     fhir:display [ fhir:v "Unknown/Lost to follow up" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

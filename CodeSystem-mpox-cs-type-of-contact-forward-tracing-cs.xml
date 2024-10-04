@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-type-of-contact-forward-tracing-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-type-of-contact-forward-tracing-cs</b></p><a name="mpox-cs-type-of-contact-forward-tracing-cs"> </a><a name="hcmpox-cs-type-of-contact-forward-tracing-cs"> </a><a name="mpox-cs-type-of-contact-forward-tracing-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">SEXUAL_INTERCOURSE<a name="mpox-cs-type-of-contact-forward-tracing-cs-SEXUAL_INTERCOURSE"> </a></td><td>Sexual intercourse</td></tr><tr><td style="white-space:nowrap">HOUSEHOLD<a name="mpox-cs-type-of-contact-forward-tracing-cs-HOUSEHOLD"> </a></td><td>Household</td></tr><tr><td style="white-space:nowrap">WORK_SETTING<a name="mpox-cs-type-of-contact-forward-tracing-cs-WORK_SETTING"> </a></td><td>Work setting</td></tr><tr><td style="white-space:nowrap">COMMUNITY<a name="mpox-cs-type-of-contact-forward-tracing-cs-COMMUNITY"> </a></td><td>Community</td></tr><tr><td style="white-space:nowrap">OTHER<a name="mpox-cs-type-of-contact-forward-tracing-cs-OTHER"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSTypeOfContactForwardTracingCS"/>
+  <title value="MPOX CS: Type of contact (forward tracing)"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="SEXUAL_INTERCOURSE"/>
+    <display value="Sexual intercourse"/>
+  </concept>
+  <concept>
+    <code value="HOUSEHOLD"/>
+    <display value="Household"/>
+  </concept>
+  <concept>
+    <code value="WORK_SETTING"/>
+    <display value="Work setting"/>
+  </concept>
+  <concept>
+    <code value="COMMUNITY"/>
+    <display value="Community"/>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

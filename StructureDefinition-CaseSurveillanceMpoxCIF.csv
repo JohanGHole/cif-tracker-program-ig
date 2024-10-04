@@ -1,0 +1,138 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"CaseSurveillanceMpoxCIF","CaseSurveillanceMpoxCIF","","","",0,*,"","","","null {[]} {[]}
+","Case surveillance: Mpox (CIF)","Case surveillance: Mpox (CIF)","","","","","","","","","",,,,,"",,,,"BackboneElement",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","n/a"
+"CaseSurveillanceMpoxCIF.id","CaseSurveillanceMpoxCIF.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"CaseSurveillanceMpoxCIF.extension","CaseSurveillanceMpoxCIF.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"CaseSurveillanceMpoxCIF.modifierExtension","CaseSurveillanceMpoxCIF.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"CaseSurveillanceMpoxCIF.enrollmentDate","CaseSurveillanceMpoxCIF.enrollmentDate","","","",1,1,"","","","date {[]} {[]}
+","Date of notification.","Date of notification.","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.enrollmentDate",1,1,"",""
+"CaseSurveillanceMpoxCIF.incidentDate","CaseSurveillanceMpoxCIF.incidentDate","","","",0,1,"","","","date {[]} {[]}
+",".","","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.incidentDate",0,1,"",""
+"CaseSurveillanceMpoxCIF.uniqueCaseId","CaseSurveillanceMpoxCIF.uniqueCaseId","","","",0,1,"","","","string {[]} {[]}
+","Two letter country code, case number (e.g., AB001, AB002) or national case ID if already assigned.","Two letter country code, case number (e.g., AB001, AB002) or national case ID if already assigned.","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.uniqueCaseId",0,1,"",""
+"CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable","CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable","","","",0,1,"","","","string {[]} {[]}
+","Two letter country code, cluster number, case number, (e.g., AB.01.001, AB.02.001) or national cluster number/ID if already assigned","Two letter country code, cluster number, case number, (e.g., AB.01.001, AB.02.001) or national cluster number/ID if already assigned","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable",0,1,"",""
+"CaseSurveillanceMpoxCIF.nameOfDataCollector","CaseSurveillanceMpoxCIF.nameOfDataCollector","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Name of data collector","MPOX CS: Name of data collector","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.nameOfDataCollector",0,1,"",""
+"CaseSurveillanceMpoxCIF.dataCollectorRole","CaseSurveillanceMpoxCIF.dataCollectorRole","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Data collector role","MPOX CS: Data collector role","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.dataCollectorRole",0,1,"",""
+"CaseSurveillanceMpoxCIF.dataCollectorInstitution","CaseSurveillanceMpoxCIF.dataCollectorInstitution","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Data collector institution","MPOX CS: Data collector institution","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.dataCollectorInstitution",0,1,"",""
+"CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber","CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Data collector telephone number","MPOX CS: Data collector telephone number","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber",0,1,"",""
+"CaseSurveillanceMpoxCIF.dataCollectorEmail","CaseSurveillanceMpoxCIF.dataCollectorEmail","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Data collector email","MPOX CS: Data collector email","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.dataCollectorEmail",0,1,"",""
+"CaseSurveillanceMpoxCIF.formCompletionDate","CaseSurveillanceMpoxCIF.formCompletionDate","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: Form completion date","MPOX CS: Form completion date","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.formCompletionDate",0,1,"",""
+"CaseSurveillanceMpoxCIF.caseClassification","CaseSurveillanceMpoxCIF.caseClassification","","","",0,1,"","","","code {[]} {[]}
+","Classification of the case","Classification of the case","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-case-classification-crf-vs","",,,,"CaseSurveillanceMpoxCIF.caseClassification",0,1,"",""
+"CaseSurveillanceMpoxCIF.dateOfDiagnosis","CaseSurveillanceMpoxCIF.dateOfDiagnosis","","","",0,1,"","","","date {[]} {[]}
+","First date of clinical or lab diagnosis","First date of clinical or lab diagnosis","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.dateOfDiagnosis",0,1,"",""
+"CaseSurveillanceMpoxCIF.currentStatus","CaseSurveillanceMpoxCIF.currentStatus","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Current Status","MPOX CS: Current Status","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-current-status-vs","",,,,"CaseSurveillanceMpoxCIF.currentStatus",0,1,"",""
+"CaseSurveillanceMpoxCIF.firstName","CaseSurveillanceMpoxCIF.firstName","","","",0,1,"","","","string {[]} {[]}
+","First name","First name","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.firstName",0,1,"",""
+"CaseSurveillanceMpoxCIF.lastName","CaseSurveillanceMpoxCIF.lastName","","","",0,1,"","","","string {[]} {[]}
+","Family name or last name of the patient of case.","Family name or last name of the patient of case.","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.lastName",0,1,"",""
+"CaseSurveillanceMpoxCIF.dateOfBirth","CaseSurveillanceMpoxCIF.dateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.dateOfBirth",0,1,"",""
+"CaseSurveillanceMpoxCIF.dateOfBirthUnknown","CaseSurveillanceMpoxCIF.dateOfBirthUnknown","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Date of birth - Unknown","MPOX CS: Date of birth - Unknown","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.dateOfBirthUnknown",0,1,"",""
+"CaseSurveillanceMpoxCIF.ageYears","CaseSurveillanceMpoxCIF.ageYears","","","",0,1,"","","","unsignedInt {[]} {[]}
+","Age of case in years (report 0 if &lt; 1 year)","Age of case in years (report 0 if &lt; 1 year)","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.ageYears",0,1,"",""
+"CaseSurveillanceMpoxCIF.ageMonths","CaseSurveillanceMpoxCIF.ageMonths","","","",0,1,"","","","positiveInt {[]} {[]}
+","MPOX CS: Age (months)","MPOX CS: Age (months)","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.ageMonths",0,1,"",""
+"CaseSurveillanceMpoxCIF.ageDays","CaseSurveillanceMpoxCIF.ageDays","","","",0,1,"","","","positiveInt {[]} {[]}
+","MPOX CS: Age (days)","MPOX CS: Age (days)","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.ageDays",0,1,"",""
+"CaseSurveillanceMpoxCIF.weightInGrams","CaseSurveillanceMpoxCIF.weightInGrams","","","",0,1,"","","","positiveInt {[]} {[]}
+","MPOX CS: Weight in grams","MPOX CS: Weight in grams","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.weightInGrams",0,1,"",""
+"CaseSurveillanceMpoxCIF.heightInCm","CaseSurveillanceMpoxCIF.heightInCm","","","",0,1,"","","","positiveInt {[]} {[]}
+","MPOX CS: Height in cm","MPOX CS: Height in cm","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.heightInCm",0,1,"",""
+"CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac","CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac","","","",0,1,"","","","positiveInt {[]} {[]}
+","MPOX CS: Mid-upper circumference (MUAC)","MPOX CS: Mid-upper circumference (MUAC)","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac",0,1,"",""
+"CaseSurveillanceMpoxCIF.isTheChildMalnourished","CaseSurveillanceMpoxCIF.isTheChildMalnourished","","","",0,1,"","","","code {[]} {[]}
+","If age &lt;5 years, is the child malnourished? ","If age &lt;5 years, is the child malnourished?","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"CaseSurveillanceMpoxCIF.isTheChildMalnourished",0,1,"",""
+"CaseSurveillanceMpoxCIF.sex","CaseSurveillanceMpoxCIF.sex","","","",0,1,"","","","code {[]} {[]}
+","Sex at birth","Sex at birth","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-sex-vs","",,,,"CaseSurveillanceMpoxCIF.sex",0,1,"",""
+"CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth","CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other sex at birth","MPOX CS: Specify other sex at birth","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth",0,1,"",""
+"CaseSurveillanceMpoxCIF.gender","CaseSurveillanceMpoxCIF.gender","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Gender","MPOX CS: Gender","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-gender-vs","",,,,"CaseSurveillanceMpoxCIF.gender",0,1,"",""
+"CaseSurveillanceMpoxCIF.specifyOtherGender","CaseSurveillanceMpoxCIF.specifyOtherGender","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other gender","MPOX CS: Specify other gender","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.specifyOtherGender",0,1,"",""
+"CaseSurveillanceMpoxCIF.sexualBehavior","CaseSurveillanceMpoxCIF.sexualBehavior","","","",0,1,"","","","code {[]} {[]}
+","Sexual behavior of the case","Sexual behavior of the case","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-sexual-behavior-vs","",,,,"CaseSurveillanceMpoxCIF.sexualBehavior",0,1,"",""
+"CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation","CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other sexual orientation","MPOX CS: Specify other sexual orientation","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation",0,1,"",""
+"CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable","CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Individual’s national identification number (if applicable):","MPOX CS: Individual’s national identification number (if applicable):","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable",0,1,"",""
+"CaseSurveillanceMpoxCIF.countryOfResidence","CaseSurveillanceMpoxCIF.countryOfResidence","","","",0,1,"","","","code {[]} {[]}
+","Person&#x27;s country of residence.","Person&#x27;s country of residence.","","","","","","","","","",,"required","","http://example.org/ValueSet/gen---countries-vs","",,,,"CaseSurveillanceMpoxCIF.countryOfResidence",0,1,"",""
+"CaseSurveillanceMpoxCIF.telephoneNumber","CaseSurveillanceMpoxCIF.telephoneNumber","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Telephone number","MPOX CS: Telephone number","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.telephoneNumber",0,1,"",""
+"CaseSurveillanceMpoxCIF.email","CaseSurveillanceMpoxCIF.email","","","",0,1,"","","","string {[]} {[]}
+","E-mail address for the patient or case.","E-mail address for the patient or case.","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.email",0,1,"",""
+"CaseSurveillanceMpoxCIF.address","CaseSurveillanceMpoxCIF.address","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Address","MPOX CS: Address","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.address",0,1,"",""
+"CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase","CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Occupation of the case","MPOX CS: Occupation of the case","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase",0,1,"",""
+"CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker","CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker","","","",0,1,"","","","code {[]} {[]}
+","Is the case a healthcare worker?","Is the case a healthcare worker?","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker",0,1,"",""
+"CaseSurveillanceMpoxCIF.isTheCaseASexWorker","CaseSurveillanceMpoxCIF.isTheCaseASexWorker","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Sex worker","MPOX CS: Sex worker","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"CaseSurveillanceMpoxCIF.isTheCaseASexWorker",0,1,"",""
+"CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee","CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: IDP or refugee","MPOX CS: IDP or refugee","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee",0,1,"",""
+"CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp","CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Living in IDP or refugee camp?","MPOX CS: Living in IDP or refugee camp?","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp",0,1,"",""
+"CaseSurveillanceMpoxCIF.nameOfTheCamp","CaseSurveillanceMpoxCIF.nameOfTheCamp","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Name of the camp","MPOX CS: Name of the camp","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.nameOfTheCamp",0,1,"",""
+"CaseSurveillanceMpoxCIF.nameOfHealthCareCentre","CaseSurveillanceMpoxCIF.nameOfHealthCareCentre","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Name of health-care centre","MPOX CS: Name of health-care centre","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.nameOfHealthCareCentre",0,1,"",""
+"CaseSurveillanceMpoxCIF.typeOfHealthcareCentre","CaseSurveillanceMpoxCIF.typeOfHealthcareCentre","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Type of healthcare centre","MPOX CS: Type of healthcare centre","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.typeOfHealthcareCentre",0,1,"",""
+"CaseSurveillanceMpoxCIF.nameOfTreatingPhysician","CaseSurveillanceMpoxCIF.nameOfTreatingPhysician","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Name of treating physician","MPOX CS: Name of treating physician","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.nameOfTreatingPhysician",0,1,"",""
+"CaseSurveillanceMpoxCIF.telephone","CaseSurveillanceMpoxCIF.telephone","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Telephone of treating physician","MPOX CS: Telephone of treating physician","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.telephone",0,1,"",""
+"CaseSurveillanceMpoxCIF.adress","CaseSurveillanceMpoxCIF.adress","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Adress of treating physician","MPOX CS: Adress of treating physician","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.adress",0,1,"",""
+"CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation","CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation","","","",0,1,"","","","http://example.org/StructureDefinition/ClinicalAndVaccinationInformation {[]} {[]}
+","Clinical and vaccination information","Clinical and vaccination information","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation",0,1,"",""
+"CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase","CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase","","","",0,1,"","","","http://example.org/StructureDefinition/ExposureToProbableOrConfirmedCase {[]} {[]}
+","Exposure to probable or confirmed case","Exposure to probable or confirmed case","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase",0,1,"",""
+"CaseSurveillanceMpoxCIF.exposureEvents","CaseSurveillanceMpoxCIF.exposureEvents","","","",0,*,"","","","http://example.org/StructureDefinition/ExposureEvents {[]} {[]}
+","Exposure events","Exposure events","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.exposureEvents",0,*,"",""
+"CaseSurveillanceMpoxCIF.exposureInHouseholdSetting","CaseSurveillanceMpoxCIF.exposureInHouseholdSetting","","","",0,1,"","","","http://example.org/StructureDefinition/ExposureInHouseholdSetting {[]} {[]}
+","Exposure in household setting","Exposure in household setting","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.exposureInHouseholdSetting",0,1,"",""
+"CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings","CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings","","","",0,1,"","","","http://example.org/StructureDefinition/OccupationalExposureInHealthcareSettings {[]} {[]}
+","Occupational exposure in healthcare settings","Occupational exposure in healthcare settings","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings",0,1,"",""
+"CaseSurveillanceMpoxCIF.sexualActivity","CaseSurveillanceMpoxCIF.sexualActivity","","","",0,1,"","","","http://example.org/StructureDefinition/SexualActivity {[]} {[]}
+","Sexual activity","Sexual activity","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.sexualActivity",0,1,"",""
+"CaseSurveillanceMpoxCIF.sexualPartners","CaseSurveillanceMpoxCIF.sexualPartners","","","",0,*,"","","","http://example.org/StructureDefinition/SexualPartners {[]} {[]}
+","Sexual partners","Sexual partners","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.sexualPartners",0,*,"",""
+"CaseSurveillanceMpoxCIF.travelHistory","CaseSurveillanceMpoxCIF.travelHistory","","","",0,*,"","","","http://example.org/StructureDefinition/TravelHistory {[]} {[]}
+","Travel history","Travel history","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.travelHistory",0,*,"",""
+"CaseSurveillanceMpoxCIF.animalExposure","CaseSurveillanceMpoxCIF.animalExposure","","","",0,*,"","","","http://example.org/StructureDefinition/AnimalExposure {[]} {[]}
+","Animal exposure","Animal exposure","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.animalExposure",0,*,"",""
+"CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission","CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission","","","",0,1,"","","","http://example.org/StructureDefinition/MostLikelyModeOfTransmission {[]} {[]}
+","Most likely mode of transmission","Most likely mode of transmission","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission",0,1,"",""
+"CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome","CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome","","","",0,1,"","","","http://example.org/StructureDefinition/DiseaseSeverityAndOutcome {[]} {[]}
+","Disease severity and outcome","Disease severity and outcome","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome",0,1,"",""
+"CaseSurveillanceMpoxCIF.diagnosticPathogenTesting","CaseSurveillanceMpoxCIF.diagnosticPathogenTesting","","","",0,*,"","","","http://example.org/StructureDefinition/DiagnosticPathogenTesting {[]} {[]}
+","Diagnostic/Pathogen testing","Diagnostic/Pathogen testing","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.diagnosticPathogenTesting",0,*,"",""
+"CaseSurveillanceMpoxCIF.forwardTracing","CaseSurveillanceMpoxCIF.forwardTracing","","","",0,1,"","","","http://example.org/StructureDefinition/ForwardTracing {[]} {[]}
+","Forward tracing","Forward tracing","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.forwardTracing",0,1,"",""
+"CaseSurveillanceMpoxCIF.contactDetails","CaseSurveillanceMpoxCIF.contactDetails","","","",0,*,"","","","http://example.org/StructureDefinition/ContactDetails {[]} {[]}
+","Contact details","Contact details","","","","","","","","","",,,,,"",,,,"CaseSurveillanceMpoxCIF.contactDetails",0,*,"",""

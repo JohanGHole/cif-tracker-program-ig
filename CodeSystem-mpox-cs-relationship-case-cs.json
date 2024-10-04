@@ -1,0 +1,56 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-relationship-case-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-relationship-case-cs</b></p><a name=\"mpox-cs-relationship-case-cs\"> </a><a name=\"hcmpox-cs-relationship-case-cs\"> </a><a name=\"mpox-cs-relationship-case-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-relationship-case-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">SPOUSE_PARTNER<a name=\"mpox-cs-relationship-case-cs-SPOUSE_PARTNER\"> </a></td><td>Spouse/partner</td></tr><tr><td style=\"white-space:nowrap\">HOUSEHOLE_MEMBER<a name=\"mpox-cs-relationship-case-cs-HOUSEHOLE_MEMBER\"> </a></td><td>Househole member</td></tr><tr><td style=\"white-space:nowrap\">NON_HOUSEHOLD_RELATIVE<a name=\"mpox-cs-relationship-case-cs-NON_HOUSEHOLD_RELATIVE\"> </a></td><td>Non-household relative</td></tr><tr><td style=\"white-space:nowrap\">FRIEND<a name=\"mpox-cs-relationship-case-cs-FRIEND\"> </a></td><td>Friend</td></tr><tr><td style=\"white-space:nowrap\">SEXUAL_PARTNER<a name=\"mpox-cs-relationship-case-cs-SEXUAL_PARTNER\"> </a></td><td>Sexual partner</td></tr><tr><td style=\"white-space:nowrap\">COLLEAGUE<a name=\"mpox-cs-relationship-case-cs-COLLEAGUE\"> </a></td><td>Colleague</td></tr><tr><td style=\"white-space:nowrap\">HEALTHCARE_EXPOSURE<a name=\"mpox-cs-relationship-case-cs-HEALTHCARE_EXPOSURE\"> </a></td><td>Healthcare exposure</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-relationship-case-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-relationship-case-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSRelationshipCaseCS",
+  "title" : "MPOX CS: Relationship case",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "SPOUSE_PARTNER",
+    "display" : "Spouse/partner"
+  },
+  {
+    "code" : "HOUSEHOLE_MEMBER",
+    "display" : "Househole member"
+  },
+  {
+    "code" : "NON_HOUSEHOLD_RELATIVE",
+    "display" : "Non-household relative"
+  },
+  {
+    "code" : "FRIEND",
+    "display" : "Friend"
+  },
+  {
+    "code" : "SEXUAL_PARTNER",
+    "display" : "Sexual partner"
+  },
+  {
+    "code" : "COLLEAGUE",
+    "display" : "Colleague"
+  },
+  {
+    "code" : "HEALTHCARE_EXPOSURE",
+    "display" : "Healthcare exposure"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  }]
+}

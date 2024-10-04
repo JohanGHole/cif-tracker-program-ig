@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-protected-sex-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-protected-sex-cs</b></p><a name="mpox-cs-protected-sex-cs"> </a><a name="hcmpox-cs-protected-sex-cs"> </a><a name="mpox-cs-protected-sex-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-protected-sex-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">YES_ALWAYS<a name="mpox-cs-protected-sex-cs-YES_ALWAYS"> </a></td><td>Yes, always</td></tr><tr><td style="white-space:nowrap">SOMETIMES<a name="mpox-cs-protected-sex-cs-SOMETIMES"> </a></td><td>Sometimes</td></tr><tr><td style="white-space:nowrap">NO_NEVER<a name="mpox-cs-protected-sex-cs-NO_NEVER"> </a></td><td>No, never</td></tr><tr><td style="white-space:nowrap">PREFER_NOT_TO_SAY<a name="mpox-cs-protected-sex-cs-PREFER_NOT_TO_SAY"> </a></td><td>Prefer not to say</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-protected-sex-cs-UNKNOWN"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-protected-sex-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSProtectedSexCS"/>
+  <title value="MPOX CS: Protected sex"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="YES_ALWAYS"/>
+    <display value="Yes, always"/>
+  </concept>
+  <concept>
+    <code value="SOMETIMES"/>
+    <display value="Sometimes"/>
+  </concept>
+  <concept>
+    <code value="NO_NEVER"/>
+    <display value="No, never"/>
+  </concept>
+  <concept>
+    <code value="PREFER_NOT_TO_SAY"/>
+    <display value="Prefer not to say"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

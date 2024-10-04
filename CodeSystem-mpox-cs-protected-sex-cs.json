@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-protected-sex-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-protected-sex-cs</b></p><a name=\"mpox-cs-protected-sex-cs\"> </a><a name=\"hcmpox-cs-protected-sex-cs\"> </a><a name=\"mpox-cs-protected-sex-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-protected-sex-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">YES_ALWAYS<a name=\"mpox-cs-protected-sex-cs-YES_ALWAYS\"> </a></td><td>Yes, always</td></tr><tr><td style=\"white-space:nowrap\">SOMETIMES<a name=\"mpox-cs-protected-sex-cs-SOMETIMES\"> </a></td><td>Sometimes</td></tr><tr><td style=\"white-space:nowrap\">NO_NEVER<a name=\"mpox-cs-protected-sex-cs-NO_NEVER\"> </a></td><td>No, never</td></tr><tr><td style=\"white-space:nowrap\">PREFER_NOT_TO_SAY<a name=\"mpox-cs-protected-sex-cs-PREFER_NOT_TO_SAY\"> </a></td><td>Prefer not to say</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-protected-sex-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-protected-sex-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSProtectedSexCS",
+  "title" : "MPOX CS: Protected sex",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "YES_ALWAYS",
+    "display" : "Yes, always"
+  },
+  {
+    "code" : "SOMETIMES",
+    "display" : "Sometimes"
+  },
+  {
+    "code" : "NO_NEVER",
+    "display" : "No, never"
+  },
+  {
+    "code" : "PREFER_NOT_TO_SAY",
+    "display" : "Prefer not to say"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

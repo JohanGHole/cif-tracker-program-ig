@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-pregnancy-status-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-pregnancy-status-cs</b></p><a name="mpox-cs-pregnancy-status-cs"> </a><a name="hcmpox-cs-pregnancy-status-cs"> </a><a name="mpox-cs-pregnancy-status-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-pregnancy-status-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">YES_TRIMESTER_UNKNOWN<a name="mpox-cs-pregnancy-status-cs-YES_TRIMESTER_UNKNOWN"> </a></td><td>Yes - Trimester unknown</td></tr><tr><td style="white-space:nowrap">YES_1ST_TRIMESTER<a name="mpox-cs-pregnancy-status-cs-YES_1ST_TRIMESTER"> </a></td><td>Yes - 1st trimester</td></tr><tr><td style="white-space:nowrap">YES_2ND_TRIMESTER<a name="mpox-cs-pregnancy-status-cs-YES_2ND_TRIMESTER"> </a></td><td>Yes - 2nd trimester</td></tr><tr><td style="white-space:nowrap">YES_3RD_TRIMESTER<a name="mpox-cs-pregnancy-status-cs-YES_3RD_TRIMESTER"> </a></td><td>Yes - 3rd trimester</td></tr><tr><td style="white-space:nowrap">POST_PARTUM_LESS_6_WEEKS<a name="mpox-cs-pregnancy-status-cs-POST_PARTUM_LESS_6_WEEKS"> </a></td><td>Post-partum (&amp;lt;6 weeks)</td></tr><tr><td style="white-space:nowrap">NO<a name="mpox-cs-pregnancy-status-cs-NO"> </a></td><td>No</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-pregnancy-status-cs-UNKNOWN"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-pregnancy-status-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSPregnancyStatusCS"/>
+  <title value="MPOX CS: Pregnancy status"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="YES_TRIMESTER_UNKNOWN"/>
+    <display value="Yes - Trimester unknown"/>
+  </concept>
+  <concept>
+    <code value="YES_1ST_TRIMESTER"/>
+    <display value="Yes - 1st trimester"/>
+  </concept>
+  <concept>
+    <code value="YES_2ND_TRIMESTER"/>
+    <display value="Yes - 2nd trimester"/>
+  </concept>
+  <concept>
+    <code value="YES_3RD_TRIMESTER"/>
+    <display value="Yes - 3rd trimester"/>
+  </concept>
+  <concept>
+    <code value="POST_PARTUM_LESS_6_WEEKS"/>
+    <display value="Post-partum (&amp;lt;6 weeks)"/>
+  </concept>
+  <concept>
+    <code value="NO"/>
+    <display value="No"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

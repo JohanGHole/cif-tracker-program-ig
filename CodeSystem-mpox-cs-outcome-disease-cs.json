@@ -1,0 +1,40 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-outcome-disease-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-outcome-disease-cs</b></p><a name=\"mpox-cs-outcome-disease-cs\"> </a><a name=\"hcmpox-cs-outcome-disease-cs\"> </a><a name=\"mpox-cs-outcome-disease-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-outcome-disease-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RECOVERED<a name=\"mpox-cs-outcome-disease-cs-RECOVERED\"> </a></td><td>Recovered</td></tr><tr><td style=\"white-space:nowrap\">STILL_ILL<a name=\"mpox-cs-outcome-disease-cs-STILL_ILL\"> </a></td><td>Still ill</td></tr><tr><td style=\"white-space:nowrap\">DEAD<a name=\"mpox-cs-outcome-disease-cs-DEAD\"> </a></td><td>Dead</td></tr><tr><td style=\"white-space:nowrap\">UNKWNON_LOST_FU<a name=\"mpox-cs-outcome-disease-cs-UNKWNON_LOST_FU\"> </a></td><td>Unknwon/lost to follow-up</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-outcome-disease-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSOutcomeDiseaseCS",
+  "title" : "MPOX CS: Outcome disease",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "RECOVERED",
+    "display" : "Recovered"
+  },
+  {
+    "code" : "STILL_ILL",
+    "display" : "Still ill"
+  },
+  {
+    "code" : "DEAD",
+    "display" : "Dead"
+  },
+  {
+    "code" : "UNKWNON_LOST_FU",
+    "display" : "Unknwon/lost to follow-up"
+  }]
+}

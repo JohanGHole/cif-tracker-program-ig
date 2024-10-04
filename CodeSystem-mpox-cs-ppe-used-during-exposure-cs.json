@@ -1,0 +1,40 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-ppe-used-during-exposure-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-ppe-used-during-exposure-cs</b></p><a name=\"mpox-cs-ppe-used-during-exposure-cs\"> </a><a name=\"hcmpox-cs-ppe-used-during-exposure-cs\"> </a><a name=\"mpox-cs-ppe-used-during-exposure-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-ppe-used-during-exposure-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">YES<a name=\"mpox-cs-ppe-used-during-exposure-cs-YES\"> </a></td><td>Yes</td></tr><tr><td style=\"white-space:nowrap\">NO<a name=\"mpox-cs-ppe-used-during-exposure-cs-NO\"> </a></td><td>No</td></tr><tr><td style=\"white-space:nowrap\">SOME<a name=\"mpox-cs-ppe-used-during-exposure-cs-SOME\"> </a></td><td>Some but not all PPE pieces</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-ppe-used-during-exposure-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-ppe-used-during-exposure-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSPPEUsedDuringExposureCS",
+  "title" : "MPOX CS: PPE used during exposure",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "YES",
+    "display" : "Yes"
+  },
+  {
+    "code" : "NO",
+    "display" : "No"
+  },
+  {
+    "code" : "SOME",
+    "display" : "Some but not all PPE pieces"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

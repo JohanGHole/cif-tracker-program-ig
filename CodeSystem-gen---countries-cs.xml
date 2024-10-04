@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="gen---countries-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem gen---countries-cs</b></p><a name="gen---countries-cs"> </a><a name="hcgen---countries-cs"> </a><a name="gen---countries-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/gen---countries-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">AF<a name="gen---countries-cs-AF"> </a></td><td>Afghanistan</td></tr><tr><td style="white-space:nowrap">AX<a name="gen---countries-cs-AX"> </a></td><td>Aland Islands</td></tr><tr><td style="white-space:nowrap">AL<a name="gen---countries-cs-AL"> </a></td><td>Albania</td></tr><tr><td style="white-space:nowrap">DZ<a name="gen---countries-cs-DZ"> </a></td><td>Algeria</td></tr><tr><td style="white-space:nowrap">AS<a name="gen---countries-cs-AS"> </a></td><td>American Samoa</td></tr><tr><td style="white-space:nowrap">AD<a name="gen---countries-cs-AD"> </a></td><td>Andorra</td></tr><tr><td style="white-space:nowrap">AO<a name="gen---countries-cs-AO"> </a></td><td>Angola</td></tr><tr><td style="white-space:nowrap">AI<a name="gen---countries-cs-AI"> </a></td><td>Anguilla</td></tr><tr><td style="white-space:nowrap">AQ<a name="gen---countries-cs-AQ"> </a></td><td>Antarctica</td></tr><tr><td style="white-space:nowrap">AG<a name="gen---countries-cs-AG"> </a></td><td>Antigua and Barbuda</td></tr><tr><td style="white-space:nowrap">AR<a name="gen---countries-cs-AR"> </a></td><td>Argentina</td></tr><tr><td style="white-space:nowrap">AM<a name="gen---countries-cs-AM"> </a></td><td>Armenia</td></tr><tr><td style="white-space:nowrap">AW<a name="gen---countries-cs-AW"> </a></td><td>Aruba</td></tr><tr><td style="white-space:nowrap">AU<a name="gen---countries-cs-AU"> </a></td><td>Australia</td></tr><tr><td style="white-space:nowrap">AT<a name="gen---countries-cs-AT"> </a></td><td>Austria</td></tr><tr><td style="white-space:nowrap">AZ<a name="gen---countries-cs-AZ"> </a></td><td>Azerbaijan</td></tr><tr><td style="white-space:nowrap">BS<a name="gen---countries-cs-BS"> </a></td><td>Bahamas</td></tr><tr><td style="white-space:nowrap">BH<a name="gen---countries-cs-BH"> </a></td><td>Bahrain</td></tr><tr><td style="white-space:nowrap">BD<a name="gen---countries-cs-BD"> </a></td><td>Bangladesh</td></tr><tr><td style="white-space:nowrap">BB<a name="gen---countries-cs-BB"> </a></td><td>Barbados</td></tr><tr><td style="white-space:nowrap">BY<a name="gen---countries-cs-BY"> </a></td><td>Belarus</td></tr><tr><td style="white-space:nowrap">BE<a name="gen---countries-cs-BE"> </a></td><td>Belgium</td></tr><tr><td style="white-space:nowrap">BZ<a name="gen---countries-cs-BZ"> </a></td><td>Belize</td></tr><tr><td style="white-space:nowrap">BJ<a name="gen---countries-cs-BJ"> </a></td><td>Benin</td></tr><tr><td style="white-space:nowrap">BM<a name="gen---countries-cs-BM"> </a></td><td>Bermuda</td></tr><tr><td style="white-space:nowrap">BT<a name="gen---countries-cs-BT"> </a></td><td>Bhutan</td></tr><tr><td style="white-space:nowrap">BO<a name="gen---countries-cs-BO"> </a></td><td>Bolivia (Plurinational State of)</td></tr><tr><td style="white-space:nowrap">BQ<a name="gen---countries-cs-BQ"> </a></td><td>Bonaire, Sint Eustatius and Saba</td></tr><tr><td style="white-space:nowrap">BA<a name="gen---countries-cs-BA"> </a></td><td>Bosnia and Herzegovina</td></tr><tr><td style="white-space:nowrap">BW<a name="gen---countries-cs-BW"> </a></td><td>Botswana</td></tr><tr><td style="white-space:nowrap">BV<a name="gen---countries-cs-BV"> </a></td><td>Bouvet Island</td></tr><tr><td style="white-space:nowrap">BR<a name="gen---countries-cs-BR"> </a></td><td>Brazil</td></tr><tr><td style="white-space:nowrap">IO<a name="gen---countries-cs-IO"> </a></td><td>British Indian Ocean Territory</td></tr><tr><td style="white-space:nowrap">BN<a name="gen---countries-cs-BN"> </a></td><td>Brunei Darussalam</td></tr><tr><td style="white-space:nowrap">BG<a name="gen---countries-cs-BG"> </a></td><td>Bulgaria</td></tr><tr><td style="white-space:nowrap">BF<a name="gen---countries-cs-BF"> </a></td><td>Burkina Faso</td></tr><tr><td style="white-space:nowrap">BI<a name="gen---countries-cs-BI"> </a></td><td>Burundi</td></tr><tr><td style="white-space:nowrap">KH<a name="gen---countries-cs-KH"> </a></td><td>Cambodia</td></tr><tr><td style="white-space:nowrap">CM<a name="gen---countries-cs-CM"> </a></td><td>Cameroon</td></tr><tr><td style="white-space:nowrap">CA<a name="gen---countries-cs-CA"> </a></td><td>Canada</td></tr><tr><td style="white-space:nowrap">CV<a name="gen---countries-cs-CV"> </a></td><td>Cabo Verde</td></tr><tr><td style="white-space:nowrap">KY<a name="gen---countries-cs-KY"> </a></td><td>Cayman Islands</td></tr><tr><td style="white-space:nowrap">CF<a name="gen---countries-cs-CF"> </a></td><td>Central African Republic</td></tr><tr><td style="white-space:nowrap">TD<a name="gen---countries-cs-TD"> </a></td><td>Chad</td></tr><tr><td style="white-space:nowrap">CL<a name="gen---countries-cs-CL"> </a></td><td>Chile</td></tr><tr><td style="white-space:nowrap">CN<a name="gen---countries-cs-CN"> </a></td><td>China</td></tr><tr><td style="white-space:nowrap">CX<a name="gen---countries-cs-CX"> </a></td><td>Christmas Island</td></tr><tr><td style="white-space:nowrap">CC<a name="gen---countries-cs-CC"> </a></td><td>Cocos (Keeling) Islands</td></tr><tr><td style="white-space:nowrap">CO<a name="gen---countries-cs-CO"> </a></td><td>Colombia</td></tr><tr><td style="white-space:nowrap">KM<a name="gen---countries-cs-KM"> </a></td><td>Comoros</td></tr><tr><td style="white-space:nowrap">CG<a name="gen---countries-cs-CG"> </a></td><td>Congo</td></tr><tr><td style="white-space:nowrap">CD<a name="gen---countries-cs-CD"> </a></td><td>Congo (Democratic Republic of the)</td></tr><tr><td style="white-space:nowrap">CK<a name="gen---countries-cs-CK"> </a></td><td>Cook Islands</td></tr><tr><td style="white-space:nowrap">CR<a name="gen---countries-cs-CR"> </a></td><td>Costa Rica</td></tr><tr><td style="white-space:nowrap">CI<a name="gen---countries-cs-CI"> </a></td><td>Cote d&amp;#x27;Ivoire</td></tr><tr><td style="white-space:nowrap">HR<a name="gen---countries-cs-HR"> </a></td><td>Croatia</td></tr><tr><td style="white-space:nowrap">CU<a name="gen---countries-cs-CU"> </a></td><td>Cuba</td></tr><tr><td style="white-space:nowrap">CW<a name="gen---countries-cs-CW"> </a></td><td>Curacao</td></tr><tr><td style="white-space:nowrap">CY<a name="gen---countries-cs-CY"> </a></td><td>Cyprus</td></tr><tr><td style="white-space:nowrap">CZ<a name="gen---countries-cs-CZ"> </a></td><td>Czech Republic</td></tr><tr><td style="white-space:nowrap">DK<a name="gen---countries-cs-DK"> </a></td><td>Denmark</td></tr><tr><td style="white-space:nowrap">DJ<a name="gen---countries-cs-DJ"> </a></td><td>Djibouti</td></tr><tr><td style="white-space:nowrap">DM<a name="gen---countries-cs-DM"> </a></td><td>Dominica</td></tr><tr><td style="white-space:nowrap">DO<a name="gen---countries-cs-DO"> </a></td><td>Dominican Republic</td></tr><tr><td style="white-space:nowrap">EC<a name="gen---countries-cs-EC"> </a></td><td>Ecuador</td></tr><tr><td style="white-space:nowrap">EG<a name="gen---countries-cs-EG"> </a></td><td>Egypt</td></tr><tr><td style="white-space:nowrap">SV<a name="gen---countries-cs-SV"> </a></td><td>El Salvador</td></tr><tr><td style="white-space:nowrap">GQ<a name="gen---countries-cs-GQ"> </a></td><td>Equatorial Guinea</td></tr><tr><td style="white-space:nowrap">ER<a name="gen---countries-cs-ER"> </a></td><td>Eritrea</td></tr><tr><td style="white-space:nowrap">EE<a name="gen---countries-cs-EE"> </a></td><td>Estonia</td></tr><tr><td style="white-space:nowrap">ET<a name="gen---countries-cs-ET"> </a></td><td>Ethiopia</td></tr><tr><td style="white-space:nowrap">FK<a name="gen---countries-cs-FK"> </a></td><td>Falkland Islands (Malvinas)</td></tr><tr><td style="white-space:nowrap">FO<a name="gen---countries-cs-FO"> </a></td><td>Faroe Islands</td></tr><tr><td style="white-space:nowrap">FJ<a name="gen---countries-cs-FJ"> </a></td><td>Fiji</td></tr><tr><td style="white-space:nowrap">FI<a name="gen---countries-cs-FI"> </a></td><td>Finland</td></tr><tr><td style="white-space:nowrap">FR<a name="gen---countries-cs-FR"> </a></td><td>France</td></tr><tr><td style="white-space:nowrap">GF<a name="gen---countries-cs-GF"> </a></td><td>French Guiana</td></tr><tr><td style="white-space:nowrap">PF<a name="gen---countries-cs-PF"> </a></td><td>French Polynesia</td></tr><tr><td style="white-space:nowrap">TF<a name="gen---countries-cs-TF"> </a></td><td>French Southern Territories</td></tr><tr><td style="white-space:nowrap">GA<a name="gen---countries-cs-GA"> </a></td><td>Gabon</td></tr><tr><td style="white-space:nowrap">GM<a name="gen---countries-cs-GM"> </a></td><td>Gambia</td></tr><tr><td style="white-space:nowrap">GE<a name="gen---countries-cs-GE"> </a></td><td>Georgia</td></tr><tr><td style="white-space:nowrap">DE<a name="gen---countries-cs-DE"> </a></td><td>Germany</td></tr><tr><td style="white-space:nowrap">GH<a name="gen---countries-cs-GH"> </a></td><td>Ghana</td></tr><tr><td style="white-space:nowrap">GI<a name="gen---countries-cs-GI"> </a></td><td>Gibraltar</td></tr><tr><td style="white-space:nowrap">GR<a name="gen---countries-cs-GR"> </a></td><td>Greece</td></tr><tr><td style="white-space:nowrap">GL<a name="gen---countries-cs-GL"> </a></td><td>Greenland</td></tr><tr><td style="white-space:nowrap">GD<a name="gen---countries-cs-GD"> </a></td><td>Grenada</td></tr><tr><td style="white-space:nowrap">GP<a name="gen---countries-cs-GP"> </a></td><td>Guadeloupe</td></tr><tr><td style="white-space:nowrap">GU<a name="gen---countries-cs-GU"> </a></td><td>Guam</td></tr><tr><td style="white-space:nowrap">GT<a name="gen---countries-cs-GT"> </a></td><td>Guatemala</td></tr><tr><td style="white-space:nowrap">GG<a name="gen---countries-cs-GG"> </a></td><td>Guernsey</td></tr><tr><td style="white-space:nowrap">GN<a name="gen---countries-cs-GN"> </a></td><td>Guinea</td></tr><tr><td style="white-space:nowrap">GW<a name="gen---countries-cs-GW"> </a></td><td>Guinea-Bissau</td></tr><tr><td style="white-space:nowrap">GY<a name="gen---countries-cs-GY"> </a></td><td>Guyana</td></tr><tr><td style="white-space:nowrap">HT<a name="gen---countries-cs-HT"> </a></td><td>Haiti</td></tr><tr><td style="white-space:nowrap">HM<a name="gen---countries-cs-HM"> </a></td><td>Heard Island and McDonald Islands</td></tr><tr><td style="white-space:nowrap">VA<a name="gen---countries-cs-VA"> </a></td><td>Holy See</td></tr><tr><td style="white-space:nowrap">HN<a name="gen---countries-cs-HN"> </a></td><td>Honduras</td></tr><tr><td style="white-space:nowrap">HK<a name="gen---countries-cs-HK"> </a></td><td>Hong Kong</td></tr><tr><td style="white-space:nowrap">HU<a name="gen---countries-cs-HU"> </a></td><td>Hungary</td></tr><tr><td style="white-space:nowrap">IS<a name="gen---countries-cs-IS"> </a></td><td>Iceland</td></tr><tr><td style="white-space:nowrap">IN<a name="gen---countries-cs-IN"> </a></td><td>India</td></tr><tr><td style="white-space:nowrap">ID<a name="gen---countries-cs-ID"> </a></td><td>Indonesia</td></tr><tr><td style="white-space:nowrap">IR<a name="gen---countries-cs-IR"> </a></td><td>Iran (Islamic Republic of)</td></tr><tr><td style="white-space:nowrap">IQ<a name="gen---countries-cs-IQ"> </a></td><td>Iraq</td></tr><tr><td style="white-space:nowrap">IE<a name="gen---countries-cs-IE"> </a></td><td>Ireland</td></tr><tr><td style="white-space:nowrap">IM<a name="gen---countries-cs-IM"> </a></td><td>Isle of Man</td></tr><tr><td style="white-space:nowrap">IL<a name="gen---countries-cs-IL"> </a></td><td>Israel</td></tr><tr><td style="white-space:nowrap">IT<a name="gen---countries-cs-IT"> </a></td><td>Italy</td></tr><tr><td style="white-space:nowrap">JM<a name="gen---countries-cs-JM"> </a></td><td>Jamaica</td></tr><tr><td style="white-space:nowrap">JP<a name="gen---countries-cs-JP"> </a></td><td>Japan</td></tr><tr><td style="white-space:nowrap">JE<a name="gen---countries-cs-JE"> </a></td><td>Jersey</td></tr><tr><td style="white-space:nowrap">JO<a name="gen---countries-cs-JO"> </a></td><td>Jordan</td></tr><tr><td style="white-space:nowrap">KZ<a name="gen---countries-cs-KZ"> </a></td><td>Kazakhstan</td></tr><tr><td style="white-space:nowrap">KE<a name="gen---countries-cs-KE"> </a></td><td>Kenya</td></tr><tr><td style="white-space:nowrap">KI<a name="gen---countries-cs-KI"> </a></td><td>Kiribati</td></tr><tr><td style="white-space:nowrap">KP<a name="gen---countries-cs-KP"> </a></td><td>Korea (Democratic People&amp;#x27;s Republic of)</td></tr><tr><td style="white-space:nowrap">KR<a name="gen---countries-cs-KR"> </a></td><td>Korea (Republic of)</td></tr><tr><td style="white-space:nowrap">KW<a name="gen---countries-cs-KW"> </a></td><td>Kuwait</td></tr><tr><td style="white-space:nowrap">KG<a name="gen---countries-cs-KG"> </a></td><td>Kyrgyzstan</td></tr><tr><td style="white-space:nowrap">LA<a name="gen---countries-cs-LA"> </a></td><td>Lao People&amp;#x27;s Democratic Republic</td></tr><tr><td style="white-space:nowrap">LV<a name="gen---countries-cs-LV"> </a></td><td>Latvia</td></tr><tr><td style="white-space:nowrap">LB<a name="gen---countries-cs-LB"> </a></td><td>Lebanon</td></tr><tr><td style="white-space:nowrap">LS<a name="gen---countries-cs-LS"> </a></td><td>Lesotho</td></tr><tr><td style="white-space:nowrap">LR<a name="gen---countries-cs-LR"> </a></td><td>Liberia</td></tr><tr><td style="white-space:nowrap">LY<a name="gen---countries-cs-LY"> </a></td><td>Libya</td></tr><tr><td style="white-space:nowrap">LI<a name="gen---countries-cs-LI"> </a></td><td>Liechtenstein</td></tr><tr><td style="white-space:nowrap">LT<a name="gen---countries-cs-LT"> </a></td><td>Lithuania</td></tr><tr><td style="white-space:nowrap">LU<a name="gen---countries-cs-LU"> </a></td><td>Luxembourg</td></tr><tr><td style="white-space:nowrap">MO<a name="gen---countries-cs-MO"> </a></td><td>Macao</td></tr><tr><td style="white-space:nowrap">MK<a name="gen---countries-cs-MK"> </a></td><td>Macedonia (the former Yugoslav Republic of)</td></tr><tr><td style="white-space:nowrap">MG<a name="gen---countries-cs-MG"> </a></td><td>Madagascar</td></tr><tr><td style="white-space:nowrap">MW<a name="gen---countries-cs-MW"> </a></td><td>Malawi</td></tr><tr><td style="white-space:nowrap">MY<a name="gen---countries-cs-MY"> </a></td><td>Malaysia</td></tr><tr><td style="white-space:nowrap">MV<a name="gen---countries-cs-MV"> </a></td><td>Maldives</td></tr><tr><td style="white-space:nowrap">ML<a name="gen---countries-cs-ML"> </a></td><td>Mali</td></tr><tr><td style="white-space:nowrap">MT<a name="gen---countries-cs-MT"> </a></td><td>Malta</td></tr><tr><td style="white-space:nowrap">MH<a name="gen---countries-cs-MH"> </a></td><td>Marshall Islands</td></tr><tr><td style="white-space:nowrap">MQ<a name="gen---countries-cs-MQ"> </a></td><td>Martinique</td></tr><tr><td style="white-space:nowrap">MR<a name="gen---countries-cs-MR"> </a></td><td>Mauritania</td></tr><tr><td style="white-space:nowrap">MU<a name="gen---countries-cs-MU"> </a></td><td>Mauritius</td></tr><tr><td style="white-space:nowrap">YT<a name="gen---countries-cs-YT"> </a></td><td>Mayotte</td></tr><tr><td style="white-space:nowrap">MX<a name="gen---countries-cs-MX"> </a></td><td>Mexico</td></tr><tr><td style="white-space:nowrap">FM<a name="gen---countries-cs-FM"> </a></td><td>Micronesia (Federated States of)</td></tr><tr><td style="white-space:nowrap">MD<a name="gen---countries-cs-MD"> </a></td><td>Moldova (Republic of)</td></tr><tr><td style="white-space:nowrap">MC<a name="gen---countries-cs-MC"> </a></td><td>Monaco</td></tr><tr><td style="white-space:nowrap">MN<a name="gen---countries-cs-MN"> </a></td><td>Mongolia</td></tr><tr><td style="white-space:nowrap">ME<a name="gen---countries-cs-ME"> </a></td><td>Montenegro</td></tr><tr><td style="white-space:nowrap">MS<a name="gen---countries-cs-MS"> </a></td><td>Montserrat</td></tr><tr><td style="white-space:nowrap">MA<a name="gen---countries-cs-MA"> </a></td><td>Morocco</td></tr><tr><td style="white-space:nowrap">MZ<a name="gen---countries-cs-MZ"> </a></td><td>Mozambique</td></tr><tr><td style="white-space:nowrap">MM<a name="gen---countries-cs-MM"> </a></td><td>Myanmar</td></tr><tr><td style="white-space:nowrap">NA<a name="gen---countries-cs-NA"> </a></td><td>Namibia</td></tr><tr><td style="white-space:nowrap">NR<a name="gen---countries-cs-NR"> </a></td><td>Nauru</td></tr><tr><td style="white-space:nowrap">NP<a name="gen---countries-cs-NP"> </a></td><td>Nepal</td></tr><tr><td style="white-space:nowrap">NL<a name="gen---countries-cs-NL"> </a></td><td>Netherlands</td></tr><tr><td style="white-space:nowrap">NC<a name="gen---countries-cs-NC"> </a></td><td>New Caledonia</td></tr><tr><td style="white-space:nowrap">NZ<a name="gen---countries-cs-NZ"> </a></td><td>New Zealand</td></tr><tr><td style="white-space:nowrap">NI<a name="gen---countries-cs-NI"> </a></td><td>Nicaragua</td></tr><tr><td style="white-space:nowrap">NE<a name="gen---countries-cs-NE"> </a></td><td>Niger</td></tr><tr><td style="white-space:nowrap">NG<a name="gen---countries-cs-NG"> </a></td><td>Nigeria</td></tr><tr><td style="white-space:nowrap">NU<a name="gen---countries-cs-NU"> </a></td><td>Niue</td></tr><tr><td style="white-space:nowrap">NF<a name="gen---countries-cs-NF"> </a></td><td>Norfolk Island</td></tr><tr><td style="white-space:nowrap">MP<a name="gen---countries-cs-MP"> </a></td><td>Northern Mariana Islands</td></tr><tr><td style="white-space:nowrap">NO<a name="gen---countries-cs-NO"> </a></td><td>Norway</td></tr><tr><td style="white-space:nowrap">OM<a name="gen---countries-cs-OM"> </a></td><td>Oman</td></tr><tr><td style="white-space:nowrap">PK<a name="gen---countries-cs-PK"> </a></td><td>Pakistan</td></tr><tr><td style="white-space:nowrap">PW<a name="gen---countries-cs-PW"> </a></td><td>Palau</td></tr><tr><td style="white-space:nowrap">PS<a name="gen---countries-cs-PS"> </a></td><td>Palestine, State of</td></tr><tr><td style="white-space:nowrap">PA<a name="gen---countries-cs-PA"> </a></td><td>Panama</td></tr><tr><td style="white-space:nowrap">PG<a name="gen---countries-cs-PG"> </a></td><td>Papua New Guinea</td></tr><tr><td style="white-space:nowrap">PY<a name="gen---countries-cs-PY"> </a></td><td>Paraguay</td></tr><tr><td style="white-space:nowrap">PE<a name="gen---countries-cs-PE"> </a></td><td>Peru</td></tr><tr><td style="white-space:nowrap">PH<a name="gen---countries-cs-PH"> </a></td><td>Philippines</td></tr><tr><td style="white-space:nowrap">PN<a name="gen---countries-cs-PN"> </a></td><td>Pitcairn</td></tr><tr><td style="white-space:nowrap">PL<a name="gen---countries-cs-PL"> </a></td><td>Poland</td></tr><tr><td style="white-space:nowrap">PT<a name="gen---countries-cs-PT"> </a></td><td>Portugal</td></tr><tr><td style="white-space:nowrap">PR<a name="gen---countries-cs-PR"> </a></td><td>Puerto Rico</td></tr><tr><td style="white-space:nowrap">QA<a name="gen---countries-cs-QA"> </a></td><td>Qatar</td></tr><tr><td style="white-space:nowrap">RE<a name="gen---countries-cs-RE"> </a></td><td>Reunion</td></tr><tr><td style="white-space:nowrap">RO<a name="gen---countries-cs-RO"> </a></td><td>Romania</td></tr><tr><td style="white-space:nowrap">RU<a name="gen---countries-cs-RU"> </a></td><td>Russian Federation</td></tr><tr><td style="white-space:nowrap">RW<a name="gen---countries-cs-RW"> </a></td><td>Rwanda</td></tr><tr><td style="white-space:nowrap">BL<a name="gen---countries-cs-BL"> </a></td><td>Saint Barthalemy</td></tr><tr><td style="white-space:nowrap">SH<a name="gen---countries-cs-SH"> </a></td><td>Saint Helena, Ascension and Tristan da Cunha</td></tr><tr><td style="white-space:nowrap">KN<a name="gen---countries-cs-KN"> </a></td><td>Saint Kitts and Nevis</td></tr><tr><td style="white-space:nowrap">LC<a name="gen---countries-cs-LC"> </a></td><td>Saint Lucia</td></tr><tr><td style="white-space:nowrap">MF<a name="gen---countries-cs-MF"> </a></td><td>Saint Martin (French part)</td></tr><tr><td style="white-space:nowrap">PM<a name="gen---countries-cs-PM"> </a></td><td>Saint Pierre and Miquelon</td></tr><tr><td style="white-space:nowrap">VC<a name="gen---countries-cs-VC"> </a></td><td>Saint Vincent and the Grenadines</td></tr><tr><td style="white-space:nowrap">WS<a name="gen---countries-cs-WS"> </a></td><td>Samoa</td></tr><tr><td style="white-space:nowrap">SM<a name="gen---countries-cs-SM"> </a></td><td>San Marino</td></tr><tr><td style="white-space:nowrap">ST<a name="gen---countries-cs-ST"> </a></td><td>Sao Tome and Principe</td></tr><tr><td style="white-space:nowrap">SA<a name="gen---countries-cs-SA"> </a></td><td>Saudi Arabia</td></tr><tr><td style="white-space:nowrap">SN<a name="gen---countries-cs-SN"> </a></td><td>Senegal</td></tr><tr><td style="white-space:nowrap">RS<a name="gen---countries-cs-RS"> </a></td><td>Serbia</td></tr><tr><td style="white-space:nowrap">SC<a name="gen---countries-cs-SC"> </a></td><td>Seychelles</td></tr><tr><td style="white-space:nowrap">SL<a name="gen---countries-cs-SL"> </a></td><td>Sierra Leone</td></tr><tr><td style="white-space:nowrap">SG<a name="gen---countries-cs-SG"> </a></td><td>Singapore</td></tr><tr><td style="white-space:nowrap">SX<a name="gen---countries-cs-SX"> </a></td><td>Sint Maarten (Dutch part)</td></tr><tr><td style="white-space:nowrap">SK<a name="gen---countries-cs-SK"> </a></td><td>Slovakia</td></tr><tr><td style="white-space:nowrap">SI<a name="gen---countries-cs-SI"> </a></td><td>Slovenia</td></tr><tr><td style="white-space:nowrap">SB<a name="gen---countries-cs-SB"> </a></td><td>Solomon Islands</td></tr><tr><td style="white-space:nowrap">SO<a name="gen---countries-cs-SO"> </a></td><td>Somalia</td></tr><tr><td style="white-space:nowrap">ZA<a name="gen---countries-cs-ZA"> </a></td><td>South Africa</td></tr><tr><td style="white-space:nowrap">GS<a name="gen---countries-cs-GS"> </a></td><td>South Georgia and the South Sandwich Islands</td></tr><tr><td style="white-space:nowrap">SS<a name="gen---countries-cs-SS"> </a></td><td>South Sudan</td></tr><tr><td style="white-space:nowrap">ES<a name="gen---countries-cs-ES"> </a></td><td>Spain</td></tr><tr><td style="white-space:nowrap">LK<a name="gen---countries-cs-LK"> </a></td><td>Sri Lanka</td></tr><tr><td style="white-space:nowrap">SD<a name="gen---countries-cs-SD"> </a></td><td>Sudan</td></tr><tr><td style="white-space:nowrap">SR<a name="gen---countries-cs-SR"> </a></td><td>Suriname</td></tr><tr><td style="white-space:nowrap">SJ<a name="gen---countries-cs-SJ"> </a></td><td>Svalbard and Jan Mayen</td></tr><tr><td style="white-space:nowrap">SZ<a name="gen---countries-cs-SZ"> </a></td><td>Swaziland</td></tr><tr><td style="white-space:nowrap">SE<a name="gen---countries-cs-SE"> </a></td><td>Sweden</td></tr><tr><td style="white-space:nowrap">CH<a name="gen---countries-cs-CH"> </a></td><td>Switzerland</td></tr><tr><td style="white-space:nowrap">SY<a name="gen---countries-cs-SY"> </a></td><td>Syrian Arab Republic</td></tr><tr><td style="white-space:nowrap">TW<a name="gen---countries-cs-TW"> </a></td><td>Taiwan, Province of China</td></tr><tr><td style="white-space:nowrap">TJ<a name="gen---countries-cs-TJ"> </a></td><td>Tajikistan</td></tr><tr><td style="white-space:nowrap">TZ<a name="gen---countries-cs-TZ"> </a></td><td>Tanzania, United Republic of</td></tr><tr><td style="white-space:nowrap">TH<a name="gen---countries-cs-TH"> </a></td><td>Thailand</td></tr><tr><td style="white-space:nowrap">TL<a name="gen---countries-cs-TL"> </a></td><td>Timor-Leste</td></tr><tr><td style="white-space:nowrap">TG<a name="gen---countries-cs-TG"> </a></td><td>Togo</td></tr><tr><td style="white-space:nowrap">TK<a name="gen---countries-cs-TK"> </a></td><td>Tokelau</td></tr><tr><td style="white-space:nowrap">TO<a name="gen---countries-cs-TO"> </a></td><td>Tonga</td></tr><tr><td style="white-space:nowrap">TT<a name="gen---countries-cs-TT"> </a></td><td>Trinidad and Tobago</td></tr><tr><td style="white-space:nowrap">TN<a name="gen---countries-cs-TN"> </a></td><td>Tunisia</td></tr><tr><td style="white-space:nowrap">TR<a name="gen---countries-cs-TR"> </a></td><td>Turkey</td></tr><tr><td style="white-space:nowrap">TM<a name="gen---countries-cs-TM"> </a></td><td>Turkmenistan</td></tr><tr><td style="white-space:nowrap">TC<a name="gen---countries-cs-TC"> </a></td><td>Turks and Caicos Islands</td></tr><tr><td style="white-space:nowrap">TV<a name="gen---countries-cs-TV"> </a></td><td>Tuvalu</td></tr><tr><td style="white-space:nowrap">UG<a name="gen---countries-cs-UG"> </a></td><td>Uganda</td></tr><tr><td style="white-space:nowrap">UA<a name="gen---countries-cs-UA"> </a></td><td>Ukraine</td></tr><tr><td style="white-space:nowrap">AE<a name="gen---countries-cs-AE"> </a></td><td>United Arab Emirates</td></tr><tr><td style="white-space:nowrap">GB<a name="gen---countries-cs-GB"> </a></td><td>United Kingdom of Great Britain and Northern Ireland</td></tr><tr><td style="white-space:nowrap">US<a name="gen---countries-cs-US"> </a></td><td>United States of America</td></tr><tr><td style="white-space:nowrap">UM<a name="gen---countries-cs-UM"> </a></td><td>United States Minor Outlying Islands</td></tr><tr><td style="white-space:nowrap">UY<a name="gen---countries-cs-UY"> </a></td><td>Uruguay</td></tr><tr><td style="white-space:nowrap">UZ<a name="gen---countries-cs-UZ"> </a></td><td>Uzbekistan</td></tr><tr><td style="white-space:nowrap">VU<a name="gen---countries-cs-VU"> </a></td><td>Vanuatu</td></tr><tr><td style="white-space:nowrap">VE<a name="gen---countries-cs-VE"> </a></td><td>Venezuela (Bolivarian Republic of)</td></tr><tr><td style="white-space:nowrap">VN<a name="gen---countries-cs-VN"> </a></td><td>Viet Nam</td></tr><tr><td style="white-space:nowrap">VG<a name="gen---countries-cs-VG"> </a></td><td>Virgin Islands (British)</td></tr><tr><td style="white-space:nowrap">VI<a name="gen---countries-cs-VI"> </a></td><td>Virgin Islands (U.S.)</td></tr><tr><td style="white-space:nowrap">WF<a name="gen---countries-cs-WF"> </a></td><td>Wallis and Futuna</td></tr><tr><td style="white-space:nowrap">EH<a name="gen---countries-cs-EH"> </a></td><td>Western Sahara</td></tr><tr><td style="white-space:nowrap">YE<a name="gen---countries-cs-YE"> </a></td><td>Yemen</td></tr><tr><td style="white-space:nowrap">ZM<a name="gen---countries-cs-ZM"> </a></td><td>Zambia</td></tr><tr><td style="white-space:nowrap">ZW<a name="gen---countries-cs-ZW"> </a></td><td>Zimbabwe</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/gen---countries-cs"/>
+  <version value="0.1.0"/>
+  <name value="GENCountriesCS"/>
+  <title value="GEN - Countries"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="249"/>
+  <concept>
+    <code value="AF"/>
+    <display value="Afghanistan"/>
+  </concept>
+  <concept>
+    <code value="AX"/>
+    <display value="Aland Islands"/>
+  </concept>
+  <concept>
+    <code value="AL"/>
+    <display value="Albania"/>
+  </concept>
+  <concept>
+    <code value="DZ"/>
+    <display value="Algeria"/>
+  </concept>
+  <concept>
+    <code value="AS"/>
+    <display value="American Samoa"/>
+  </concept>
+  <concept>
+    <code value="AD"/>
+    <display value="Andorra"/>
+  </concept>
+  <concept>
+    <code value="AO"/>
+    <display value="Angola"/>
+  </concept>
+  <concept>
+    <code value="AI"/>
+    <display value="Anguilla"/>
+  </concept>
+  <concept>
+    <code value="AQ"/>
+    <display value="Antarctica"/>
+  </concept>
+  <concept>
+    <code value="AG"/>
+    <display value="Antigua and Barbuda"/>
+  </concept>
+  <concept>
+    <code value="AR"/>
+    <display value="Argentina"/>
+  </concept>
+  <concept>
+    <code value="AM"/>
+    <display value="Armenia"/>
+  </concept>
+  <concept>
+    <code value="AW"/>
+    <display value="Aruba"/>
+  </concept>
+  <concept>
+    <code value="AU"/>
+    <display value="Australia"/>
+  </concept>
+  <concept>
+    <code value="AT"/>
+    <display value="Austria"/>
+  </concept>
+  <concept>
+    <code value="AZ"/>
+    <display value="Azerbaijan"/>
+  </concept>
+  <concept>
+    <code value="BS"/>
+    <display value="Bahamas"/>
+  </concept>
+  <concept>
+    <code value="BH"/>
+    <display value="Bahrain"/>
+  </concept>
+  <concept>
+    <code value="BD"/>
+    <display value="Bangladesh"/>
+  </concept>
+  <concept>
+    <code value="BB"/>
+    <display value="Barbados"/>
+  </concept>
+  <concept>
+    <code value="BY"/>
+    <display value="Belarus"/>
+  </concept>
+  <concept>
+    <code value="BE"/>
+    <display value="Belgium"/>
+  </concept>
+  <concept>
+    <code value="BZ"/>
+    <display value="Belize"/>
+  </concept>
+  <concept>
+    <code value="BJ"/>
+    <display value="Benin"/>
+  </concept>
+  <concept>
+    <code value="BM"/>
+    <display value="Bermuda"/>
+  </concept>
+  <concept>
+    <code value="BT"/>
+    <display value="Bhutan"/>
+  </concept>
+  <concept>
+    <code value="BO"/>
+    <display value="Bolivia (Plurinational State of)"/>
+  </concept>
+  <concept>
+    <code value="BQ"/>
+    <display value="Bonaire, Sint Eustatius and Saba"/>
+  </concept>
+  <concept>
+    <code value="BA"/>
+    <display value="Bosnia and Herzegovina"/>
+  </concept>
+  <concept>
+    <code value="BW"/>
+    <display value="Botswana"/>
+  </concept>
+  <concept>
+    <code value="BV"/>
+    <display value="Bouvet Island"/>
+  </concept>
+  <concept>
+    <code value="BR"/>
+    <display value="Brazil"/>
+  </concept>
+  <concept>
+    <code value="IO"/>
+    <display value="British Indian Ocean Territory"/>
+  </concept>
+  <concept>
+    <code value="BN"/>
+    <display value="Brunei Darussalam"/>
+  </concept>
+  <concept>
+    <code value="BG"/>
+    <display value="Bulgaria"/>
+  </concept>
+  <concept>
+    <code value="BF"/>
+    <display value="Burkina Faso"/>
+  </concept>
+  <concept>
+    <code value="BI"/>
+    <display value="Burundi"/>
+  </concept>
+  <concept>
+    <code value="KH"/>
+    <display value="Cambodia"/>
+  </concept>
+  <concept>
+    <code value="CM"/>
+    <display value="Cameroon"/>
+  </concept>
+  <concept>
+    <code value="CA"/>
+    <display value="Canada"/>
+  </concept>
+  <concept>
+    <code value="CV"/>
+    <display value="Cabo Verde"/>
+  </concept>
+  <concept>
+    <code value="KY"/>
+    <display value="Cayman Islands"/>
+  </concept>
+  <concept>
+    <code value="CF"/>
+    <display value="Central African Republic"/>
+  </concept>
+  <concept>
+    <code value="TD"/>
+    <display value="Chad"/>
+  </concept>
+  <concept>
+    <code value="CL"/>
+    <display value="Chile"/>
+  </concept>
+  <concept>
+    <code value="CN"/>
+    <display value="China"/>
+  </concept>
+  <concept>
+    <code value="CX"/>
+    <display value="Christmas Island"/>
+  </concept>
+  <concept>
+    <code value="CC"/>
+    <display value="Cocos (Keeling) Islands"/>
+  </concept>
+  <concept>
+    <code value="CO"/>
+    <display value="Colombia"/>
+  </concept>
+  <concept>
+    <code value="KM"/>
+    <display value="Comoros"/>
+  </concept>
+  <concept>
+    <code value="CG"/>
+    <display value="Congo"/>
+  </concept>
+  <concept>
+    <code value="CD"/>
+    <display value="Congo (Democratic Republic of the)"/>
+  </concept>
+  <concept>
+    <code value="CK"/>
+    <display value="Cook Islands"/>
+  </concept>
+  <concept>
+    <code value="CR"/>
+    <display value="Costa Rica"/>
+  </concept>
+  <concept>
+    <code value="CI"/>
+    <display value="Cote d&amp;#x27;Ivoire"/>
+  </concept>
+  <concept>
+    <code value="HR"/>
+    <display value="Croatia"/>
+  </concept>
+  <concept>
+    <code value="CU"/>
+    <display value="Cuba"/>
+  </concept>
+  <concept>
+    <code value="CW"/>
+    <display value="Curacao"/>
+  </concept>
+  <concept>
+    <code value="CY"/>
+    <display value="Cyprus"/>
+  </concept>
+  <concept>
+    <code value="CZ"/>
+    <display value="Czech Republic"/>
+  </concept>
+  <concept>
+    <code value="DK"/>
+    <display value="Denmark"/>
+  </concept>
+  <concept>
+    <code value="DJ"/>
+    <display value="Djibouti"/>
+  </concept>
+  <concept>
+    <code value="DM"/>
+    <display value="Dominica"/>
+  </concept>
+  <concept>
+    <code value="DO"/>
+    <display value="Dominican Republic"/>
+  </concept>
+  <concept>
+    <code value="EC"/>
+    <display value="Ecuador"/>
+  </concept>
+  <concept>
+    <code value="EG"/>
+    <display value="Egypt"/>
+  </concept>
+  <concept>
+    <code value="SV"/>
+    <display value="El Salvador"/>
+  </concept>
+  <concept>
+    <code value="GQ"/>
+    <display value="Equatorial Guinea"/>
+  </concept>
+  <concept>
+    <code value="ER"/>
+    <display value="Eritrea"/>
+  </concept>
+  <concept>
+    <code value="EE"/>
+    <display value="Estonia"/>
+  </concept>
+  <concept>
+    <code value="ET"/>
+    <display value="Ethiopia"/>
+  </concept>
+  <concept>
+    <code value="FK"/>
+    <display value="Falkland Islands (Malvinas)"/>
+  </concept>
+  <concept>
+    <code value="FO"/>
+    <display value="Faroe Islands"/>
+  </concept>
+  <concept>
+    <code value="FJ"/>
+    <display value="Fiji"/>
+  </concept>
+  <concept>
+    <code value="FI"/>
+    <display value="Finland"/>
+  </concept>
+  <concept>
+    <code value="FR"/>
+    <display value="France"/>
+  </concept>
+  <concept>
+    <code value="GF"/>
+    <display value="French Guiana"/>
+  </concept>
+  <concept>
+    <code value="PF"/>
+    <display value="French Polynesia"/>
+  </concept>
+  <concept>
+    <code value="TF"/>
+    <display value="French Southern Territories"/>
+  </concept>
+  <concept>
+    <code value="GA"/>
+    <display value="Gabon"/>
+  </concept>
+  <concept>
+    <code value="GM"/>
+    <display value="Gambia"/>
+  </concept>
+  <concept>
+    <code value="GE"/>
+    <display value="Georgia"/>
+  </concept>
+  <concept>
+    <code value="DE"/>
+    <display value="Germany"/>
+  </concept>
+  <concept>
+    <code value="GH"/>
+    <display value="Ghana"/>
+  </concept>
+  <concept>
+    <code value="GI"/>
+    <display value="Gibraltar"/>
+  </concept>
+  <concept>
+    <code value="GR"/>
+    <display value="Greece"/>
+  </concept>
+  <concept>
+    <code value="GL"/>
+    <display value="Greenland"/>
+  </concept>
+  <concept>
+    <code value="GD"/>
+    <display value="Grenada"/>
+  </concept>
+  <concept>
+    <code value="GP"/>
+    <display value="Guadeloupe"/>
+  </concept>
+  <concept>
+    <code value="GU"/>
+    <display value="Guam"/>
+  </concept>
+  <concept>
+    <code value="GT"/>
+    <display value="Guatemala"/>
+  </concept>
+  <concept>
+    <code value="GG"/>
+    <display value="Guernsey"/>
+  </concept>
+  <concept>
+    <code value="GN"/>
+    <display value="Guinea"/>
+  </concept>
+  <concept>
+    <code value="GW"/>
+    <display value="Guinea-Bissau"/>
+  </concept>
+  <concept>
+    <code value="GY"/>
+    <display value="Guyana"/>
+  </concept>
+  <concept>
+    <code value="HT"/>
+    <display value="Haiti"/>
+  </concept>
+  <concept>
+    <code value="HM"/>
+    <display value="Heard Island and McDonald Islands"/>
+  </concept>
+  <concept>
+    <code value="VA"/>
+    <display value="Holy See"/>
+  </concept>
+  <concept>
+    <code value="HN"/>
+    <display value="Honduras"/>
+  </concept>
+  <concept>
+    <code value="HK"/>
+    <display value="Hong Kong"/>
+  </concept>
+  <concept>
+    <code value="HU"/>
+    <display value="Hungary"/>
+  </concept>
+  <concept>
+    <code value="IS"/>
+    <display value="Iceland"/>
+  </concept>
+  <concept>
+    <code value="IN"/>
+    <display value="India"/>
+  </concept>
+  <concept>
+    <code value="ID"/>
+    <display value="Indonesia"/>
+  </concept>
+  <concept>
+    <code value="IR"/>
+    <display value="Iran (Islamic Republic of)"/>
+  </concept>
+  <concept>
+    <code value="IQ"/>
+    <display value="Iraq"/>
+  </concept>
+  <concept>
+    <code value="IE"/>
+    <display value="Ireland"/>
+  </concept>
+  <concept>
+    <code value="IM"/>
+    <display value="Isle of Man"/>
+  </concept>
+  <concept>
+    <code value="IL"/>
+    <display value="Israel"/>
+  </concept>
+  <concept>
+    <code value="IT"/>
+    <display value="Italy"/>
+  </concept>
+  <concept>
+    <code value="JM"/>
+    <display value="Jamaica"/>
+  </concept>
+  <concept>
+    <code value="JP"/>
+    <display value="Japan"/>
+  </concept>
+  <concept>
+    <code value="JE"/>
+    <display value="Jersey"/>
+  </concept>
+  <concept>
+    <code value="JO"/>
+    <display value="Jordan"/>
+  </concept>
+  <concept>
+    <code value="KZ"/>
+    <display value="Kazakhstan"/>
+  </concept>
+  <concept>
+    <code value="KE"/>
+    <display value="Kenya"/>
+  </concept>
+  <concept>
+    <code value="KI"/>
+    <display value="Kiribati"/>
+  </concept>
+  <concept>
+    <code value="KP"/>
+    <display value="Korea (Democratic People&amp;#x27;s Republic of)"/>
+  </concept>
+  <concept>
+    <code value="KR"/>
+    <display value="Korea (Republic of)"/>
+  </concept>
+  <concept>
+    <code value="KW"/>
+    <display value="Kuwait"/>
+  </concept>
+  <concept>
+    <code value="KG"/>
+    <display value="Kyrgyzstan"/>
+  </concept>
+  <concept>
+    <code value="LA"/>
+    <display value="Lao People&amp;#x27;s Democratic Republic"/>
+  </concept>
+  <concept>
+    <code value="LV"/>
+    <display value="Latvia"/>
+  </concept>
+  <concept>
+    <code value="LB"/>
+    <display value="Lebanon"/>
+  </concept>
+  <concept>
+    <code value="LS"/>
+    <display value="Lesotho"/>
+  </concept>
+  <concept>
+    <code value="LR"/>
+    <display value="Liberia"/>
+  </concept>
+  <concept>
+    <code value="LY"/>
+    <display value="Libya"/>
+  </concept>
+  <concept>
+    <code value="LI"/>
+    <display value="Liechtenstein"/>
+  </concept>
+  <concept>
+    <code value="LT"/>
+    <display value="Lithuania"/>
+  </concept>
+  <concept>
+    <code value="LU"/>
+    <display value="Luxembourg"/>
+  </concept>
+  <concept>
+    <code value="MO"/>
+    <display value="Macao"/>
+  </concept>
+  <concept>
+    <code value="MK"/>
+    <display value="Macedonia (the former Yugoslav Republic of)"/>
+  </concept>
+  <concept>
+    <code value="MG"/>
+    <display value="Madagascar"/>
+  </concept>
+  <concept>
+    <code value="MW"/>
+    <display value="Malawi"/>
+  </concept>
+  <concept>
+    <code value="MY"/>
+    <display value="Malaysia"/>
+  </concept>
+  <concept>
+    <code value="MV"/>
+    <display value="Maldives"/>
+  </concept>
+  <concept>
+    <code value="ML"/>
+    <display value="Mali"/>
+  </concept>
+  <concept>
+    <code value="MT"/>
+    <display value="Malta"/>
+  </concept>
+  <concept>
+    <code value="MH"/>
+    <display value="Marshall Islands"/>
+  </concept>
+  <concept>
+    <code value="MQ"/>
+    <display value="Martinique"/>
+  </concept>
+  <concept>
+    <code value="MR"/>
+    <display value="Mauritania"/>
+  </concept>
+  <concept>
+    <code value="MU"/>
+    <display value="Mauritius"/>
+  </concept>
+  <concept>
+    <code value="YT"/>
+    <display value="Mayotte"/>
+  </concept>
+  <concept>
+    <code value="MX"/>
+    <display value="Mexico"/>
+  </concept>
+  <concept>
+    <code value="FM"/>
+    <display value="Micronesia (Federated States of)"/>
+  </concept>
+  <concept>
+    <code value="MD"/>
+    <display value="Moldova (Republic of)"/>
+  </concept>
+  <concept>
+    <code value="MC"/>
+    <display value="Monaco"/>
+  </concept>
+  <concept>
+    <code value="MN"/>
+    <display value="Mongolia"/>
+  </concept>
+  <concept>
+    <code value="ME"/>
+    <display value="Montenegro"/>
+  </concept>
+  <concept>
+    <code value="MS"/>
+    <display value="Montserrat"/>
+  </concept>
+  <concept>
+    <code value="MA"/>
+    <display value="Morocco"/>
+  </concept>
+  <concept>
+    <code value="MZ"/>
+    <display value="Mozambique"/>
+  </concept>
+  <concept>
+    <code value="MM"/>
+    <display value="Myanmar"/>
+  </concept>
+  <concept>
+    <code value="NA"/>
+    <display value="Namibia"/>
+  </concept>
+  <concept>
+    <code value="NR"/>
+    <display value="Nauru"/>
+  </concept>
+  <concept>
+    <code value="NP"/>
+    <display value="Nepal"/>
+  </concept>
+  <concept>
+    <code value="NL"/>
+    <display value="Netherlands"/>
+  </concept>
+  <concept>
+    <code value="NC"/>
+    <display value="New Caledonia"/>
+  </concept>
+  <concept>
+    <code value="NZ"/>
+    <display value="New Zealand"/>
+  </concept>
+  <concept>
+    <code value="NI"/>
+    <display value="Nicaragua"/>
+  </concept>
+  <concept>
+    <code value="NE"/>
+    <display value="Niger"/>
+  </concept>
+  <concept>
+    <code value="NG"/>
+    <display value="Nigeria"/>
+  </concept>
+  <concept>
+    <code value="NU"/>
+    <display value="Niue"/>
+  </concept>
+  <concept>
+    <code value="NF"/>
+    <display value="Norfolk Island"/>
+  </concept>
+  <concept>
+    <code value="MP"/>
+    <display value="Northern Mariana Islands"/>
+  </concept>
+  <concept>
+    <code value="NO"/>
+    <display value="Norway"/>
+  </concept>
+  <concept>
+    <code value="OM"/>
+    <display value="Oman"/>
+  </concept>
+  <concept>
+    <code value="PK"/>
+    <display value="Pakistan"/>
+  </concept>
+  <concept>
+    <code value="PW"/>
+    <display value="Palau"/>
+  </concept>
+  <concept>
+    <code value="PS"/>
+    <display value="Palestine, State of"/>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="Panama"/>
+  </concept>
+  <concept>
+    <code value="PG"/>
+    <display value="Papua New Guinea"/>
+  </concept>
+  <concept>
+    <code value="PY"/>
+    <display value="Paraguay"/>
+  </concept>
+  <concept>
+    <code value="PE"/>
+    <display value="Peru"/>
+  </concept>
+  <concept>
+    <code value="PH"/>
+    <display value="Philippines"/>
+  </concept>
+  <concept>
+    <code value="PN"/>
+    <display value="Pitcairn"/>
+  </concept>
+  <concept>
+    <code value="PL"/>
+    <display value="Poland"/>
+  </concept>
+  <concept>
+    <code value="PT"/>
+    <display value="Portugal"/>
+  </concept>
+  <concept>
+    <code value="PR"/>
+    <display value="Puerto Rico"/>
+  </concept>
+  <concept>
+    <code value="QA"/>
+    <display value="Qatar"/>
+  </concept>
+  <concept>
+    <code value="RE"/>
+    <display value="Reunion"/>
+  </concept>
+  <concept>
+    <code value="RO"/>
+    <display value="Romania"/>
+  </concept>
+  <concept>
+    <code value="RU"/>
+    <display value="Russian Federation"/>
+  </concept>
+  <concept>
+    <code value="RW"/>
+    <display value="Rwanda"/>
+  </concept>
+  <concept>
+    <code value="BL"/>
+    <display value="Saint Barthalemy"/>
+  </concept>
+  <concept>
+    <code value="SH"/>
+    <display value="Saint Helena, Ascension and Tristan da Cunha"/>
+  </concept>
+  <concept>
+    <code value="KN"/>
+    <display value="Saint Kitts and Nevis"/>
+  </concept>
+  <concept>
+    <code value="LC"/>
+    <display value="Saint Lucia"/>
+  </concept>
+  <concept>
+    <code value="MF"/>
+    <display value="Saint Martin (French part)"/>
+  </concept>
+  <concept>
+    <code value="PM"/>
+    <display value="Saint Pierre and Miquelon"/>
+  </concept>
+  <concept>
+    <code value="VC"/>
+    <display value="Saint Vincent and the Grenadines"/>
+  </concept>
+  <concept>
+    <code value="WS"/>
+    <display value="Samoa"/>
+  </concept>
+  <concept>
+    <code value="SM"/>
+    <display value="San Marino"/>
+  </concept>
+  <concept>
+    <code value="ST"/>
+    <display value="Sao Tome and Principe"/>
+  </concept>
+  <concept>
+    <code value="SA"/>
+    <display value="Saudi Arabia"/>
+  </concept>
+  <concept>
+    <code value="SN"/>
+    <display value="Senegal"/>
+  </concept>
+  <concept>
+    <code value="RS"/>
+    <display value="Serbia"/>
+  </concept>
+  <concept>
+    <code value="SC"/>
+    <display value="Seychelles"/>
+  </concept>
+  <concept>
+    <code value="SL"/>
+    <display value="Sierra Leone"/>
+  </concept>
+  <concept>
+    <code value="SG"/>
+    <display value="Singapore"/>
+  </concept>
+  <concept>
+    <code value="SX"/>
+    <display value="Sint Maarten (Dutch part)"/>
+  </concept>
+  <concept>
+    <code value="SK"/>
+    <display value="Slovakia"/>
+  </concept>
+  <concept>
+    <code value="SI"/>
+    <display value="Slovenia"/>
+  </concept>
+  <concept>
+    <code value="SB"/>
+    <display value="Solomon Islands"/>
+  </concept>
+  <concept>
+    <code value="SO"/>
+    <display value="Somalia"/>
+  </concept>
+  <concept>
+    <code value="ZA"/>
+    <display value="South Africa"/>
+  </concept>
+  <concept>
+    <code value="GS"/>
+    <display value="South Georgia and the South Sandwich Islands"/>
+  </concept>
+  <concept>
+    <code value="SS"/>
+    <display value="South Sudan"/>
+  </concept>
+  <concept>
+    <code value="ES"/>
+    <display value="Spain"/>
+  </concept>
+  <concept>
+    <code value="LK"/>
+    <display value="Sri Lanka"/>
+  </concept>
+  <concept>
+    <code value="SD"/>
+    <display value="Sudan"/>
+  </concept>
+  <concept>
+    <code value="SR"/>
+    <display value="Suriname"/>
+  </concept>
+  <concept>
+    <code value="SJ"/>
+    <display value="Svalbard and Jan Mayen"/>
+  </concept>
+  <concept>
+    <code value="SZ"/>
+    <display value="Swaziland"/>
+  </concept>
+  <concept>
+    <code value="SE"/>
+    <display value="Sweden"/>
+  </concept>
+  <concept>
+    <code value="CH"/>
+    <display value="Switzerland"/>
+  </concept>
+  <concept>
+    <code value="SY"/>
+    <display value="Syrian Arab Republic"/>
+  </concept>
+  <concept>
+    <code value="TW"/>
+    <display value="Taiwan, Province of China"/>
+  </concept>
+  <concept>
+    <code value="TJ"/>
+    <display value="Tajikistan"/>
+  </concept>
+  <concept>
+    <code value="TZ"/>
+    <display value="Tanzania, United Republic of"/>
+  </concept>
+  <concept>
+    <code value="TH"/>
+    <display value="Thailand"/>
+  </concept>
+  <concept>
+    <code value="TL"/>
+    <display value="Timor-Leste"/>
+  </concept>
+  <concept>
+    <code value="TG"/>
+    <display value="Togo"/>
+  </concept>
+  <concept>
+    <code value="TK"/>
+    <display value="Tokelau"/>
+  </concept>
+  <concept>
+    <code value="TO"/>
+    <display value="Tonga"/>
+  </concept>
+  <concept>
+    <code value="TT"/>
+    <display value="Trinidad and Tobago"/>
+  </concept>
+  <concept>
+    <code value="TN"/>
+    <display value="Tunisia"/>
+  </concept>
+  <concept>
+    <code value="TR"/>
+    <display value="Turkey"/>
+  </concept>
+  <concept>
+    <code value="TM"/>
+    <display value="Turkmenistan"/>
+  </concept>
+  <concept>
+    <code value="TC"/>
+    <display value="Turks and Caicos Islands"/>
+  </concept>
+  <concept>
+    <code value="TV"/>
+    <display value="Tuvalu"/>
+  </concept>
+  <concept>
+    <code value="UG"/>
+    <display value="Uganda"/>
+  </concept>
+  <concept>
+    <code value="UA"/>
+    <display value="Ukraine"/>
+  </concept>
+  <concept>
+    <code value="AE"/>
+    <display value="United Arab Emirates"/>
+  </concept>
+  <concept>
+    <code value="GB"/>
+    <display value="United Kingdom of Great Britain and Northern Ireland"/>
+  </concept>
+  <concept>
+    <code value="US"/>
+    <display value="United States of America"/>
+  </concept>
+  <concept>
+    <code value="UM"/>
+    <display value="United States Minor Outlying Islands"/>
+  </concept>
+  <concept>
+    <code value="UY"/>
+    <display value="Uruguay"/>
+  </concept>
+  <concept>
+    <code value="UZ"/>
+    <display value="Uzbekistan"/>
+  </concept>
+  <concept>
+    <code value="VU"/>
+    <display value="Vanuatu"/>
+  </concept>
+  <concept>
+    <code value="VE"/>
+    <display value="Venezuela (Bolivarian Republic of)"/>
+  </concept>
+  <concept>
+    <code value="VN"/>
+    <display value="Viet Nam"/>
+  </concept>
+  <concept>
+    <code value="VG"/>
+    <display value="Virgin Islands (British)"/>
+  </concept>
+  <concept>
+    <code value="VI"/>
+    <display value="Virgin Islands (U.S.)"/>
+  </concept>
+  <concept>
+    <code value="WF"/>
+    <display value="Wallis and Futuna"/>
+  </concept>
+  <concept>
+    <code value="EH"/>
+    <display value="Western Sahara"/>
+  </concept>
+  <concept>
+    <code value="YE"/>
+    <display value="Yemen"/>
+  </concept>
+  <concept>
+    <code value="ZM"/>
+    <display value="Zambia"/>
+  </concept>
+  <concept>
+    <code value="ZW"/>
+    <display value="Zimbabwe"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/mpox-cs-contact-frequency-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mpox-cs-contact-frequency-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-contact-frequency-cs</b></p><a name=\"mpox-cs-contact-frequency-cs\"> </a><a name=\"hcmpox-cs-contact-frequency-cs\"> </a><a name=\"mpox-cs-contact-frequency-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-contact-frequency-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ONCE<a name=\"mpox-cs-contact-frequency-cs-ONCE\"> </a></td><td>Once</td></tr><tr><td style=\"white-space:nowrap\">MULTIPLE_TIMES<a name=\"mpox-cs-contact-frequency-cs-MULTIPLE_TIMES\"> </a></td><td>Multiple times</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-contact-frequency-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/mpox-cs-contact-frequency-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MPOXCSContactFrequencyCS"] ; # 
+  fhir:title [ fhir:v "MPOX CS: Contact frequency"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-10-04T08:16:56+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org/" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ONCE" ] ;
+     fhir:display [ fhir:v "Once" ]
+  ] [
+     fhir:code [ fhir:v "MULTIPLE_TIMES" ] ;
+     fhir:display [ fhir:v "Multiple times" ]
+  ] [
+     fhir:code [ fhir:v "UNKNOWN" ] ;
+     fhir:display [ fhir:v "Unknown" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

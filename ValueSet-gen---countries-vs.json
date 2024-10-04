@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "gen---countries-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet gen---countries-vs</b></p><a name=\"gen---countries-vs\"> </a><a name=\"hcgen---countries-vs\"> </a><a name=\"gen---countries-vs-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-gen---countries-cs.html\"><code>http://example.org/CodeSystem/gen---countries-cs</code></a></li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/gen---countries-vs",
+  "version" : "0.1.0",
+  "name" : "GENCountriesVS",
+  "title" : "GEN - Countries value set",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org/CodeSystem/gen---countries-cs"
+    }]
+  }
+}

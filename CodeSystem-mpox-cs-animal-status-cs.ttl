@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/mpox-cs-animal-status-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mpox-cs-animal-status-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-animal-status-cs</b></p><a name=\"mpox-cs-animal-status-cs\"> </a><a name=\"hcmpox-cs-animal-status-cs\"> </a><a name=\"mpox-cs-animal-status-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-animal-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIVE_NO_SIGN_DISEASE<a name=\"mpox-cs-animal-status-cs-ALIVE_NO_SIGN_DISEASE\"> </a></td><td>Alive, with no apparent signs of disease</td></tr><tr><td style=\"white-space:nowrap\">ALIVE_SIGN_DISEASE<a name=\"mpox-cs-animal-status-cs-ALIVE_SIGN_DISEASE\"> </a></td><td>Alive, with signs of diseases</td></tr><tr><td style=\"white-space:nowrap\">KILLED_DEAD<a name=\"mpox-cs-animal-status-cs-KILLED_DEAD\"> </a></td><td>Killed/Dead</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-animal-status-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/mpox-cs-animal-status-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MPOXCSAnimalStatusCS"] ; # 
+  fhir:title [ fhir:v "MPOX CS: Animal status"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-10-04T08:16:56+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org/" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ALIVE_NO_SIGN_DISEASE" ] ;
+     fhir:display [ fhir:v "Alive, with no apparent signs of disease" ]
+  ] [
+     fhir:code [ fhir:v "ALIVE_SIGN_DISEASE" ] ;
+     fhir:display [ fhir:v "Alive, with signs of diseases" ]
+  ] [
+     fhir:code [ fhir:v "KILLED_DEAD" ] ;
+     fhir:display [ fhir:v "Killed/Dead" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

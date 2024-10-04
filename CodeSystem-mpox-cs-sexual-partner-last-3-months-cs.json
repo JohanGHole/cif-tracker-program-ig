@@ -1,0 +1,56 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-sexual-partner-last-3-months-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-sexual-partner-last-3-months-cs</b></p><a name=\"mpox-cs-sexual-partner-last-3-months-cs\"> </a><a name=\"hcmpox-cs-sexual-partner-last-3-months-cs\"> </a><a name=\"mpox-cs-sexual-partner-last-3-months-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-sexual-partner-last-3-months-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"mpox-cs-sexual-partner-last-3-months-cs-0\"> </a></td><td>0</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"mpox-cs-sexual-partner-last-3-months-cs-1\"> </a></td><td>1</td></tr><tr><td style=\"white-space:nowrap\">2_4<a name=\"mpox-cs-sexual-partner-last-3-months-cs-2_4\"> </a></td><td>2-4</td></tr><tr><td style=\"white-space:nowrap\">4_9<a name=\"mpox-cs-sexual-partner-last-3-months-cs-4_9\"> </a></td><td>4-9</td></tr><tr><td style=\"white-space:nowrap\">MORE_10<a name=\"mpox-cs-sexual-partner-last-3-months-cs-MORE_10\"> </a></td><td>&amp;gt;10</td></tr><tr><td style=\"white-space:nowrap\">PREFER_NOT_TO_SAY<a name=\"mpox-cs-sexual-partner-last-3-months-cs-PREFER_NOT_TO_SAY\"> </a></td><td>Prefer not to say</td></tr><tr><td style=\"white-space:nowrap\">NA<a name=\"mpox-cs-sexual-partner-last-3-months-cs-NA\"> </a></td><td>NA</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-sexual-partner-last-3-months-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-sexual-partner-last-3-months-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSSexualPartnerLast3MonthsCS",
+  "title" : "MPOX CS: Sexual partner last 3 months",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "0",
+    "display" : "0"
+  },
+  {
+    "code" : "1",
+    "display" : "1"
+  },
+  {
+    "code" : "2_4",
+    "display" : "2-4"
+  },
+  {
+    "code" : "4_9",
+    "display" : "4-9"
+  },
+  {
+    "code" : "MORE_10",
+    "display" : "&gt;10"
+  },
+  {
+    "code" : "PREFER_NOT_TO_SAY",
+    "display" : "Prefer not to say"
+  },
+  {
+    "code" : "NA",
+    "display" : "NA"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

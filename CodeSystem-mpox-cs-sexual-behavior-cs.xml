@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-sexual-behavior-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-sexual-behavior-cs</b></p><a name="mpox-cs-sexual-behavior-cs"> </a><a name="hcmpox-cs-sexual-behavior-cs"> </a><a name="mpox-cs-sexual-behavior-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-sexual-behavior-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">HETEROSEXUAL<a name="mpox-cs-sexual-behavior-cs-HETEROSEXUAL"> </a></td><td>Heterosexual</td></tr><tr><td style="white-space:nowrap">MSM<a name="mpox-cs-sexual-behavior-cs-MSM"> </a></td><td>MSM/homosexual or bisexual male</td></tr><tr><td style="white-space:nowrap">LESBIAN<a name="mpox-cs-sexual-behavior-cs-LESBIAN"> </a></td><td>Women who have sex with women</td></tr><tr><td style="white-space:nowrap">BISEXUAL<a name="mpox-cs-sexual-behavior-cs-BISEXUAL"> </a></td><td>Bisexual</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-sexual-behavior-cs-UNKNOWN"> </a></td><td>Unknown</td></tr><tr><td style="white-space:nowrap">OTHER<a name="mpox-cs-sexual-behavior-cs-OTHER"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-sexual-behavior-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSSexualBehaviorCS"/>
+  <title value="MPOX CS: Sexual behavior"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="HETEROSEXUAL"/>
+    <display value="Heterosexual"/>
+  </concept>
+  <concept>
+    <code value="MSM"/>
+    <display value="MSM/homosexual or bisexual male"/>
+  </concept>
+  <concept>
+    <code value="LESBIAN"/>
+    <display value="Women who have sex with women"/>
+  </concept>
+  <concept>
+    <code value="BISEXUAL"/>
+    <display value="Bisexual"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

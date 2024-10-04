@@ -1,0 +1,48 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-maximum-duration-encounters-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-maximum-duration-encounters-cs</b></p><a name=\"mpox-cs-maximum-duration-encounters-cs\"> </a><a name=\"hcmpox-cs-maximum-duration-encounters-cs\"> </a><a name=\"mpox-cs-maximum-duration-encounters-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-maximum-duration-encounters-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LESS_5_MINS<a name=\"mpox-cs-maximum-duration-encounters-cs-LESS_5_MINS\"> </a></td><td>&amp;lt;5 mins</td></tr><tr><td style=\"white-space:nowrap\">5_15_MINS<a name=\"mpox-cs-maximum-duration-encounters-cs-5_15_MINS\"> </a></td><td>5&amp;lt;15 mins</td></tr><tr><td style=\"white-space:nowrap\">15_MINS_1_HOUR<a name=\"mpox-cs-maximum-duration-encounters-cs-15_MINS_1_HOUR\"> </a></td><td>15mins &amp;lt;1h</td></tr><tr><td style=\"white-space:nowrap\">1_4_HOUR<a name=\"mpox-cs-maximum-duration-encounters-cs-1_4_HOUR\"> </a></td><td>1&amp;lt;4h</td></tr><tr><td style=\"white-space:nowrap\">MORE_4_HOUR<a name=\"mpox-cs-maximum-duration-encounters-cs-MORE_4_HOUR\"> </a></td><td>4h+</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-maximum-duration-encounters-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-maximum-duration-encounters-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSMaximumDurationEncountersCS",
+  "title" : "MPOX CS: Maximum duration encounters",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "LESS_5_MINS",
+    "display" : "&lt;5 mins"
+  },
+  {
+    "code" : "5_15_MINS",
+    "display" : "5&lt;15 mins"
+  },
+  {
+    "code" : "15_MINS_1_HOUR",
+    "display" : "15mins &lt;1h"
+  },
+  {
+    "code" : "1_4_HOUR",
+    "display" : "1&lt;4h"
+  },
+  {
+    "code" : "MORE_4_HOUR",
+    "display" : "4h+"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

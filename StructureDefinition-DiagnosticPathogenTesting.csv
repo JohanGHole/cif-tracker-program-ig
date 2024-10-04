@@ -1,0 +1,76 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"DiagnosticPathogenTesting","DiagnosticPathogenTesting","","","",0,*,"","","","null {[]} {[]}
+","Diagnostic/Pathogen testing","Diagnostic/Pathogen testing","","","","","","","","","",,,,,"",,,,"BackboneElement",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","n/a"
+"DiagnosticPathogenTesting.id","DiagnosticPathogenTesting.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"DiagnosticPathogenTesting.extension","DiagnosticPathogenTesting.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"DiagnosticPathogenTesting.modifierExtension","DiagnosticPathogenTesting.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"DiagnosticPathogenTesting.executionDate","DiagnosticPathogenTesting.executionDate","","","",0,1,"","","","date {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.executionDate",0,1,"",""
+"DiagnosticPathogenTesting.laboratoryIdentificationNumber","DiagnosticPathogenTesting.laboratoryIdentificationNumber","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Laboratory identification number","MPOX CS: Laboratory identification number","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.laboratoryIdentificationNumber",0,1,"",""
+"DiagnosticPathogenTesting.dateOfLaboratoryTesting","DiagnosticPathogenTesting.dateOfLaboratoryTesting","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: Date of laboratory testing","MPOX CS: Date of laboratory testing","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.dateOfLaboratoryTesting",0,1,"",""
+"DiagnosticPathogenTesting.skinLesionMaterial","DiagnosticPathogenTesting.skinLesionMaterial","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Skin lesion material","MPOX CS: Specimen type - Skin lesion material","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.skinLesionMaterial",0,1,"",""
+"DiagnosticPathogenTesting.lesionCrust","DiagnosticPathogenTesting.lesionCrust","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Lesion crust","MPOX CS: Specimen type - Lesion crust","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.lesionCrust",0,1,"",""
+"DiagnosticPathogenTesting.blood","DiagnosticPathogenTesting.blood","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Blood","MPOX CS: Specimen type - Blood","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.blood",0,1,"",""
+"DiagnosticPathogenTesting.genitalSwab","DiagnosticPathogenTesting.genitalSwab","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Genital swab","MPOX CS: Specimen type - Genital swab","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.genitalSwab",0,1,"",""
+"DiagnosticPathogenTesting.oropharyngealSwab","DiagnosticPathogenTesting.oropharyngealSwab","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Oropharyngeal swab","MPOX CS: Specimen type - Oropharyngeal swab","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.oropharyngealSwab",0,1,"",""
+"DiagnosticPathogenTesting.urine","DiagnosticPathogenTesting.urine","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Urine","MPOX CS: Specimen type - Urine","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.urine",0,1,"",""
+"DiagnosticPathogenTesting.semen","DiagnosticPathogenTesting.semen","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Semen","MPOX CS: Specimen type - Semen","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.semen",0,1,"",""
+"DiagnosticPathogenTesting.rectalSwab","DiagnosticPathogenTesting.rectalSwab","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Rectal swab","MPOX CS: Specimen type - Rectal swab","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.rectalSwab",0,1,"",""
+"DiagnosticPathogenTesting.cerebrospinalFluid","DiagnosticPathogenTesting.cerebrospinalFluid","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Cerebrospinal fluid","MPOX CS: Specimen type - Cerebrospinal fluid","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.cerebrospinalFluid",0,1,"",""
+"DiagnosticPathogenTesting.otherSpecimenType","DiagnosticPathogenTesting.otherSpecimenType","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Specimen type - Other","MPOX CS: Specimen type - Other","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.otherSpecimenType",0,1,"",""
+"DiagnosticPathogenTesting.specifyOtherSpecimenType","DiagnosticPathogenTesting.specifyOtherSpecimenType","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specimen type - Specify other","MPOX CS: Specimen type - Specify other","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.specifyOtherSpecimenType",0,1,"",""
+"DiagnosticPathogenTesting.mpoxPcr","DiagnosticPathogenTesting.mpoxPcr","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Test performed - Mpox PCR","MPOX CS: Test performed - Mpox PCR","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.mpoxPcr",0,1,"",""
+"DiagnosticPathogenTesting.orthopoxvirusPcr","DiagnosticPathogenTesting.orthopoxvirusPcr","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Test performed - Orthopoxvirus PCR","MPOX CS: Test performed - Orthopoxvirus PCR","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.orthopoxvirusPcr",0,1,"",""
+"DiagnosticPathogenTesting.cladeSpecificPcr","DiagnosticPathogenTesting.cladeSpecificPcr","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Test performed - Clade specific PCR","MPOX CS: Test performed - Clade specific PCR","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.cladeSpecificPcr",0,1,"",""
+"DiagnosticPathogenTesting.sequencing","DiagnosticPathogenTesting.sequencing","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Test performed - Sequencing","MPOX CS: Test performed - Sequencing","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.sequencing",0,1,"",""
+"DiagnosticPathogenTesting.serology","DiagnosticPathogenTesting.serology","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Test performed - Serology","MPOX CS: Test performed - Serology","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.serology",0,1,"",""
+"DiagnosticPathogenTesting.otherTestPerformed","DiagnosticPathogenTesting.otherTestPerformed","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Test performed - Other","MPOX CS: Test performed - Other","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.otherTestPerformed",0,1,"",""
+"DiagnosticPathogenTesting.specifyOtherTestPerformed","DiagnosticPathogenTesting.specifyOtherTestPerformed","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Test performed - Specify other","MPOX CS: Test performed - Specify other","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.specifyOtherTestPerformed",0,1,"",""
+"DiagnosticPathogenTesting.result","DiagnosticPathogenTesting.result","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Result sample","MPOX CS: Result sample","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-result-sample-vs","",,,,"DiagnosticPathogenTesting.result",0,1,"",""
+"DiagnosticPathogenTesting.genomicCharacterizationUndertaken","DiagnosticPathogenTesting.genomicCharacterizationUndertaken","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Genomic characterization undertaken?","MPOX CS: Genomic characterization undertaken?","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"DiagnosticPathogenTesting.genomicCharacterizationUndertaken",0,1,"",""
+"DiagnosticPathogenTesting.cladeOfMonkeypoxVirus","DiagnosticPathogenTesting.cladeOfMonkeypoxVirus","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Clade of monkeypox virus","MPOX CS: Clade of monkeypox virus","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-clade-mpox-vs","",,,,"DiagnosticPathogenTesting.cladeOfMonkeypoxVirus",0,1,"",""
+"DiagnosticPathogenTesting.accessionNumberOfTheSequenceUploadedToAPublicDatabase","DiagnosticPathogenTesting.accessionNumberOfTheSequenceUploadedToAPublicDatabase","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Accession number of the sequence uploaded to a public database ","MPOX CS: Accession number of the sequence uploaded to a public database","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.accessionNumberOfTheSequenceUploadedToAPublicDatabase",0,1,"",""
+"DiagnosticPathogenTesting.sampleStoredForFutureGenomicCharacterization","DiagnosticPathogenTesting.sampleStoredForFutureGenomicCharacterization","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Sample stored for future genomic characterization?","MPOX CS: Sample stored for future genomic characterization?","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"DiagnosticPathogenTesting.sampleStoredForFutureGenomicCharacterization",0,1,"",""
+"DiagnosticPathogenTesting.sampleShippedToOtherLaboratoryForGenomicCharacterization","DiagnosticPathogenTesting.sampleShippedToOtherLaboratoryForGenomicCharacterization","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Sample shipped to other laboratory for genomic characterization?","MPOX CS: Sample shipped to other laboratory for genomic characterization?","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"DiagnosticPathogenTesting.sampleShippedToOtherLaboratoryForGenomicCharacterization",0,1,"",""
+"DiagnosticPathogenTesting.dateOfShipment","DiagnosticPathogenTesting.dateOfShipment","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: Date of shipment to another laboratory for genomic characterization","MPOX CS: Date of shipment to another laboratory for genomic characterization","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.dateOfShipment",0,1,"",""
+"DiagnosticPathogenTesting.nameOfLaboratory","DiagnosticPathogenTesting.nameOfLaboratory","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Name of laboratory for genomic characterization","MPOX CS: Name of laboratory for genomic characterization","","","","","","","","","",,,,,"",,,,"DiagnosticPathogenTesting.nameOfLaboratory",0,1,"",""

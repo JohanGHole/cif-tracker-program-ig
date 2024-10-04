@@ -1,0 +1,555 @@
+[
+  {
+    "id" : "gen---countries-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/gen---countries-cs",
+    "version" : "0.1.0",
+    "name" : "GENCountriesCS"
+  },
+  {
+    "id" : "mpox-cs-animal-status-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-animal-status-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSAnimalStatusCS"
+  },
+  {
+    "id" : "mpox-cs-case-classification-crf-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-case-classification-crf-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSCaseClassificationCRFCS"
+  },
+  {
+    "id" : "mpox-cs-clade-mpox-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-clade-mpox-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSCladeMpoxCS"
+  },
+  {
+    "id" : "mpox-cs-contact-frequency-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-contact-frequency-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSContactFrequencyCS"
+  },
+  {
+    "id" : "mpox-cs-current-status-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-current-status-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSCurrentStatusCS"
+  },
+  {
+    "id" : "mpox-cs-gender-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-gender-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSGenderCS"
+  },
+  {
+    "id" : "mpox-cs-gender-sexual-partners-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSGenderSexualPartnersCS"
+  },
+  {
+    "id" : "mpox-cs-hand-hygiene-ppe-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-hand-hygiene-ppe-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSHandHygienePPECS"
+  },
+  {
+    "id" : "mpox-cs-hiv-status-assessment-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-hiv-status-assessment-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSHIVStatusAssessmentCS"
+  },
+  {
+    "id" : "mpox-cs-hiv-status-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-hiv-status-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSHIVStatusCS"
+  },
+  {
+    "id" : "mpox-cs-immunosuppressed-status-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-immunosuppressed-status-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSImmunosuppressedStatusCS"
+  },
+  {
+    "id" : "mpox-cs-likely-mode-of-transmission-mpox-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSLikelyModeOfTransmissionMpoxCS"
+  },
+  {
+    "id" : "mpox-cs-maximum-duration-encounters-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-maximum-duration-encounters-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSMaximumDurationEncountersCS"
+  },
+  {
+    "id" : "mpox-cs-outcome-disease-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-outcome-disease-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSOutcomeDiseaseCS"
+  },
+  {
+    "id" : "mpox-cs-place-animal-contact-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSPlaceAnimalContactCS"
+  },
+  {
+    "id" : "mpox-cs-ppe-used-during-exposure-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-ppe-used-during-exposure-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSPPEUsedDuringExposureCS"
+  },
+  {
+    "id" : "mpox-cs-pregnancy-status-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-pregnancy-status-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSPregnancyStatusCS"
+  },
+  {
+    "id" : "mpox-cs-protected-sex-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-protected-sex-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSProtectedSexCS"
+  },
+  {
+    "id" : "mpox-cs-relationship-case-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-relationship-case-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSRelationshipCaseCS"
+  },
+  {
+    "id" : "mpox-cs-result-sample-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-result-sample-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSResultSampleCS"
+  },
+  {
+    "id" : "mpox-cs-sex-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-sex-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSSexCS"
+  },
+  {
+    "id" : "mpox-cs-sexual-behavior-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-sexual-behavior-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSSexualBehaviorCS"
+  },
+  {
+    "id" : "mpox-cs-sexual-partner-last-3-months-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-sexual-partner-last-3-months-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSSexualPartnerLast3MonthsCS"
+  },
+  {
+    "id" : "mpox-cs-type-of-animal-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-type-of-animal-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSTypeOfAnimalCS"
+  },
+  {
+    "id" : "mpox-cs-type-of-contact-forward-tracing-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSTypeOfContactForwardTracingCS"
+  },
+  {
+    "id" : "mpox-cs-vaccination-current-event-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-vaccination-current-event-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSVaccinationCurrentEventCS"
+  },
+  {
+    "id" : "mpox-cs-vaccine-brand-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-vaccine-brand-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSVaccineBrandCS"
+  },
+  {
+    "id" : "mpox-cs-vaccine-doses-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-vaccine-doses-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSVaccineDosesCS"
+  },
+  {
+    "id" : "mpox-cs-viral-load-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-viral-load-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSViralLoadCS"
+  },
+  {
+    "id" : "mpox-cs-yes-no-unknown-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/mpox-cs-yes-no-unknown-cs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSYesNoUnknownCS"
+  },
+  {
+    "id" : "fhir.example",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/fhir.example",
+    "version" : "0.1.0",
+    "name" : "CIFIG"
+  },
+  {
+    "id" : "AnimalExposure",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/AnimalExposure",
+    "version" : "0.1.0",
+    "name" : "AnimalExposure"
+  },
+  {
+    "id" : "CaseSurveillanceMpoxCIF",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/CaseSurveillanceMpoxCIF",
+    "version" : "0.1.0",
+    "name" : "CaseSurveillanceMpoxCIF"
+  },
+  {
+    "id" : "ClinicalAndVaccinationInformation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/ClinicalAndVaccinationInformation",
+    "version" : "0.1.0",
+    "name" : "ClinicalAndVaccinationInformation"
+  },
+  {
+    "id" : "ContactDetails",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/ContactDetails",
+    "version" : "0.1.0",
+    "name" : "ContactDetails"
+  },
+  {
+    "id" : "DiagnosticPathogenTesting",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/DiagnosticPathogenTesting",
+    "version" : "0.1.0",
+    "name" : "DiagnosticPathogenTesting"
+  },
+  {
+    "id" : "DiseaseSeverityAndOutcome",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/DiseaseSeverityAndOutcome",
+    "version" : "0.1.0",
+    "name" : "DiseaseSeverityAndOutcome"
+  },
+  {
+    "id" : "ExposureEvents",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/ExposureEvents",
+    "version" : "0.1.0",
+    "name" : "ExposureEvents"
+  },
+  {
+    "id" : "ExposureInHouseholdSetting",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/ExposureInHouseholdSetting",
+    "version" : "0.1.0",
+    "name" : "ExposureInHouseholdSetting"
+  },
+  {
+    "id" : "ExposureToProbableOrConfirmedCase",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/ExposureToProbableOrConfirmedCase",
+    "version" : "0.1.0",
+    "name" : "ExposureToProbableOrConfirmedCase"
+  },
+  {
+    "id" : "ForwardTracing",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/ForwardTracing",
+    "version" : "0.1.0",
+    "name" : "ForwardTracing"
+  },
+  {
+    "id" : "MostLikelyModeOfTransmission",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/MostLikelyModeOfTransmission",
+    "version" : "0.1.0",
+    "name" : "MostLikelyModeOfTransmission"
+  },
+  {
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/MyPatient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
+  },
+  {
+    "id" : "OccupationalExposureInHealthcareSettings",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/OccupationalExposureInHealthcareSettings",
+    "version" : "0.1.0",
+    "name" : "OccupationalExposureInHealthcareSettings"
+  },
+  {
+    "id" : "SexualActivity",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/SexualActivity",
+    "version" : "0.1.0",
+    "name" : "SexualActivity"
+  },
+  {
+    "id" : "SexualPartners",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/SexualPartners",
+    "version" : "0.1.0",
+    "name" : "SexualPartners"
+  },
+  {
+    "id" : "TravelHistory",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/TravelHistory",
+    "version" : "0.1.0",
+    "name" : "TravelHistory"
+  },
+  {
+    "id" : "gen---countries-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/gen---countries-vs",
+    "version" : "0.1.0",
+    "name" : "GENCountriesVS"
+  },
+  {
+    "id" : "mpox-cs-animal-status-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-animal-status-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSAnimalStatusVS"
+  },
+  {
+    "id" : "mpox-cs-case-classification-crf-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-case-classification-crf-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSCaseClassificationCRFVS"
+  },
+  {
+    "id" : "mpox-cs-clade-mpox-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-clade-mpox-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSCladeMpoxVS"
+  },
+  {
+    "id" : "mpox-cs-contact-frequency-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-contact-frequency-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSContactFrequencyVS"
+  },
+  {
+    "id" : "mpox-cs-current-status-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-current-status-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSCurrentStatusVS"
+  },
+  {
+    "id" : "mpox-cs-gender-sexual-partners-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-gender-sexual-partners-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSGenderSexualPartnersVS"
+  },
+  {
+    "id" : "mpox-cs-gender-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-gender-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSGenderVS"
+  },
+  {
+    "id" : "mpox-cs-hand-hygiene-ppe-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-hand-hygiene-ppe-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSHandHygienePPEVS"
+  },
+  {
+    "id" : "mpox-cs-hiv-status-assessment-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-hiv-status-assessment-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSHIVStatusAssessmentVS"
+  },
+  {
+    "id" : "mpox-cs-hiv-status-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-hiv-status-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSHIVStatusVS"
+  },
+  {
+    "id" : "mpox-cs-immunosuppressed-status-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-immunosuppressed-status-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSImmunosuppressedStatusVS"
+  },
+  {
+    "id" : "mpox-cs-likely-mode-of-transmission-mpox-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-likely-mode-of-transmission-mpox-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSLikelyModeOfTransmissionMpoxVS"
+  },
+  {
+    "id" : "mpox-cs-maximum-duration-encounters-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-maximum-duration-encounters-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSMaximumDurationEncountersVS"
+  },
+  {
+    "id" : "mpox-cs-outcome-disease-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-outcome-disease-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSOutcomeDiseaseVS"
+  },
+  {
+    "id" : "mpox-cs-place-animal-contact-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-place-animal-contact-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSPlaceAnimalContactVS"
+  },
+  {
+    "id" : "mpox-cs-ppe-used-during-exposure-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-ppe-used-during-exposure-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSPPEUsedDuringExposureVS"
+  },
+  {
+    "id" : "mpox-cs-pregnancy-status-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-pregnancy-status-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSPregnancyStatusVS"
+  },
+  {
+    "id" : "mpox-cs-protected-sex-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-protected-sex-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSProtectedSexVS"
+  },
+  {
+    "id" : "mpox-cs-relationship-case-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-relationship-case-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSRelationshipCaseVS"
+  },
+  {
+    "id" : "mpox-cs-result-sample-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-result-sample-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSResultSampleVS"
+  },
+  {
+    "id" : "mpox-cs-sex-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-sex-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSSexVS"
+  },
+  {
+    "id" : "mpox-cs-sexual-behavior-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-sexual-behavior-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSSexualBehaviorVS"
+  },
+  {
+    "id" : "mpox-cs-sexual-partner-last-3-months-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-sexual-partner-last-3-months-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSSexualPartnerLast3MonthsVS"
+  },
+  {
+    "id" : "mpox-cs-type-of-animal-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-type-of-animal-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSTypeOfAnimalVS"
+  },
+  {
+    "id" : "mpox-cs-type-of-contact-forward-tracing-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-type-of-contact-forward-tracing-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSTypeOfContactForwardTracingVS"
+  },
+  {
+    "id" : "mpox-cs-vaccination-current-event-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-vaccination-current-event-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSVaccinationCurrentEventVS"
+  },
+  {
+    "id" : "mpox-cs-vaccine-brand-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-vaccine-brand-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSVaccineBrandVS"
+  },
+  {
+    "id" : "mpox-cs-vaccine-doses-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-vaccine-doses-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSVaccineDosesVS"
+  },
+  {
+    "id" : "mpox-cs-viral-load-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-viral-load-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSViralLoadVS"
+  },
+  {
+    "id" : "mpox-cs-yes-no-unknown-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs",
+    "version" : "0.1.0",
+    "name" : "MPOXCSYesNoUnknownVS"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mpox-cs-immunosuppressed-status-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mpox-cs-immunosuppressed-status-vs</b></p><a name=\"mpox-cs-immunosuppressed-status-vs\"> </a><a name=\"hcmpox-cs-immunosuppressed-status-vs\"> </a><a name=\"mpox-cs-immunosuppressed-status-vs-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-mpox-cs-immunosuppressed-status-cs.html\"><code>http://example.org/CodeSystem/mpox-cs-immunosuppressed-status-cs</code></a></li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/mpox-cs-immunosuppressed-status-vs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSImmunosuppressedStatusVS",
+  "title" : "MPOX CS: Immunosuppressed status value set",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org/CodeSystem/mpox-cs-immunosuppressed-status-cs"
+    }]
+  }
+}

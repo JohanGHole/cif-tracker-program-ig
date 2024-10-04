@@ -1,0 +1,36 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-hand-hygiene-ppe-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-hand-hygiene-ppe-cs</b></p><a name=\"mpox-cs-hand-hygiene-ppe-cs\"> </a><a name=\"hcmpox-cs-hand-hygiene-ppe-cs\"> </a><a name=\"mpox-cs-hand-hygiene-ppe-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-hand-hygiene-ppe-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">YES<a name=\"mpox-cs-hand-hygiene-ppe-cs-YES\"> </a></td><td>Yes</td></tr><tr><td style=\"white-space:nowrap\">NO<a name=\"mpox-cs-hand-hygiene-ppe-cs-NO\"> </a></td><td>No</td></tr><tr><td style=\"white-space:nowrap\">DO_NOT_RECALL<a name=\"mpox-cs-hand-hygiene-ppe-cs-DO_NOT_RECALL\"> </a></td><td>Do not recall</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-hand-hygiene-ppe-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSHandHygienePPECS",
+  "title" : "MPOX CS: Hand hygiene PPE",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "YES",
+    "display" : "Yes"
+  },
+  {
+    "code" : "NO",
+    "display" : "No"
+  },
+  {
+    "code" : "DO_NOT_RECALL",
+    "display" : "Do not recall"
+  }]
+}

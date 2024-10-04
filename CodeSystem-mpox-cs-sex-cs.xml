@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-sex-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-sex-cs</b></p><a name="mpox-cs-sex-cs"> </a><a name="hcmpox-cs-sex-cs"> </a><a name="mpox-cs-sex-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-sex-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">FEMALE<a name="mpox-cs-sex-cs-FEMALE"> </a></td><td>Female</td></tr><tr><td style="white-space:nowrap">MALE<a name="mpox-cs-sex-cs-MALE"> </a></td><td>Male</td></tr><tr><td style="white-space:nowrap">OTHER<a name="mpox-cs-sex-cs-OTHER"> </a></td><td>Other</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-sex-cs-UNKNOWN"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-sex-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSSexCS"/>
+  <title value="MPOX CS: Sex"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="FEMALE"/>
+    <display value="Female"/>
+  </concept>
+  <concept>
+    <code value="MALE"/>
+    <display value="Male"/>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

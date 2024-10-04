@@ -1,0 +1,40 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-case-classification-crf-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-case-classification-crf-cs</b></p><a name=\"mpox-cs-case-classification-crf-cs\"> </a><a name=\"hcmpox-cs-case-classification-crf-cs\"> </a><a name=\"mpox-cs-case-classification-crf-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-case-classification-crf-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CONFIRMED<a name=\"mpox-cs-case-classification-crf-cs-CONFIRMED\"> </a></td><td>Confirmed</td></tr><tr><td style=\"white-space:nowrap\">PROBABLE<a name=\"mpox-cs-case-classification-crf-cs-PROBABLE\"> </a></td><td>Probable</td></tr><tr><td style=\"white-space:nowrap\">SUSPECTED<a name=\"mpox-cs-case-classification-crf-cs-SUSPECTED\"> </a></td><td>Suspected</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-case-classification-crf-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-case-classification-crf-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSCaseClassificationCRFCS",
+  "title" : "MPOX CS: Case classification (CRF)",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "CONFIRMED",
+    "display" : "Confirmed"
+  },
+  {
+    "code" : "PROBABLE",
+    "display" : "Probable"
+  },
+  {
+    "code" : "SUSPECTED",
+    "display" : "Suspected"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-viral-load-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-viral-load-cs</b></p><a name="mpox-cs-viral-load-cs"> </a><a name="hcmpox-cs-viral-load-cs"> </a><a name="mpox-cs-viral-load-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-viral-load-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">UNDETECTABLE<a name="mpox-cs-viral-load-cs-UNDETECTABLE"> </a></td><td>Undetectable</td></tr><tr><td style="white-space:nowrap">DETECTABLE<a name="mpox-cs-viral-load-cs-DETECTABLE"> </a></td><td>Detectable</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-viral-load-cs-UNKNOWN"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-viral-load-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSViralLoadCS"/>
+  <title value="MPOX CS: Viral load"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="UNDETECTABLE"/>
+    <display value="Undetectable"/>
+  </concept>
+  <concept>
+    <code value="DETECTABLE"/>
+    <display value="Detectable"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

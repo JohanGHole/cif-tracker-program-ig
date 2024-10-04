@@ -1,0 +1,36 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-contact-frequency-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-contact-frequency-cs</b></p><a name=\"mpox-cs-contact-frequency-cs\"> </a><a name=\"hcmpox-cs-contact-frequency-cs\"> </a><a name=\"mpox-cs-contact-frequency-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-contact-frequency-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ONCE<a name=\"mpox-cs-contact-frequency-cs-ONCE\"> </a></td><td>Once</td></tr><tr><td style=\"white-space:nowrap\">MULTIPLE_TIMES<a name=\"mpox-cs-contact-frequency-cs-MULTIPLE_TIMES\"> </a></td><td>Multiple times</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-contact-frequency-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-contact-frequency-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSContactFrequencyCS",
+  "title" : "MPOX CS: Contact frequency",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "ONCE",
+    "display" : "Once"
+  },
+  {
+    "code" : "MULTIPLE_TIMES",
+    "display" : "Multiple times"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

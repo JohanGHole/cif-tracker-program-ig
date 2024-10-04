@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-place-animal-contact-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-place-animal-contact-cs</b></p><a name="mpox-cs-place-animal-contact-cs"> </a><a name="hcmpox-cs-place-animal-contact-cs"> </a><a name="mpox-cs-place-animal-contact-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">HOME<a name="mpox-cs-place-animal-contact-cs-HOME"> </a></td><td>Home</td></tr><tr><td style="white-space:nowrap">MARKET<a name="mpox-cs-place-animal-contact-cs-MARKET"> </a></td><td>Market</td></tr><tr><td style="white-space:nowrap">FARM<a name="mpox-cs-place-animal-contact-cs-FARM"> </a></td><td>Farm</td></tr><tr><td style="white-space:nowrap">WORKPLACE<a name="mpox-cs-place-animal-contact-cs-WORKPLACE"> </a></td><td>Workplace</td></tr><tr><td style="white-space:nowrap">OUTDOOR_URBAN<a name="mpox-cs-place-animal-contact-cs-OUTDOOR_URBAN"> </a></td><td>Outdoor - urban</td></tr><tr><td style="white-space:nowrap">OUTDOOR_RURAL<a name="mpox-cs-place-animal-contact-cs-OUTDOOR_RURAL"> </a></td><td>Outdoor - rural</td></tr><tr><td style="white-space:nowrap">OTHER<a name="mpox-cs-place-animal-contact-cs-OTHER"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSPlaceAnimalContactCS"/>
+  <title value="MPOX CS: Place animal contact"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="HOME"/>
+    <display value="Home"/>
+  </concept>
+  <concept>
+    <code value="MARKET"/>
+    <display value="Market"/>
+  </concept>
+  <concept>
+    <code value="FARM"/>
+    <display value="Farm"/>
+  </concept>
+  <concept>
+    <code value="WORKPLACE"/>
+    <display value="Workplace"/>
+  </concept>
+  <concept>
+    <code value="OUTDOOR_URBAN"/>
+    <display value="Outdoor - urban"/>
+  </concept>
+  <concept>
+    <code value="OUTDOOR_RURAL"/>
+    <display value="Outdoor - rural"/>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

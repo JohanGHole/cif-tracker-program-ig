@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-place-animal-contact-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-place-animal-contact-cs</b></p><a name=\"mpox-cs-place-animal-contact-cs\"> </a><a name=\"hcmpox-cs-place-animal-contact-cs\"> </a><a name=\"mpox-cs-place-animal-contact-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HOME<a name=\"mpox-cs-place-animal-contact-cs-HOME\"> </a></td><td>Home</td></tr><tr><td style=\"white-space:nowrap\">MARKET<a name=\"mpox-cs-place-animal-contact-cs-MARKET\"> </a></td><td>Market</td></tr><tr><td style=\"white-space:nowrap\">FARM<a name=\"mpox-cs-place-animal-contact-cs-FARM\"> </a></td><td>Farm</td></tr><tr><td style=\"white-space:nowrap\">WORKPLACE<a name=\"mpox-cs-place-animal-contact-cs-WORKPLACE\"> </a></td><td>Workplace</td></tr><tr><td style=\"white-space:nowrap\">OUTDOOR_URBAN<a name=\"mpox-cs-place-animal-contact-cs-OUTDOOR_URBAN\"> </a></td><td>Outdoor - urban</td></tr><tr><td style=\"white-space:nowrap\">OUTDOOR_RURAL<a name=\"mpox-cs-place-animal-contact-cs-OUTDOOR_RURAL\"> </a></td><td>Outdoor - rural</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-place-animal-contact-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSPlaceAnimalContactCS",
+  "title" : "MPOX CS: Place animal contact",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "HOME",
+    "display" : "Home"
+  },
+  {
+    "code" : "MARKET",
+    "display" : "Market"
+  },
+  {
+    "code" : "FARM",
+    "display" : "Farm"
+  },
+  {
+    "code" : "WORKPLACE",
+    "display" : "Workplace"
+  },
+  {
+    "code" : "OUTDOOR_URBAN",
+    "display" : "Outdoor - urban"
+  },
+  {
+    "code" : "OUTDOOR_RURAL",
+    "display" : "Outdoor - rural"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  }]
+}

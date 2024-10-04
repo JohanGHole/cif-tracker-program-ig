@@ -1,0 +1,1897 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "CaseSurveillanceMpoxCIF",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition CaseSurveillanceMpoxCIF</b></p><a name=\"CaseSurveillanceMpoxCIF\"> </a><a name=\"hcCaseSurveillanceMpoxCIF\"> </a><a name=\"CaseSurveillanceMpoxCIF-en-US\"> </a><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF\" title=\"Case surveillance: Mpox (CIF)\">CaseSurveillanceMpoxCIF</a><a name=\"CaseSurveillanceMpoxCIF\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><br/>Elements defined in Ancestors:<a href=\"http://hl7.org/fhir/R4/datatypes.html#Element\" title=\"Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.\">@id</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#Element\" title=\"May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.\">extension</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\" title=\"May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).\">modifierExtension</a><br/>Case surveillance: Mpox (CIF)<br/><span style=\"font-weight:bold\">Instances of this logical model are not marked to be the target of a Reference</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.enrollmentDate\" title=\"Date of notification.\">enrollmentDate</a><a name=\"CaseSurveillanceMpoxCIF.enrollmentDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date of notification.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.incidentDate\" title=\".\">incidentDate</a><a name=\"CaseSurveillanceMpoxCIF.incidentDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.uniqueCaseId\" title=\"Two letter country code, case number (e.g., AB001, AB002) or national case ID if already assigned.\">uniqueCaseId</a><a name=\"CaseSurveillanceMpoxCIF.uniqueCaseId\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Two letter country code, case number (e.g., AB001, AB002) or national case ID if already assigned.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable\" title=\"Two letter country code, cluster number, case number, (e.g., AB.01.001, AB.02.001) or national cluster number/ID if already assigned\">clusterNumberIdIfApplicable</a><a name=\"CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Two letter country code, cluster number, case number, (e.g., AB.01.001, AB.02.001) or national cluster number/ID if already assigned</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.nameOfDataCollector\" title=\"MPOX CS: Name of data collector\">nameOfDataCollector</a><a name=\"CaseSurveillanceMpoxCIF.nameOfDataCollector\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Name of data collector</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.dataCollectorRole\" title=\"MPOX CS: Data collector role\">dataCollectorRole</a><a name=\"CaseSurveillanceMpoxCIF.dataCollectorRole\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Data collector role</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.dataCollectorInstitution\" title=\"MPOX CS: Data collector institution\">dataCollectorInstitution</a><a name=\"CaseSurveillanceMpoxCIF.dataCollectorInstitution\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Data collector institution</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber\" title=\"MPOX CS: Data collector telephone number\">dataCollectorTelephoneNumber</a><a name=\"CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Data collector telephone number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.dataCollectorEmail\" title=\"MPOX CS: Data collector email\">dataCollectorEmail</a><a name=\"CaseSurveillanceMpoxCIF.dataCollectorEmail\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Data collector email</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.formCompletionDate\" title=\"MPOX CS: Form completion date\">formCompletionDate</a><a name=\"CaseSurveillanceMpoxCIF.formCompletionDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Form completion date</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.caseClassification\" title=\"Classification of the case\">caseClassification</a><a name=\"CaseSurveillanceMpoxCIF.caseClassification\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Classification of the case<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-case-classification-crf-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-case-classification-crf-vs\">MPOX CS: Case classification (CRF) value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.dateOfDiagnosis\" title=\"First date of clinical or lab diagnosis\">dateOfDiagnosis</a><a name=\"CaseSurveillanceMpoxCIF.dateOfDiagnosis\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">First date of clinical or lab diagnosis</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.currentStatus\" title=\"MPOX CS: Current Status\">currentStatus</a><a name=\"CaseSurveillanceMpoxCIF.currentStatus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Current Status<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-current-status-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-current-status-vs\">MPOX CS: Current status value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.firstName\" title=\"First name\">firstName</a><a name=\"CaseSurveillanceMpoxCIF.firstName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">First name</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.lastName\" title=\"Family name or last name of the patient of case.\">lastName</a><a name=\"CaseSurveillanceMpoxCIF.lastName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Family name or last name of the patient of case.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.dateOfBirth\" title=\"Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.\">dateOfBirth</a><a name=\"CaseSurveillanceMpoxCIF.dateOfBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.dateOfBirthUnknown\" title=\"MPOX CS: Date of birth - Unknown\">dateOfBirthUnknown</a><a name=\"CaseSurveillanceMpoxCIF.dateOfBirthUnknown\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Date of birth - Unknown</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.ageYears\" title=\"Age of case in years (report 0 if &amp;lt; 1 year)\">ageYears</a><a name=\"CaseSurveillanceMpoxCIF.ageYears\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#unsignedInt\">unsignedInt</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Age of case in years (report 0 if &amp;lt; 1 year)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.ageMonths\" title=\"MPOX CS: Age (months)\">ageMonths</a><a name=\"CaseSurveillanceMpoxCIF.ageMonths\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#positiveInt\">positiveInt</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Age (months)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.ageDays\" title=\"MPOX CS: Age (days)\">ageDays</a><a name=\"CaseSurveillanceMpoxCIF.ageDays\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#positiveInt\">positiveInt</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Age (days)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.weightInGrams\" title=\"MPOX CS: Weight in grams\">weightInGrams</a><a name=\"CaseSurveillanceMpoxCIF.weightInGrams\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#positiveInt\">positiveInt</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Weight in grams</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.heightInCm\" title=\"MPOX CS: Height in cm\">heightInCm</a><a name=\"CaseSurveillanceMpoxCIF.heightInCm\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#positiveInt\">positiveInt</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Height in cm</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac\" title=\"MPOX CS: Mid-upper circumference (MUAC)\">midUpperCircumferenceMuac</a><a name=\"CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#positiveInt\">positiveInt</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Mid-upper circumference (MUAC)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.isTheChildMalnourished\" title=\"If age &amp;lt;5 years, is the child malnourished? \">isTheChildMalnourished</a><a name=\"CaseSurveillanceMpoxCIF.isTheChildMalnourished\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">If age &amp;lt;5 years, is the child malnourished? <br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-yes-no-unknown-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs\">MPOX CS: Yes/No/Unknown value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.sex\" title=\"Sex at birth\">sex</a><a name=\"CaseSurveillanceMpoxCIF.sex\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Sex at birth<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-sex-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-sex-vs\">MPOX CS: Sex value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth\" title=\"MPOX CS: Specify other sex at birth\">specifyOtherSexAtBirth</a><a name=\"CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Specify other sex at birth</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.gender\" title=\"MPOX CS: Gender\">gender</a><a name=\"CaseSurveillanceMpoxCIF.gender\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Gender<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-gender-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-gender-vs\">MPOX CS: Gender value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.specifyOtherGender\" title=\"MPOX CS: Specify other gender\">specifyOtherGender</a><a name=\"CaseSurveillanceMpoxCIF.specifyOtherGender\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Specify other gender</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.sexualBehavior\" title=\"Sexual behavior of the case\">sexualBehavior</a><a name=\"CaseSurveillanceMpoxCIF.sexualBehavior\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Sexual behavior of the case<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-sexual-behavior-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-sexual-behavior-vs\">MPOX CS: Sexual behavior value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation\" title=\"MPOX CS: Specify other sexual orientation\">specifyOtherSexualOrientation</a><a name=\"CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Specify other sexual orientation</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable\" title=\"MPOX CS: Individual’s national identification number (if applicable):\">individualSNationalIdentificationNumberIfApplicable</a><a name=\"CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Individual’s national identification number (if applicable):</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.countryOfResidence\" title=\"Person&amp;#x27;s country of residence.\">countryOfResidence</a><a name=\"CaseSurveillanceMpoxCIF.countryOfResidence\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Person&amp;#x27;s country of residence.<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-gen---countries-vs.html\" title=\"http://example.org/ValueSet/gen---countries-vs\">GEN - Countries value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.telephoneNumber\" title=\"MPOX CS: Telephone number\">telephoneNumber</a><a name=\"CaseSurveillanceMpoxCIF.telephoneNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Telephone number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.email\" title=\"E-mail address for the patient or case.\">email</a><a name=\"CaseSurveillanceMpoxCIF.email\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">E-mail address for the patient or case.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.address\" title=\"MPOX CS: Address\">address</a><a name=\"CaseSurveillanceMpoxCIF.address\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Address</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase\" title=\"MPOX CS: Occupation of the case\">whatIsTheOccupationOfTheCase</a><a name=\"CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Occupation of the case</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker\" title=\"Is the case a healthcare worker?\">isThisCaseAHealthcareWorker</a><a name=\"CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Is the case a healthcare worker?<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-yes-no-unknown-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs\">MPOX CS: Yes/No/Unknown value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.isTheCaseASexWorker\" title=\"MPOX CS: Sex worker\">isTheCaseASexWorker</a><a name=\"CaseSurveillanceMpoxCIF.isTheCaseASexWorker\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Sex worker<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-yes-no-unknown-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs\">MPOX CS: Yes/No/Unknown value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee\" title=\"MPOX CS: IDP or refugee\">isTheCaseAnInternallyDisplacedPersonOrARefugee</a><a name=\"CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: IDP or refugee<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-yes-no-unknown-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs\">MPOX CS: Yes/No/Unknown value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp\" title=\"MPOX CS: Living in IDP or refugee camp?\">livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp</a><a name=\"CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Living in IDP or refugee camp?<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-mpox-cs-yes-no-unknown-vs.html\" title=\"http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs\">MPOX CS: Yes/No/Unknown value set</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.nameOfTheCamp\" title=\"MPOX CS: Name of the camp\">nameOfTheCamp</a><a name=\"CaseSurveillanceMpoxCIF.nameOfTheCamp\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Name of the camp</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.nameOfHealthCareCentre\" title=\"MPOX CS: Name of health-care centre\">nameOfHealthCareCentre</a><a name=\"CaseSurveillanceMpoxCIF.nameOfHealthCareCentre\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Name of health-care centre</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.typeOfHealthcareCentre\" title=\"MPOX CS: Type of healthcare centre\">typeOfHealthcareCentre</a><a name=\"CaseSurveillanceMpoxCIF.typeOfHealthcareCentre\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Type of healthcare centre</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.nameOfTreatingPhysician\" title=\"MPOX CS: Name of treating physician\">nameOfTreatingPhysician</a><a name=\"CaseSurveillanceMpoxCIF.nameOfTreatingPhysician\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Name of treating physician</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.telephone\" title=\"MPOX CS: Telephone of treating physician\">telephone</a><a name=\"CaseSurveillanceMpoxCIF.telephone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Telephone of treating physician</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.adress\" title=\"MPOX CS: Adress of treating physician\">adress</a><a name=\"CaseSurveillanceMpoxCIF.adress\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MPOX CS: Adress of treating physician</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation\" title=\"Clinical and vaccination information\">clinicalAndVaccinationInformation</a><a name=\"CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ClinicalAndVaccinationInformation.html\">ClinicalAndVaccinationInformation</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Clinical and vaccination information</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase\" title=\"Exposure to probable or confirmed case\">exposureToProbableOrConfirmedCase</a><a name=\"CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ExposureToProbableOrConfirmedCase.html\">ExposureToProbableOrConfirmedCase</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Exposure to probable or confirmed case</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.exposureEvents\" title=\"Exposure events\">exposureEvents</a><a name=\"CaseSurveillanceMpoxCIF.exposureEvents\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ExposureEvents.html\">ExposureEvents</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Exposure events<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.exposureInHouseholdSetting\" title=\"Exposure in household setting\">exposureInHouseholdSetting</a><a name=\"CaseSurveillanceMpoxCIF.exposureInHouseholdSetting\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ExposureInHouseholdSetting.html\">ExposureInHouseholdSetting</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Exposure in household setting</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings\" title=\"Occupational exposure in healthcare settings\">occupationalExposureInHealthcareSettings</a><a name=\"CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-OccupationalExposureInHealthcareSettings.html\">OccupationalExposureInHealthcareSettings</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Occupational exposure in healthcare settings</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.sexualActivity\" title=\"Sexual activity\">sexualActivity</a><a name=\"CaseSurveillanceMpoxCIF.sexualActivity\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-SexualActivity.html\">SexualActivity</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Sexual activity</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.sexualPartners\" title=\"Sexual partners\">sexualPartners</a><a name=\"CaseSurveillanceMpoxCIF.sexualPartners\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-SexualPartners.html\">SexualPartners</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Sexual partners<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.travelHistory\" title=\"Travel history\">travelHistory</a><a name=\"CaseSurveillanceMpoxCIF.travelHistory\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-TravelHistory.html\">TravelHistory</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Travel history<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.animalExposure\" title=\"Animal exposure\">animalExposure</a><a name=\"CaseSurveillanceMpoxCIF.animalExposure\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-AnimalExposure.html\">AnimalExposure</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Animal exposure<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission\" title=\"Most likely mode of transmission\">mostLikelyModeOfTransmission</a><a name=\"CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-MostLikelyModeOfTransmission.html\">MostLikelyModeOfTransmission</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Most likely mode of transmission</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome\" title=\"Disease severity and outcome\">diseaseSeverityAndOutcome</a><a name=\"CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-DiseaseSeverityAndOutcome.html\">DiseaseSeverityAndOutcome</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Disease severity and outcome</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.diagnosticPathogenTesting\" title=\"Diagnostic/Pathogen testing\">diagnosticPathogenTesting</a><a name=\"CaseSurveillanceMpoxCIF.diagnosticPathogenTesting\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-DiagnosticPathogenTesting.html\">DiagnosticPathogenTesting</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Diagnostic/Pathogen testing<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.forwardTracing\" title=\"Forward tracing\">forwardTracing</a><a name=\"CaseSurveillanceMpoxCIF.forwardTracing\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ForwardTracing.html\">ForwardTracing</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Forward tracing</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#CaseSurveillanceMpoxCIF.contactDetails\" title=\"Contact details\">contactDetails</a><a name=\"CaseSurveillanceMpoxCIF.contactDetails\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ContactDetails.html\">ContactDetails</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Contact details<br/></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url" : "http://example.org/StructureDefinition/CaseSurveillanceMpoxCIF",
+  "version" : "0.1.0",
+  "name" : "CaseSurveillanceMpoxCIF",
+  "title" : "Case surveillance: Mpox (CIF)",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "http://example.org/StructureDefinition/CaseSurveillanceMpoxCIF",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/BackboneElement",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "element" : [{
+      "id" : "CaseSurveillanceMpoxCIF",
+      "path" : "CaseSurveillanceMpoxCIF",
+      "short" : "Case surveillance: Mpox (CIF)",
+      "definition" : "Case surveillance: Mpox (CIF)",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BackboneElement",
+        "min" : 0,
+        "max" : "*"
+      },
+      "condition" : ["ele-1"],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.id",
+      "path" : "CaseSurveillanceMpoxCIF.id",
+      "representation" : ["xmlAttr"],
+      "short" : "Unique id for inter-element referencing",
+      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Element.id",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
+          "valueUrl" : "string"
+        }],
+        "code" : "http://hl7.org/fhirpath/System.String"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.extension",
+      "path" : "CaseSurveillanceMpoxCIF.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "description" : "Extensions are always sliced by (at least) url",
+        "rules" : "open"
+      },
+      "short" : "Additional content defined by implementations",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "alias" : ["extensions",
+      "user content"],
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Element.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.modifierExtension",
+      "path" : "CaseSurveillanceMpoxCIF.modifierExtension",
+      "short" : "Extensions that cannot be ignored even if unrecognized",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "requirements" : "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+      "alias" : ["extensions",
+      "user content",
+      "modifiers"],
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BackboneElement.modifierExtension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "isModifier" : true,
+      "isModifierReason" : "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them",
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "N/A"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.enrollmentDate",
+      "path" : "CaseSurveillanceMpoxCIF.enrollmentDate",
+      "short" : "Date of notification.",
+      "definition" : "Date of notification.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.enrollmentDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.incidentDate",
+      "path" : "CaseSurveillanceMpoxCIF.incidentDate",
+      "short" : ".",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.incidentDate",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.uniqueCaseId",
+      "path" : "CaseSurveillanceMpoxCIF.uniqueCaseId",
+      "short" : "Two letter country code, case number (e.g., AB001, AB002) or national case ID if already assigned.",
+      "definition" : "Two letter country code, case number (e.g., AB001, AB002) or national case ID if already assigned.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.uniqueCaseId",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable",
+      "path" : "CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable",
+      "short" : "Two letter country code, cluster number, case number, (e.g., AB.01.001, AB.02.001) or national cluster number/ID if already assigned",
+      "definition" : "Two letter country code, cluster number, case number, (e.g., AB.01.001, AB.02.001) or national cluster number/ID if already assigned",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.nameOfDataCollector",
+      "path" : "CaseSurveillanceMpoxCIF.nameOfDataCollector",
+      "short" : "MPOX CS: Name of data collector",
+      "definition" : "MPOX CS: Name of data collector",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.nameOfDataCollector",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dataCollectorRole",
+      "path" : "CaseSurveillanceMpoxCIF.dataCollectorRole",
+      "short" : "MPOX CS: Data collector role",
+      "definition" : "MPOX CS: Data collector role",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.dataCollectorRole",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dataCollectorInstitution",
+      "path" : "CaseSurveillanceMpoxCIF.dataCollectorInstitution",
+      "short" : "MPOX CS: Data collector institution",
+      "definition" : "MPOX CS: Data collector institution",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.dataCollectorInstitution",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber",
+      "path" : "CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber",
+      "short" : "MPOX CS: Data collector telephone number",
+      "definition" : "MPOX CS: Data collector telephone number",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dataCollectorEmail",
+      "path" : "CaseSurveillanceMpoxCIF.dataCollectorEmail",
+      "short" : "MPOX CS: Data collector email",
+      "definition" : "MPOX CS: Data collector email",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.dataCollectorEmail",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.formCompletionDate",
+      "path" : "CaseSurveillanceMpoxCIF.formCompletionDate",
+      "short" : "MPOX CS: Form completion date",
+      "definition" : "MPOX CS: Form completion date",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.formCompletionDate",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.caseClassification",
+      "path" : "CaseSurveillanceMpoxCIF.caseClassification",
+      "short" : "Classification of the case",
+      "definition" : "Classification of the case",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.caseClassification",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-case-classification-crf-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dateOfDiagnosis",
+      "path" : "CaseSurveillanceMpoxCIF.dateOfDiagnosis",
+      "short" : "First date of clinical or lab diagnosis",
+      "definition" : "First date of clinical or lab diagnosis",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.dateOfDiagnosis",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.currentStatus",
+      "path" : "CaseSurveillanceMpoxCIF.currentStatus",
+      "short" : "MPOX CS: Current Status",
+      "definition" : "MPOX CS: Current Status",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.currentStatus",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-current-status-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.firstName",
+      "path" : "CaseSurveillanceMpoxCIF.firstName",
+      "short" : "First name",
+      "definition" : "First name",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.firstName",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.lastName",
+      "path" : "CaseSurveillanceMpoxCIF.lastName",
+      "short" : "Family name or last name of the patient of case.",
+      "definition" : "Family name or last name of the patient of case.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.lastName",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dateOfBirth",
+      "path" : "CaseSurveillanceMpoxCIF.dateOfBirth",
+      "short" : "Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.",
+      "definition" : "Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.dateOfBirth",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dateOfBirthUnknown",
+      "path" : "CaseSurveillanceMpoxCIF.dateOfBirthUnknown",
+      "short" : "MPOX CS: Date of birth - Unknown",
+      "definition" : "MPOX CS: Date of birth - Unknown",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.dateOfBirthUnknown",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.ageYears",
+      "path" : "CaseSurveillanceMpoxCIF.ageYears",
+      "short" : "Age of case in years (report 0 if &lt; 1 year)",
+      "definition" : "Age of case in years (report 0 if &lt; 1 year)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.ageYears",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "unsignedInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.ageMonths",
+      "path" : "CaseSurveillanceMpoxCIF.ageMonths",
+      "short" : "MPOX CS: Age (months)",
+      "definition" : "MPOX CS: Age (months)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.ageMonths",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.ageDays",
+      "path" : "CaseSurveillanceMpoxCIF.ageDays",
+      "short" : "MPOX CS: Age (days)",
+      "definition" : "MPOX CS: Age (days)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.ageDays",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.weightInGrams",
+      "path" : "CaseSurveillanceMpoxCIF.weightInGrams",
+      "short" : "MPOX CS: Weight in grams",
+      "definition" : "MPOX CS: Weight in grams",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.weightInGrams",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.heightInCm",
+      "path" : "CaseSurveillanceMpoxCIF.heightInCm",
+      "short" : "MPOX CS: Height in cm",
+      "definition" : "MPOX CS: Height in cm",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.heightInCm",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac",
+      "path" : "CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac",
+      "short" : "MPOX CS: Mid-upper circumference (MUAC)",
+      "definition" : "MPOX CS: Mid-upper circumference (MUAC)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.isTheChildMalnourished",
+      "path" : "CaseSurveillanceMpoxCIF.isTheChildMalnourished",
+      "short" : "If age &lt;5 years, is the child malnourished? ",
+      "definition" : "If age &lt;5 years, is the child malnourished?",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.isTheChildMalnourished",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.sex",
+      "path" : "CaseSurveillanceMpoxCIF.sex",
+      "short" : "Sex at birth",
+      "definition" : "Sex at birth",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.sex",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-sex-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth",
+      "path" : "CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth",
+      "short" : "MPOX CS: Specify other sex at birth",
+      "definition" : "MPOX CS: Specify other sex at birth",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.gender",
+      "path" : "CaseSurveillanceMpoxCIF.gender",
+      "short" : "MPOX CS: Gender",
+      "definition" : "MPOX CS: Gender",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.gender",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-gender-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.specifyOtherGender",
+      "path" : "CaseSurveillanceMpoxCIF.specifyOtherGender",
+      "short" : "MPOX CS: Specify other gender",
+      "definition" : "MPOX CS: Specify other gender",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.specifyOtherGender",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.sexualBehavior",
+      "path" : "CaseSurveillanceMpoxCIF.sexualBehavior",
+      "short" : "Sexual behavior of the case",
+      "definition" : "Sexual behavior of the case",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.sexualBehavior",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-sexual-behavior-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation",
+      "path" : "CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation",
+      "short" : "MPOX CS: Specify other sexual orientation",
+      "definition" : "MPOX CS: Specify other sexual orientation",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable",
+      "path" : "CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable",
+      "short" : "MPOX CS: Individual’s national identification number (if applicable):",
+      "definition" : "MPOX CS: Individual’s national identification number (if applicable):",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.countryOfResidence",
+      "path" : "CaseSurveillanceMpoxCIF.countryOfResidence",
+      "short" : "Person&#x27;s country of residence.",
+      "definition" : "Person&#x27;s country of residence.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.countryOfResidence",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/gen---countries-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.telephoneNumber",
+      "path" : "CaseSurveillanceMpoxCIF.telephoneNumber",
+      "short" : "MPOX CS: Telephone number",
+      "definition" : "MPOX CS: Telephone number",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.telephoneNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.email",
+      "path" : "CaseSurveillanceMpoxCIF.email",
+      "short" : "E-mail address for the patient or case.",
+      "definition" : "E-mail address for the patient or case.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.email",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.address",
+      "path" : "CaseSurveillanceMpoxCIF.address",
+      "short" : "MPOX CS: Address",
+      "definition" : "MPOX CS: Address",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.address",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase",
+      "path" : "CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase",
+      "short" : "MPOX CS: Occupation of the case",
+      "definition" : "MPOX CS: Occupation of the case",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker",
+      "path" : "CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker",
+      "short" : "Is the case a healthcare worker?",
+      "definition" : "Is the case a healthcare worker?",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.isTheCaseASexWorker",
+      "path" : "CaseSurveillanceMpoxCIF.isTheCaseASexWorker",
+      "short" : "MPOX CS: Sex worker",
+      "definition" : "MPOX CS: Sex worker",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.isTheCaseASexWorker",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee",
+      "path" : "CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee",
+      "short" : "MPOX CS: IDP or refugee",
+      "definition" : "MPOX CS: IDP or refugee",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp",
+      "path" : "CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp",
+      "short" : "MPOX CS: Living in IDP or refugee camp?",
+      "definition" : "MPOX CS: Living in IDP or refugee camp?",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.nameOfTheCamp",
+      "path" : "CaseSurveillanceMpoxCIF.nameOfTheCamp",
+      "short" : "MPOX CS: Name of the camp",
+      "definition" : "MPOX CS: Name of the camp",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.nameOfTheCamp",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.nameOfHealthCareCentre",
+      "path" : "CaseSurveillanceMpoxCIF.nameOfHealthCareCentre",
+      "short" : "MPOX CS: Name of health-care centre",
+      "definition" : "MPOX CS: Name of health-care centre",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.nameOfHealthCareCentre",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.typeOfHealthcareCentre",
+      "path" : "CaseSurveillanceMpoxCIF.typeOfHealthcareCentre",
+      "short" : "MPOX CS: Type of healthcare centre",
+      "definition" : "MPOX CS: Type of healthcare centre",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.typeOfHealthcareCentre",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.nameOfTreatingPhysician",
+      "path" : "CaseSurveillanceMpoxCIF.nameOfTreatingPhysician",
+      "short" : "MPOX CS: Name of treating physician",
+      "definition" : "MPOX CS: Name of treating physician",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.nameOfTreatingPhysician",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.telephone",
+      "path" : "CaseSurveillanceMpoxCIF.telephone",
+      "short" : "MPOX CS: Telephone of treating physician",
+      "definition" : "MPOX CS: Telephone of treating physician",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.telephone",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.adress",
+      "path" : "CaseSurveillanceMpoxCIF.adress",
+      "short" : "MPOX CS: Adress of treating physician",
+      "definition" : "MPOX CS: Adress of treating physician",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.adress",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation",
+      "path" : "CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation",
+      "short" : "Clinical and vaccination information",
+      "definition" : "Clinical and vaccination information",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ClinicalAndVaccinationInformation"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase",
+      "path" : "CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase",
+      "short" : "Exposure to probable or confirmed case",
+      "definition" : "Exposure to probable or confirmed case",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ExposureToProbableOrConfirmedCase"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.exposureEvents",
+      "path" : "CaseSurveillanceMpoxCIF.exposureEvents",
+      "short" : "Exposure events",
+      "definition" : "Exposure events",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.exposureEvents",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ExposureEvents"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.exposureInHouseholdSetting",
+      "path" : "CaseSurveillanceMpoxCIF.exposureInHouseholdSetting",
+      "short" : "Exposure in household setting",
+      "definition" : "Exposure in household setting",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.exposureInHouseholdSetting",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ExposureInHouseholdSetting"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings",
+      "path" : "CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings",
+      "short" : "Occupational exposure in healthcare settings",
+      "definition" : "Occupational exposure in healthcare settings",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/OccupationalExposureInHealthcareSettings"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.sexualActivity",
+      "path" : "CaseSurveillanceMpoxCIF.sexualActivity",
+      "short" : "Sexual activity",
+      "definition" : "Sexual activity",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.sexualActivity",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/SexualActivity"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.sexualPartners",
+      "path" : "CaseSurveillanceMpoxCIF.sexualPartners",
+      "short" : "Sexual partners",
+      "definition" : "Sexual partners",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.sexualPartners",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/SexualPartners"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.travelHistory",
+      "path" : "CaseSurveillanceMpoxCIF.travelHistory",
+      "short" : "Travel history",
+      "definition" : "Travel history",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.travelHistory",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/TravelHistory"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.animalExposure",
+      "path" : "CaseSurveillanceMpoxCIF.animalExposure",
+      "short" : "Animal exposure",
+      "definition" : "Animal exposure",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.animalExposure",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/AnimalExposure"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission",
+      "path" : "CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission",
+      "short" : "Most likely mode of transmission",
+      "definition" : "Most likely mode of transmission",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/MostLikelyModeOfTransmission"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome",
+      "path" : "CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome",
+      "short" : "Disease severity and outcome",
+      "definition" : "Disease severity and outcome",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/DiseaseSeverityAndOutcome"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.diagnosticPathogenTesting",
+      "path" : "CaseSurveillanceMpoxCIF.diagnosticPathogenTesting",
+      "short" : "Diagnostic/Pathogen testing",
+      "definition" : "Diagnostic/Pathogen testing",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.diagnosticPathogenTesting",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/DiagnosticPathogenTesting"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.forwardTracing",
+      "path" : "CaseSurveillanceMpoxCIF.forwardTracing",
+      "short" : "Forward tracing",
+      "definition" : "Forward tracing",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.forwardTracing",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ForwardTracing"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.contactDetails",
+      "path" : "CaseSurveillanceMpoxCIF.contactDetails",
+      "short" : "Contact details",
+      "definition" : "Contact details",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "CaseSurveillanceMpoxCIF.contactDetails",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ContactDetails"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "CaseSurveillanceMpoxCIF",
+      "path" : "CaseSurveillanceMpoxCIF",
+      "short" : "Case surveillance: Mpox (CIF)",
+      "definition" : "Case surveillance: Mpox (CIF)"
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.enrollmentDate",
+      "path" : "CaseSurveillanceMpoxCIF.enrollmentDate",
+      "short" : "Date of notification.",
+      "definition" : "Date of notification.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.incidentDate",
+      "path" : "CaseSurveillanceMpoxCIF.incidentDate",
+      "short" : ".",
+      "definition" : ".",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.uniqueCaseId",
+      "path" : "CaseSurveillanceMpoxCIF.uniqueCaseId",
+      "short" : "Two letter country code, case number (e.g., AB001, AB002) or national case ID if already assigned.",
+      "definition" : "Two letter country code, case number (e.g., AB001, AB002) or national case ID if already assigned.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable",
+      "path" : "CaseSurveillanceMpoxCIF.clusterNumberIdIfApplicable",
+      "short" : "Two letter country code, cluster number, case number, (e.g., AB.01.001, AB.02.001) or national cluster number/ID if already assigned",
+      "definition" : "Two letter country code, cluster number, case number, (e.g., AB.01.001, AB.02.001) or national cluster number/ID if already assigned",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.nameOfDataCollector",
+      "path" : "CaseSurveillanceMpoxCIF.nameOfDataCollector",
+      "short" : "MPOX CS: Name of data collector",
+      "definition" : "MPOX CS: Name of data collector",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dataCollectorRole",
+      "path" : "CaseSurveillanceMpoxCIF.dataCollectorRole",
+      "short" : "MPOX CS: Data collector role",
+      "definition" : "MPOX CS: Data collector role",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dataCollectorInstitution",
+      "path" : "CaseSurveillanceMpoxCIF.dataCollectorInstitution",
+      "short" : "MPOX CS: Data collector institution",
+      "definition" : "MPOX CS: Data collector institution",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber",
+      "path" : "CaseSurveillanceMpoxCIF.dataCollectorTelephoneNumber",
+      "short" : "MPOX CS: Data collector telephone number",
+      "definition" : "MPOX CS: Data collector telephone number",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dataCollectorEmail",
+      "path" : "CaseSurveillanceMpoxCIF.dataCollectorEmail",
+      "short" : "MPOX CS: Data collector email",
+      "definition" : "MPOX CS: Data collector email",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.formCompletionDate",
+      "path" : "CaseSurveillanceMpoxCIF.formCompletionDate",
+      "short" : "MPOX CS: Form completion date",
+      "definition" : "MPOX CS: Form completion date",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.caseClassification",
+      "path" : "CaseSurveillanceMpoxCIF.caseClassification",
+      "short" : "Classification of the case",
+      "definition" : "Classification of the case",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-case-classification-crf-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dateOfDiagnosis",
+      "path" : "CaseSurveillanceMpoxCIF.dateOfDiagnosis",
+      "short" : "First date of clinical or lab diagnosis",
+      "definition" : "First date of clinical or lab diagnosis",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.currentStatus",
+      "path" : "CaseSurveillanceMpoxCIF.currentStatus",
+      "short" : "MPOX CS: Current Status",
+      "definition" : "MPOX CS: Current Status",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-current-status-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.firstName",
+      "path" : "CaseSurveillanceMpoxCIF.firstName",
+      "short" : "First name",
+      "definition" : "First name",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.lastName",
+      "path" : "CaseSurveillanceMpoxCIF.lastName",
+      "short" : "Family name or last name of the patient of case.",
+      "definition" : "Family name or last name of the patient of case.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dateOfBirth",
+      "path" : "CaseSurveillanceMpoxCIF.dateOfBirth",
+      "short" : "Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.",
+      "definition" : "Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.dateOfBirthUnknown",
+      "path" : "CaseSurveillanceMpoxCIF.dateOfBirthUnknown",
+      "short" : "MPOX CS: Date of birth - Unknown",
+      "definition" : "MPOX CS: Date of birth - Unknown",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.ageYears",
+      "path" : "CaseSurveillanceMpoxCIF.ageYears",
+      "short" : "Age of case in years (report 0 if &lt; 1 year)",
+      "definition" : "Age of case in years (report 0 if &lt; 1 year)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "unsignedInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.ageMonths",
+      "path" : "CaseSurveillanceMpoxCIF.ageMonths",
+      "short" : "MPOX CS: Age (months)",
+      "definition" : "MPOX CS: Age (months)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.ageDays",
+      "path" : "CaseSurveillanceMpoxCIF.ageDays",
+      "short" : "MPOX CS: Age (days)",
+      "definition" : "MPOX CS: Age (days)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.weightInGrams",
+      "path" : "CaseSurveillanceMpoxCIF.weightInGrams",
+      "short" : "MPOX CS: Weight in grams",
+      "definition" : "MPOX CS: Weight in grams",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.heightInCm",
+      "path" : "CaseSurveillanceMpoxCIF.heightInCm",
+      "short" : "MPOX CS: Height in cm",
+      "definition" : "MPOX CS: Height in cm",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac",
+      "path" : "CaseSurveillanceMpoxCIF.midUpperCircumferenceMuac",
+      "short" : "MPOX CS: Mid-upper circumference (MUAC)",
+      "definition" : "MPOX CS: Mid-upper circumference (MUAC)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.isTheChildMalnourished",
+      "path" : "CaseSurveillanceMpoxCIF.isTheChildMalnourished",
+      "short" : "If age &lt;5 years, is the child malnourished? ",
+      "definition" : "If age &lt;5 years, is the child malnourished? ",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.sex",
+      "path" : "CaseSurveillanceMpoxCIF.sex",
+      "short" : "Sex at birth",
+      "definition" : "Sex at birth",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-sex-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth",
+      "path" : "CaseSurveillanceMpoxCIF.specifyOtherSexAtBirth",
+      "short" : "MPOX CS: Specify other sex at birth",
+      "definition" : "MPOX CS: Specify other sex at birth",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.gender",
+      "path" : "CaseSurveillanceMpoxCIF.gender",
+      "short" : "MPOX CS: Gender",
+      "definition" : "MPOX CS: Gender",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-gender-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.specifyOtherGender",
+      "path" : "CaseSurveillanceMpoxCIF.specifyOtherGender",
+      "short" : "MPOX CS: Specify other gender",
+      "definition" : "MPOX CS: Specify other gender",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.sexualBehavior",
+      "path" : "CaseSurveillanceMpoxCIF.sexualBehavior",
+      "short" : "Sexual behavior of the case",
+      "definition" : "Sexual behavior of the case",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-sexual-behavior-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation",
+      "path" : "CaseSurveillanceMpoxCIF.specifyOtherSexualOrientation",
+      "short" : "MPOX CS: Specify other sexual orientation",
+      "definition" : "MPOX CS: Specify other sexual orientation",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable",
+      "path" : "CaseSurveillanceMpoxCIF.individualSNationalIdentificationNumberIfApplicable",
+      "short" : "MPOX CS: Individual’s national identification number (if applicable):",
+      "definition" : "MPOX CS: Individual’s national identification number (if applicable):",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.countryOfResidence",
+      "path" : "CaseSurveillanceMpoxCIF.countryOfResidence",
+      "short" : "Person&#x27;s country of residence.",
+      "definition" : "Person&#x27;s country of residence.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/gen---countries-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.telephoneNumber",
+      "path" : "CaseSurveillanceMpoxCIF.telephoneNumber",
+      "short" : "MPOX CS: Telephone number",
+      "definition" : "MPOX CS: Telephone number",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.email",
+      "path" : "CaseSurveillanceMpoxCIF.email",
+      "short" : "E-mail address for the patient or case.",
+      "definition" : "E-mail address for the patient or case.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.address",
+      "path" : "CaseSurveillanceMpoxCIF.address",
+      "short" : "MPOX CS: Address",
+      "definition" : "MPOX CS: Address",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase",
+      "path" : "CaseSurveillanceMpoxCIF.whatIsTheOccupationOfTheCase",
+      "short" : "MPOX CS: Occupation of the case",
+      "definition" : "MPOX CS: Occupation of the case",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker",
+      "path" : "CaseSurveillanceMpoxCIF.isThisCaseAHealthcareWorker",
+      "short" : "Is the case a healthcare worker?",
+      "definition" : "Is the case a healthcare worker?",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.isTheCaseASexWorker",
+      "path" : "CaseSurveillanceMpoxCIF.isTheCaseASexWorker",
+      "short" : "MPOX CS: Sex worker",
+      "definition" : "MPOX CS: Sex worker",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee",
+      "path" : "CaseSurveillanceMpoxCIF.isTheCaseAnInternallyDisplacedPersonOrARefugee",
+      "short" : "MPOX CS: IDP or refugee",
+      "definition" : "MPOX CS: IDP or refugee",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp",
+      "path" : "CaseSurveillanceMpoxCIF.livingInAnInternallyDisplacedPeopleSIdpOrRefugeeCamp",
+      "short" : "MPOX CS: Living in IDP or refugee camp?",
+      "definition" : "MPOX CS: Living in IDP or refugee camp?",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs"
+      }
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.nameOfTheCamp",
+      "path" : "CaseSurveillanceMpoxCIF.nameOfTheCamp",
+      "short" : "MPOX CS: Name of the camp",
+      "definition" : "MPOX CS: Name of the camp",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.nameOfHealthCareCentre",
+      "path" : "CaseSurveillanceMpoxCIF.nameOfHealthCareCentre",
+      "short" : "MPOX CS: Name of health-care centre",
+      "definition" : "MPOX CS: Name of health-care centre",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.typeOfHealthcareCentre",
+      "path" : "CaseSurveillanceMpoxCIF.typeOfHealthcareCentre",
+      "short" : "MPOX CS: Type of healthcare centre",
+      "definition" : "MPOX CS: Type of healthcare centre",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.nameOfTreatingPhysician",
+      "path" : "CaseSurveillanceMpoxCIF.nameOfTreatingPhysician",
+      "short" : "MPOX CS: Name of treating physician",
+      "definition" : "MPOX CS: Name of treating physician",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.telephone",
+      "path" : "CaseSurveillanceMpoxCIF.telephone",
+      "short" : "MPOX CS: Telephone of treating physician",
+      "definition" : "MPOX CS: Telephone of treating physician",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.adress",
+      "path" : "CaseSurveillanceMpoxCIF.adress",
+      "short" : "MPOX CS: Adress of treating physician",
+      "definition" : "MPOX CS: Adress of treating physician",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation",
+      "path" : "CaseSurveillanceMpoxCIF.clinicalAndVaccinationInformation",
+      "short" : "Clinical and vaccination information",
+      "definition" : "Clinical and vaccination information",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ClinicalAndVaccinationInformation"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase",
+      "path" : "CaseSurveillanceMpoxCIF.exposureToProbableOrConfirmedCase",
+      "short" : "Exposure to probable or confirmed case",
+      "definition" : "Exposure to probable or confirmed case",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ExposureToProbableOrConfirmedCase"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.exposureEvents",
+      "path" : "CaseSurveillanceMpoxCIF.exposureEvents",
+      "short" : "Exposure events",
+      "definition" : "Exposure events",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ExposureEvents"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.exposureInHouseholdSetting",
+      "path" : "CaseSurveillanceMpoxCIF.exposureInHouseholdSetting",
+      "short" : "Exposure in household setting",
+      "definition" : "Exposure in household setting",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ExposureInHouseholdSetting"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings",
+      "path" : "CaseSurveillanceMpoxCIF.occupationalExposureInHealthcareSettings",
+      "short" : "Occupational exposure in healthcare settings",
+      "definition" : "Occupational exposure in healthcare settings",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/OccupationalExposureInHealthcareSettings"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.sexualActivity",
+      "path" : "CaseSurveillanceMpoxCIF.sexualActivity",
+      "short" : "Sexual activity",
+      "definition" : "Sexual activity",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/SexualActivity"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.sexualPartners",
+      "path" : "CaseSurveillanceMpoxCIF.sexualPartners",
+      "short" : "Sexual partners",
+      "definition" : "Sexual partners",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/SexualPartners"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.travelHistory",
+      "path" : "CaseSurveillanceMpoxCIF.travelHistory",
+      "short" : "Travel history",
+      "definition" : "Travel history",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/TravelHistory"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.animalExposure",
+      "path" : "CaseSurveillanceMpoxCIF.animalExposure",
+      "short" : "Animal exposure",
+      "definition" : "Animal exposure",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/AnimalExposure"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission",
+      "path" : "CaseSurveillanceMpoxCIF.mostLikelyModeOfTransmission",
+      "short" : "Most likely mode of transmission",
+      "definition" : "Most likely mode of transmission",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/MostLikelyModeOfTransmission"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome",
+      "path" : "CaseSurveillanceMpoxCIF.diseaseSeverityAndOutcome",
+      "short" : "Disease severity and outcome",
+      "definition" : "Disease severity and outcome",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/DiseaseSeverityAndOutcome"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.diagnosticPathogenTesting",
+      "path" : "CaseSurveillanceMpoxCIF.diagnosticPathogenTesting",
+      "short" : "Diagnostic/Pathogen testing",
+      "definition" : "Diagnostic/Pathogen testing",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/DiagnosticPathogenTesting"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.forwardTracing",
+      "path" : "CaseSurveillanceMpoxCIF.forwardTracing",
+      "short" : "Forward tracing",
+      "definition" : "Forward tracing",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ForwardTracing"
+      }]
+    },
+    {
+      "id" : "CaseSurveillanceMpoxCIF.contactDetails",
+      "path" : "CaseSurveillanceMpoxCIF.contactDetails",
+      "short" : "Contact details",
+      "definition" : "Contact details",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "http://example.org/StructureDefinition/ContactDetails"
+      }]
+    }]
+  }
+}

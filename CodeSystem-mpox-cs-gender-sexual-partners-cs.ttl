@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mpox-cs-gender-sexual-partners-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-gender-sexual-partners-cs</b></p><a name=\"mpox-cs-gender-sexual-partners-cs\"> </a><a name=\"hcmpox-cs-gender-sexual-partners-cs\"> </a><a name=\"mpox-cs-gender-sexual-partners-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ONLY_MEN<a name=\"mpox-cs-gender-sexual-partners-cs-ONLY_MEN\"> </a></td><td>Only men</td></tr><tr><td style=\"white-space:nowrap\">ONLY_WOMEN<a name=\"mpox-cs-gender-sexual-partners-cs-ONLY_WOMEN\"> </a></td><td>Only women</td></tr><tr><td style=\"white-space:nowrap\">BOTH_MEN_WOMEN<a name=\"mpox-cs-gender-sexual-partners-cs-BOTH_MEN_WOMEN\"> </a></td><td>Both men and women</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-gender-sexual-partners-cs-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-gender-sexual-partners-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MPOXCSGenderSexualPartnersCS"] ; # 
+  fhir:title [ fhir:v "MPOX CS: Gender sexual partners"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-10-04T08:16:56+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org/" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ONLY_MEN" ] ;
+     fhir:display [ fhir:v "Only men" ]
+  ] [
+     fhir:code [ fhir:v "ONLY_WOMEN" ] ;
+     fhir:display [ fhir:v "Only women" ]
+  ] [
+     fhir:code [ fhir:v "BOTH_MEN_WOMEN" ] ;
+     fhir:display [ fhir:v "Both men and women" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] [
+     fhir:code [ fhir:v "UNKNOWN" ] ;
+     fhir:display [ fhir:v "Unknown" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

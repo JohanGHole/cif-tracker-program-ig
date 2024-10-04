@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-contact-frequency-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-contact-frequency-cs</b></p><a name="mpox-cs-contact-frequency-cs"> </a><a name="hcmpox-cs-contact-frequency-cs"> </a><a name="mpox-cs-contact-frequency-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-contact-frequency-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ONCE<a name="mpox-cs-contact-frequency-cs-ONCE"> </a></td><td>Once</td></tr><tr><td style="white-space:nowrap">MULTIPLE_TIMES<a name="mpox-cs-contact-frequency-cs-MULTIPLE_TIMES"> </a></td><td>Multiple times</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-contact-frequency-cs-UNKNOWN"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-contact-frequency-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSContactFrequencyCS"/>
+  <title value="MPOX CS: Contact frequency"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="ONCE"/>
+    <display value="Once"/>
+  </concept>
+  <concept>
+    <code value="MULTIPLE_TIMES"/>
+    <display value="Multiple times"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

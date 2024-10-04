@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-gender-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-gender-cs</b></p><a name="mpox-cs-gender-cs"> </a><a name="hcmpox-cs-gender-cs"> </a><a name="mpox-cs-gender-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-gender-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">WOMAN<a name="mpox-cs-gender-cs-WOMAN"> </a></td><td>Woman</td></tr><tr><td style="white-space:nowrap">MAN<a name="mpox-cs-gender-cs-MAN"> </a></td><td>Man</td></tr><tr><td style="white-space:nowrap">TRANSGENDER<a name="mpox-cs-gender-cs-TRANSGENDER"> </a></td><td>Transgender</td></tr><tr><td style="white-space:nowrap">NON_BINARY<a name="mpox-cs-gender-cs-NON_BINARY"> </a></td><td>Non-binary</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-gender-cs-UNKNOWN"> </a></td><td>Unknown</td></tr><tr><td style="white-space:nowrap">OTHER<a name="mpox-cs-gender-cs-OTHER"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-gender-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSGenderCS"/>
+  <title value="MPOX CS: Gender"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="WOMAN"/>
+    <display value="Woman"/>
+  </concept>
+  <concept>
+    <code value="MAN"/>
+    <display value="Man"/>
+  </concept>
+  <concept>
+    <code value="TRANSGENDER"/>
+    <display value="Transgender"/>
+  </concept>
+  <concept>
+    <code value="NON_BINARY"/>
+    <display value="Non-binary"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

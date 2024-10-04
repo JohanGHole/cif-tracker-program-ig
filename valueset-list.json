@@ -1,0 +1,305 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/ValueSet/gen---countries-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GENCountriesVS",
+      "title" : "GEN - Countries value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/gen---countries-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-animal-status-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSAnimalStatusVS",
+      "title" : "MPOX CS: Animal status value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-animal-status-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-case-classification-crf-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSCaseClassificationCRFVS",
+      "title" : "MPOX CS: Case classification (CRF) value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-case-classification-crf-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-clade-mpox-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSCladeMpoxVS",
+      "title" : "MPOX CS: Clade Mpox value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-clade-mpox-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-contact-frequency-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSContactFrequencyVS",
+      "title" : "MPOX CS: Contact frequency value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-contact-frequency-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-current-status-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSCurrentStatusVS",
+      "title" : "MPOX CS: Current status value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-current-status-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-gender-sexual-partners-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSGenderSexualPartnersVS",
+      "title" : "MPOX CS: Gender sexual partners value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-gender-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSGenderVS",
+      "title" : "MPOX CS: Gender value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-gender-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-hand-hygiene-ppe-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSHandHygienePPEVS",
+      "title" : "MPOX CS: Hand hygiene PPE value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-hand-hygiene-ppe-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-hiv-status-assessment-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSHIVStatusAssessmentVS",
+      "title" : "MPOX CS: HIV status assessment value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-hiv-status-assessment-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-hiv-status-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSHIVStatusVS",
+      "title" : "MPOX CS: HIV status value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-hiv-status-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-immunosuppressed-status-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSImmunosuppressedStatusVS",
+      "title" : "MPOX CS: Immunosuppressed status value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-immunosuppressed-status-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-likely-mode-of-transmission-mpox-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSLikelyModeOfTransmissionMpoxVS",
+      "title" : "MPOX CS: Likely mode of transmission (Mpox) value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-maximum-duration-encounters-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSMaximumDurationEncountersVS",
+      "title" : "MPOX CS: Maximum duration encounters value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-maximum-duration-encounters-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-outcome-disease-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSOutcomeDiseaseVS",
+      "title" : "MPOX CS: Outcome disease value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-outcome-disease-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-place-animal-contact-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSPlaceAnimalContactVS",
+      "title" : "MPOX CS: Place animal contact value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-ppe-used-during-exposure-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSPPEUsedDuringExposureVS",
+      "title" : "MPOX CS: PPE used during exposure value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-ppe-used-during-exposure-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-pregnancy-status-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSPregnancyStatusVS",
+      "title" : "MPOX CS: Pregnancy status value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-pregnancy-status-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-protected-sex-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSProtectedSexVS",
+      "title" : "MPOX CS: Protected sex value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-protected-sex-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-relationship-case-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSRelationshipCaseVS",
+      "title" : "MPOX CS: Relationship case value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-relationship-case-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-result-sample-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSResultSampleVS",
+      "title" : "MPOX CS: Result sample value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-result-sample-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-sex-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSSexVS",
+      "title" : "MPOX CS: Sex value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-sex-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-sexual-behavior-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSSexualBehaviorVS",
+      "title" : "MPOX CS: Sexual behavior value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-sexual-behavior-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-sexual-partner-last-3-months-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSSexualPartnerLast3MonthsVS",
+      "title" : "MPOX CS: Sexual partner last 3 months value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-sexual-partner-last-3-months-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-type-of-animal-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSTypeOfAnimalVS",
+      "title" : "MPOX CS: Type of animal value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-type-of-animal-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-type-of-contact-forward-tracing-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSTypeOfContactForwardTracingVS",
+      "title" : "MPOX CS: Type of contact (forward tracing) value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-vaccination-current-event-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSVaccinationCurrentEventVS",
+      "title" : "MPOX CS: Vaccination current event value set",
+      "description" : null,
+      "systems" : [
+        "http://example.org/CodeSystem/mpox-cs-vaccination-current-event-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-vaccine-brand-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSVaccineBrandVS",
+      "title" : "MPOX CS: Vaccine brand value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-vaccine-brand-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-vaccine-doses-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSVaccineDosesVS",
+      "title" : "MPOX CS: Vaccine doses value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-vaccine-doses-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-viral-load-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSViralLoadVS",
+      "title" : "MPOX CS: Viral load value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-viral-load-cs"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSYesNoUnknownVS",
+      "title" : "MPOX CS: Yes/No/Unknown value set",
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/mpox-cs-yes-no-unknown-cs"]
+    }
+  ]
+}

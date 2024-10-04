@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/mpox-cs-hiv-status-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mpox-cs-hiv-status-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-hiv-status-cs</b></p><a name=\"mpox-cs-hiv-status-cs\"> </a><a name=\"hcmpox-cs-hiv-status-cs\"> </a><a name=\"mpox-cs-hiv-status-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-hiv-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">POSITIVE<a name=\"mpox-cs-hiv-status-cs-POSITIVE\"> </a></td><td>Positive</td></tr><tr><td style=\"white-space:nowrap\">NEGATIVE<a name=\"mpox-cs-hiv-status-cs-NEGATIVE\"> </a></td><td>Negative</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-hiv-status-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/mpox-cs-hiv-status-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MPOXCSHIVStatusCS"] ; # 
+  fhir:title [ fhir:v "MPOX CS: HIV status"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-10-04T08:16:56+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org/" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "POSITIVE" ] ;
+     fhir:display [ fhir:v "Positive" ]
+  ] [
+     fhir:code [ fhir:v "NEGATIVE" ] ;
+     fhir:display [ fhir:v "Negative" ]
+  ] [
+     fhir:code [ fhir:v "UNKNOWN" ] ;
+     fhir:display [ fhir:v "Unknown" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

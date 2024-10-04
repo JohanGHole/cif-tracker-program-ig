@@ -1,0 +1,48 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-sexual-behavior-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-sexual-behavior-cs</b></p><a name=\"mpox-cs-sexual-behavior-cs\"> </a><a name=\"hcmpox-cs-sexual-behavior-cs\"> </a><a name=\"mpox-cs-sexual-behavior-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-sexual-behavior-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HETEROSEXUAL<a name=\"mpox-cs-sexual-behavior-cs-HETEROSEXUAL\"> </a></td><td>Heterosexual</td></tr><tr><td style=\"white-space:nowrap\">MSM<a name=\"mpox-cs-sexual-behavior-cs-MSM\"> </a></td><td>MSM/homosexual or bisexual male</td></tr><tr><td style=\"white-space:nowrap\">LESBIAN<a name=\"mpox-cs-sexual-behavior-cs-LESBIAN\"> </a></td><td>Women who have sex with women</td></tr><tr><td style=\"white-space:nowrap\">BISEXUAL<a name=\"mpox-cs-sexual-behavior-cs-BISEXUAL\"> </a></td><td>Bisexual</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-sexual-behavior-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-sexual-behavior-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-sexual-behavior-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSSexualBehaviorCS",
+  "title" : "MPOX CS: Sexual behavior",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "HETEROSEXUAL",
+    "display" : "Heterosexual"
+  },
+  {
+    "code" : "MSM",
+    "display" : "MSM/homosexual or bisexual male"
+  },
+  {
+    "code" : "LESBIAN",
+    "display" : "Women who have sex with women"
+  },
+  {
+    "code" : "BISEXUAL",
+    "display" : "Bisexual"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  }]
+}

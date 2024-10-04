@@ -1,0 +1,184 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"ClinicalAndVaccinationInformation","ClinicalAndVaccinationInformation","","","",0,*,"","","","null {[]} {[]}
+","Clinical and vaccination information","Clinical and vaccination information","","","","","","","","","",,,,,"",,,,"BackboneElement",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","n/a"
+"ClinicalAndVaccinationInformation.id","ClinicalAndVaccinationInformation.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"ClinicalAndVaccinationInformation.extension","ClinicalAndVaccinationInformation.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ClinicalAndVaccinationInformation.modifierExtension","ClinicalAndVaccinationInformation.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"ClinicalAndVaccinationInformation.executionDate","ClinicalAndVaccinationInformation.executionDate","","","",0,1,"","","","date {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.executionDate",0,1,"",""
+"ClinicalAndVaccinationInformation.sexuallyTransmittedInfectionsStiInTheLastYear","ClinicalAndVaccinationInformation.sexuallyTransmittedInfectionsStiInTheLastYear","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Sexually Transmitted Infections (STI) in the last year","MPOX CS: Sexually Transmitted Infections (STI) in the last year","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.sexuallyTransmittedInfectionsStiInTheLastYear",0,1,"",""
+"ClinicalAndVaccinationInformation.chlamydia","ClinicalAndVaccinationInformation.chlamydia","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Chlamydia","MPOX CS: Chlamydia","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.chlamydia",0,1,"",""
+"ClinicalAndVaccinationInformation.gonorrhea","ClinicalAndVaccinationInformation.gonorrhea","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Gonorrhea","MPOX CS: Gonorrhea","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.gonorrhea",0,1,"",""
+"ClinicalAndVaccinationInformation.genitalHerpes","ClinicalAndVaccinationInformation.genitalHerpes","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Genital herpes","MPOX CS: Genital herpes","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.genitalHerpes",0,1,"",""
+"ClinicalAndVaccinationInformation.lymphogranulomaVenerumLgv","ClinicalAndVaccinationInformation.lymphogranulomaVenerumLgv","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Lymphogranuloma venerum (LGV)","MPOX CS: Lymphogranuloma venerum (LGV)","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.lymphogranulomaVenerumLgv",0,1,"",""
+"ClinicalAndVaccinationInformation.mycoplasmaGenitalium","ClinicalAndVaccinationInformation.mycoplasmaGenitalium","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Mycoplasma genitalium","MPOX CS: Mycoplasma genitalium","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.mycoplasmaGenitalium",0,1,"",""
+"ClinicalAndVaccinationInformation.syphilis","ClinicalAndVaccinationInformation.syphilis","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Syphilis","MPOX CS: Syphilis","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.syphilis",0,1,"",""
+"ClinicalAndVaccinationInformation.trichomonasVaginalis","ClinicalAndVaccinationInformation.trichomonasVaginalis","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Trichomonas vaginalis","MPOX CS: Trichomonas vaginalis","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.trichomonasVaginalis",0,1,"",""
+"ClinicalAndVaccinationInformation.genitalWarts","ClinicalAndVaccinationInformation.genitalWarts","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Genital warts","MPOX CS: Genital warts","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.genitalWarts",0,1,"",""
+"ClinicalAndVaccinationInformation.otherStis","ClinicalAndVaccinationInformation.otherStis","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Other STIs","MPOX CS: Other STIs","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.otherStis",0,1,"",""
+"ClinicalAndVaccinationInformation.specifyOtherStis","ClinicalAndVaccinationInformation.specifyOtherStis","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other STIs","MPOX CS: Specify other STIs","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.specifyOtherStis",0,1,"",""
+"ClinicalAndVaccinationInformation.pregnancy","ClinicalAndVaccinationInformation.pregnancy","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Pregnancy status","MPOX CS: Pregnancy status","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-pregnancy-status-vs","",,,,"ClinicalAndVaccinationInformation.pregnancy",0,1,"",""
+"ClinicalAndVaccinationInformation.immunosuppressedStatus","ClinicalAndVaccinationInformation.immunosuppressedStatus","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Immunosuppressed status","MPOX CS: Immunosuppressed status","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-immunosuppressed-status-vs","",,,,"ClinicalAndVaccinationInformation.immunosuppressedStatus",0,1,"",""
+"ClinicalAndVaccinationInformation.specifyTheCauseOfTheImmunosuppressedStatus","ClinicalAndVaccinationInformation.specifyTheCauseOfTheImmunosuppressedStatus","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify the cause of the immunosuppressed status","MPOX CS: Specify the cause of the immunosuppressed status","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.specifyTheCauseOfTheImmunosuppressedStatus",0,1,"",""
+"ClinicalAndVaccinationInformation.isTheCaseTakingHivPreExposureProphylaxisPrep","ClinicalAndVaccinationInformation.isTheCaseTakingHivPreExposureProphylaxisPrep","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Is the case taking HIV pre-exposure prophylaxis (PrEP)?","MPOX CS: Is the case taking HIV pre-exposure prophylaxis (PrEP)?","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.isTheCaseTakingHivPreExposureProphylaxisPrep",0,1,"",""
+"ClinicalAndVaccinationInformation.hivStatus","ClinicalAndVaccinationInformation.hivStatus","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: HIV status","MPOX CS: HIV status","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-hiv-status-vs","",,,,"ClinicalAndVaccinationInformation.hivStatus",0,1,"",""
+"ClinicalAndVaccinationInformation.hivStatusAssessment","ClinicalAndVaccinationInformation.hivStatusAssessment","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: HIV status assessment","MPOX CS: HIV status assessment","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-hiv-status-assessment-vs","",,,,"ClinicalAndVaccinationInformation.hivStatusAssessment",0,1,"",""
+"ClinicalAndVaccinationInformation.viralLoad","ClinicalAndVaccinationInformation.viralLoad","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Viral load","MPOX CS: Viral load","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-viral-load-vs","",,,,"ClinicalAndVaccinationInformation.viralLoad",0,1,"",""
+"ClinicalAndVaccinationInformation.mostRecentCd4Counts","ClinicalAndVaccinationInformation.mostRecentCd4Counts","","","",0,1,"","","","unsignedInt {[]} {[]}
+","MPOX CS: Most recent CD4 counts","MPOX CS: Most recent CD4 counts","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.mostRecentCd4Counts",0,1,"",""
+"ClinicalAndVaccinationInformation.isTheCaseTakingHivTreatment","ClinicalAndVaccinationInformation.isTheCaseTakingHivTreatment","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: HIV treatment","MPOX CS: HIV treatment","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.isTheCaseTakingHivTreatment",0,1,"",""
+"ClinicalAndVaccinationInformation.tecovirimat","ClinicalAndVaccinationInformation.tecovirimat","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Antiviral treatment - Tecovirimat","MPOX CS: Antiviral treatment - Tecovirimat","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.tecovirimat",0,1,"",""
+"ClinicalAndVaccinationInformation.brincidofovir","ClinicalAndVaccinationInformation.brincidofovir","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Antiviral treatment - Brincidofovir","MPOX CS: Antiviral treatment - Brincidofovir","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.brincidofovir",0,1,"",""
+"ClinicalAndVaccinationInformation.cidofovir","ClinicalAndVaccinationInformation.cidofovir","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Antiviral treatment - Cidofovir","MPOX CS: Antiviral treatment - Cidofovir","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.cidofovir",0,1,"",""
+"ClinicalAndVaccinationInformation.onTreatmentButNameOfAntiviralTreatmentNotKnown","ClinicalAndVaccinationInformation.onTreatmentButNameOfAntiviralTreatmentNotKnown","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Antiviral treatment - On treatment, but name of antiviral treatment not known","MPOX CS: Antiviral treatment - On treatment, but name of antiviral treatment not known","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.onTreatmentButNameOfAntiviralTreatmentNotKnown",0,1,"",""
+"ClinicalAndVaccinationInformation.noAntiviralTreatment","ClinicalAndVaccinationInformation.noAntiviralTreatment","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Antiviral treatment - No antiviral treatment","MPOX CS: Antiviral treatment - No antiviral treatment","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.noAntiviralTreatment",0,1,"",""
+"ClinicalAndVaccinationInformation.otherAntiviralTreatment","ClinicalAndVaccinationInformation.otherAntiviralTreatment","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Antiviral treatment - Other","MPOX CS: Antiviral treatment - Other","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.otherAntiviralTreatment",0,1,"",""
+"ClinicalAndVaccinationInformation.antiviralTreatmentUnknown","ClinicalAndVaccinationInformation.antiviralTreatmentUnknown","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Antiviral treatment - Unknown","MPOX CS: Antiviral treatment - Unknown","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.antiviralTreatmentUnknown",0,1,"",""
+"ClinicalAndVaccinationInformation.specifyOtherAntiviralTreatment","ClinicalAndVaccinationInformation.specifyOtherAntiviralTreatment","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other antiviral treatment","MPOX CS: Specify other antiviral treatment","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.specifyOtherAntiviralTreatment",0,1,"",""
+"ClinicalAndVaccinationInformation.wasTheCaseEverDiagnosedWithMpoxPreviously","ClinicalAndVaccinationInformation.wasTheCaseEverDiagnosedWithMpoxPreviously","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Previous mpox infection","MPOX CS: Previous mpox infection","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.wasTheCaseEverDiagnosedWithMpoxPreviously",0,1,"",""
+"ClinicalAndVaccinationInformation.hasTheCaseReceivedSmallpoxVaccineUnrelatedToThisEvent","ClinicalAndVaccinationInformation.hasTheCaseReceivedSmallpoxVaccineUnrelatedToThisEvent","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Mpox vaccine received before","MPOX CS: Mpox vaccine received before","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.hasTheCaseReceivedSmallpoxVaccineUnrelatedToThisEvent",0,1,"",""
+"ClinicalAndVaccinationInformation.dateWhenTheCaseReceivedTheLatestDoseOfSmallpoxVaccine","ClinicalAndVaccinationInformation.dateWhenTheCaseReceivedTheLatestDoseOfSmallpoxVaccine","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: Date latest MPOX vaccine dose","MPOX CS: Date latest MPOX vaccine dose","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.dateWhenTheCaseReceivedTheLatestDoseOfSmallpoxVaccine",0,1,"",""
+"ClinicalAndVaccinationInformation.didTheCaseReceiveMpoxVaccinationAndHowManyDosesOfVaccineReceived","ClinicalAndVaccinationInformation.didTheCaseReceiveMpoxVaccinationAndHowManyDosesOfVaccineReceived","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Case receive mpox vaccination","MPOX CS: Case receive mpox vaccination","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-vaccine-doses-vs","",,,,"ClinicalAndVaccinationInformation.didTheCaseReceiveMpoxVaccinationAndHowManyDosesOfVaccineReceived",0,1,"",""
+"ClinicalAndVaccinationInformation.firstMpoxVaccReceivedForThisEvent","ClinicalAndVaccinationInformation.firstMpoxVaccReceivedForThisEvent","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Case receive first dose of mpox vaccines related this event","MPOX CS: Case receive first dose of mpox vaccines related this event","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-vaccination-current-event-vs","",,,,"ClinicalAndVaccinationInformation.firstMpoxVaccReceivedForThisEvent",0,1,"",""
+"ClinicalAndVaccinationInformation.dateOfFirstDoseSmallpoxMpoxVaccination","ClinicalAndVaccinationInformation.dateOfFirstDoseSmallpoxMpoxVaccination","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: Date of first dose smallpox/mpox vaccination","MPOX CS: Date of first dose smallpox/mpox vaccination","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.dateOfFirstDoseSmallpoxMpoxVaccination",0,1,"",""
+"ClinicalAndVaccinationInformation.vaccineBrandFirstSmallpoxMpoxVaccine","ClinicalAndVaccinationInformation.vaccineBrandFirstSmallpoxMpoxVaccine","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Vaccine brand first smallpox/mpox vaccine","MPOX CS: Vaccine brand first smallpox/mpox vaccine","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-vaccine-brand-vs","",,,,"ClinicalAndVaccinationInformation.vaccineBrandFirstSmallpoxMpoxVaccine",0,1,"",""
+"ClinicalAndVaccinationInformation.specifyOtherVaccineBrand1","ClinicalAndVaccinationInformation.specifyOtherVaccineBrand1","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other vaccine brand - 1","MPOX CS: Specify other vaccine brand - 1","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.specifyOtherVaccineBrand1",0,1,"",""
+"ClinicalAndVaccinationInformation.secondMpoxVaccReceivedForThisEvent","ClinicalAndVaccinationInformation.secondMpoxVaccReceivedForThisEvent","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Case receive second dose of mpox vaccines related this event","MPOX CS: Case receive second dose of mpox vaccines related this event","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-vaccination-current-event-vs","",,,,"ClinicalAndVaccinationInformation.secondMpoxVaccReceivedForThisEvent",0,1,"",""
+"ClinicalAndVaccinationInformation.dateOfSecondDoseSmallpoxMpoxVaccination","ClinicalAndVaccinationInformation.dateOfSecondDoseSmallpoxMpoxVaccination","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: Date of second dose smallpox/mpox vaccination","MPOX CS: Date of second dose smallpox/mpox vaccination","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.dateOfSecondDoseSmallpoxMpoxVaccination",0,1,"",""
+"ClinicalAndVaccinationInformation.vaccineBrandSecondSmallpoxMpoxVaccine","ClinicalAndVaccinationInformation.vaccineBrandSecondSmallpoxMpoxVaccine","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Vaccine brand second smallpox/mpox vaccine","MPOX CS: Vaccine brand second smallpox/mpox vaccine","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-vaccine-brand-vs","",,,,"ClinicalAndVaccinationInformation.vaccineBrandSecondSmallpoxMpoxVaccine",0,1,"",""
+"ClinicalAndVaccinationInformation.specifyOtherVaccineBrand2","ClinicalAndVaccinationInformation.specifyOtherVaccineBrand2","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other vaccine brand - 2","MPOX CS: Specify other vaccine brand - 2","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.specifyOtherVaccineBrand2",0,1,"",""
+"ClinicalAndVaccinationInformation.symptoms","ClinicalAndVaccinationInformation.symptoms","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Symptoms","MPOX CS: Symptoms","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.symptoms",0,1,"",""
+"ClinicalAndVaccinationInformation.ifKnownDateOfFirstClinicalDiagnosis","ClinicalAndVaccinationInformation.ifKnownDateOfFirstClinicalDiagnosis","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: If known, date of first clinical diagnosis","MPOX CS: If known, date of first clinical diagnosis","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.ifKnownDateOfFirstClinicalDiagnosis",0,1,"",""
+"ClinicalAndVaccinationInformation.dateOfOnsetSymptoms","ClinicalAndVaccinationInformation.dateOfOnsetSymptoms","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: Date of onset symptoms","MPOX CS: Date of onset symptoms","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.dateOfOnsetSymptoms",0,1,"",""
+"ClinicalAndVaccinationInformation.ifApplicableDateOnsetOfRash","ClinicalAndVaccinationInformation.ifApplicableDateOnsetOfRash","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: If applicable, date onset of rash","MPOX CS: If applicable, date onset of rash","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.ifApplicableDateOnsetOfRash",0,1,"",""
+"ClinicalAndVaccinationInformation.skinMucosalLesionsExcludingOralOrAnogenitalAreas","ClinicalAndVaccinationInformation.skinMucosalLesionsExcludingOralOrAnogenitalAreas","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Skin/mucosal lesions (excluding oral or anogenital areas)","MPOX CS: Skin/mucosal lesions (excluding oral or anogenital areas)","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.skinMucosalLesionsExcludingOralOrAnogenitalAreas",0,1,"",""
+"ClinicalAndVaccinationInformation.soreThroat","ClinicalAndVaccinationInformation.soreThroat","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Sore throat","MPOX CS: Sore throat","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.soreThroat",0,1,"",""
+"ClinicalAndVaccinationInformation.skinMucosalLesionsWhereTheLocationIsNotKnown","ClinicalAndVaccinationInformation.skinMucosalLesionsWhereTheLocationIsNotKnown","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Skin/mucosal lesions where the location is not known","MPOX CS: Skin/mucosal lesions where the location is not known","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.skinMucosalLesionsWhereTheLocationIsNotKnown",0,1,"",""
+"ClinicalAndVaccinationInformation.localizedLymphadenopathy","ClinicalAndVaccinationInformation.localizedLymphadenopathy","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Localized lymphadenopathy","MPOX CS: Localized lymphadenopathy","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.localizedLymphadenopathy",0,1,"",""
+"ClinicalAndVaccinationInformation.anogenitalSkinMucosalLesions","ClinicalAndVaccinationInformation.anogenitalSkinMucosalLesions","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Anogenital skin/mucosal lesions","MPOX CS: Anogenital skin/mucosal lesions","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.anogenitalSkinMucosalLesions",0,1,"",""
+"ClinicalAndVaccinationInformation.generalizedLymphadenopathy","ClinicalAndVaccinationInformation.generalizedLymphadenopathy","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Generalized lymphadenopathy","MPOX CS: Generalized lymphadenopathy","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.generalizedLymphadenopathy",0,1,"",""
+"ClinicalAndVaccinationInformation.oralSkinMucosalLesions","ClinicalAndVaccinationInformation.oralSkinMucosalLesions","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Oral skin/mucosal lesions","MPOX CS: Oral skin/mucosal lesions","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.oralSkinMucosalLesions",0,1,"",""
+"ClinicalAndVaccinationInformation.lymphadenopathyWhereTheLocationIsNotKnown","ClinicalAndVaccinationInformation.lymphadenopathyWhereTheLocationIsNotKnown","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Lymphadenopathy where the location is not known","MPOX CS: Lymphadenopathy where the location is not known","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.lymphadenopathyWhereTheLocationIsNotKnown",0,1,"",""
+"ClinicalAndVaccinationInformation.fever385c","ClinicalAndVaccinationInformation.fever385c","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Fever &gt;38.5C","MPOX CS: Fever &gt;38.5C","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.fever385c",0,1,"",""
+"ClinicalAndVaccinationInformation.chillsOrSweats","ClinicalAndVaccinationInformation.chillsOrSweats","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Chills or sweats","MPOX CS: Chills or sweats","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.chillsOrSweats",0,1,"",""
+"ClinicalAndVaccinationInformation.astheniaProfoundWeakness","ClinicalAndVaccinationInformation.astheniaProfoundWeakness","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Asthenia (profound weakness)","MPOX CS: Asthenia (profound weakness)","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.astheniaProfoundWeakness",0,1,"",""
+"ClinicalAndVaccinationInformation.headache","ClinicalAndVaccinationInformation.headache","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Headache","MPOX CS: Headache","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.headache",0,1,"",""
+"ClinicalAndVaccinationInformation.musclePainMyalgia","ClinicalAndVaccinationInformation.musclePainMyalgia","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Muscle pain (myalgia)","MPOX CS: Muscle pain (myalgia)","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.musclePainMyalgia",0,1,"",""
+"ClinicalAndVaccinationInformation.vomitingNausea","ClinicalAndVaccinationInformation.vomitingNausea","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Vomiting/nausea","MPOX CS: Vomiting/nausea","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.vomitingNausea",0,1,"",""
+"ClinicalAndVaccinationInformation.genitalSoftTissueOedemaSwelling","ClinicalAndVaccinationInformation.genitalSoftTissueOedemaSwelling","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Genital soft-tissue oedema/swelling","MPOX CS: Genital soft-tissue oedema/swelling","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.genitalSoftTissueOedemaSwelling",0,1,"",""
+"ClinicalAndVaccinationInformation.coughRespiratorySymptoms","ClinicalAndVaccinationInformation.coughRespiratorySymptoms","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Cough/respiratory symptoms","MPOX CS: Cough/respiratory symptoms","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.coughRespiratorySymptoms",0,1,"",""
+"ClinicalAndVaccinationInformation.backPain","ClinicalAndVaccinationInformation.backPain","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Back pain","MPOX CS: Back pain","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.backPain",0,1,"",""
+"ClinicalAndVaccinationInformation.conjunctivitis","ClinicalAndVaccinationInformation.conjunctivitis","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Conjunctivitis","MPOX CS: Conjunctivitis","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.conjunctivitis",0,1,"",""
+"ClinicalAndVaccinationInformation.fatigue","ClinicalAndVaccinationInformation.fatigue","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Fatigue","MPOX CS: Fatigue","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.fatigue",0,1,"",""
+"ClinicalAndVaccinationInformation.anogenitalPainAndOrBleeding","ClinicalAndVaccinationInformation.anogenitalPainAndOrBleeding","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Anogenital pain and/or bleeding","MPOX CS: Anogenital pain and/or bleeding","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.anogenitalPainAndOrBleeding",0,1,"",""
+"ClinicalAndVaccinationInformation.diarrhea","ClinicalAndVaccinationInformation.diarrhea","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Diarrhea","MPOX CS: Diarrhea","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.diarrhea",0,1,"",""
+"ClinicalAndVaccinationInformation.otherSymptoms","ClinicalAndVaccinationInformation.otherSymptoms","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Other symptoms","MPOX CS: Other symptoms","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-yes-no-unknown-vs","",,,,"ClinicalAndVaccinationInformation.otherSymptoms",0,1,"",""
+"ClinicalAndVaccinationInformation.specifyOtherSymptoms","ClinicalAndVaccinationInformation.specifyOtherSymptoms","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other symptoms","MPOX CS: Specify other symptoms","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.specifyOtherSymptoms",0,1,"",""
+"ClinicalAndVaccinationInformation.none","ClinicalAndVaccinationInformation.none","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: No complications","MPOX CS: No complications","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.none",0,1,"",""
+"ClinicalAndVaccinationInformation.acuteRespiratoryDistressSyndrome","ClinicalAndVaccinationInformation.acuteRespiratoryDistressSyndrome","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Acute respiratory distress syndrome","MPOX CS: Acute respiratory distress syndrome","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.acuteRespiratoryDistressSyndrome",0,1,"",""
+"ClinicalAndVaccinationInformation.lowerRespiratoryTractInfectionEGPneumonia","ClinicalAndVaccinationInformation.lowerRespiratoryTractInfectionEGPneumonia","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Lower respiratory tract infection (e.g. pneumonia)","MPOX CS: Lower respiratory tract infection (e.g. pneumonia)","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.lowerRespiratoryTractInfectionEGPneumonia",0,1,"",""
+"ClinicalAndVaccinationInformation.meningoencephalitis","ClinicalAndVaccinationInformation.meningoencephalitis","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Meningoencephalitis","MPOX CS: Meningoencephalitis","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.meningoencephalitis",0,1,"",""
+"ClinicalAndVaccinationInformation.myocarditis","ClinicalAndVaccinationInformation.myocarditis","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Myocarditis","MPOX CS: Myocarditis","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.myocarditis",0,1,"",""
+"ClinicalAndVaccinationInformation.cornealInfection","ClinicalAndVaccinationInformation.cornealInfection","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Corneal infection","MPOX CS: Corneal infection","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.cornealInfection",0,1,"",""
+"ClinicalAndVaccinationInformation.retropharyngealAbscess","ClinicalAndVaccinationInformation.retropharyngealAbscess","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Retropharyngeal abscess","MPOX CS: Retropharyngeal abscess","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.retropharyngealAbscess",0,1,"",""
+"ClinicalAndVaccinationInformation.sepsis","ClinicalAndVaccinationInformation.sepsis","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Sepsis","MPOX CS: Sepsis","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.sepsis",0,1,"",""
+"ClinicalAndVaccinationInformation.severeDehydration","ClinicalAndVaccinationInformation.severeDehydration","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Severe dehydration","MPOX CS: Severe dehydration","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.severeDehydration",0,1,"",""
+"ClinicalAndVaccinationInformation.stillBirthAsPregnancyOutcomeInACase","ClinicalAndVaccinationInformation.stillBirthAsPregnancyOutcomeInACase","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Still birth as pregnancy outcome in a case","MPOX CS: Still birth as pregnancy outcome in a case","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.stillBirthAsPregnancyOutcomeInACase",0,1,"",""
+"ClinicalAndVaccinationInformation.skinAndOrSoftTissueInfectionDueToSecondaryBacterialInfection","ClinicalAndVaccinationInformation.skinAndOrSoftTissueInfectionDueToSecondaryBacterialInfection","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Skin and/or soft-tissue infection due to secondary bacterial infection","MPOX CS: Skin and/or soft-tissue infection due to secondary bacterial infection","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.skinAndOrSoftTissueInfectionDueToSecondaryBacterialInfection",0,1,"",""
+"ClinicalAndVaccinationInformation.otherSecondaryBacterialInfection","ClinicalAndVaccinationInformation.otherSecondaryBacterialInfection","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Other secondary bacterial infection","MPOX CS: Other secondary bacterial infection","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.otherSecondaryBacterialInfection",0,1,"",""
+"ClinicalAndVaccinationInformation.unknownComplications","ClinicalAndVaccinationInformation.unknownComplications","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Unknown complications","MPOX CS: Unknown complications","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.unknownComplications",0,1,"",""
+"ClinicalAndVaccinationInformation.otherComplications","ClinicalAndVaccinationInformation.otherComplications","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Other complications","MPOX CS: Other complications","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.otherComplications",0,1,"",""
+"ClinicalAndVaccinationInformation.specifyOther","ClinicalAndVaccinationInformation.specifyOther","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other complications","MPOX CS: Specify other complications","","","","","","","","","",,,,,"",,,,"ClinicalAndVaccinationInformation.specifyOther",0,1,"",""

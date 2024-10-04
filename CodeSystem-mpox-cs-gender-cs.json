@@ -1,0 +1,48 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-gender-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-gender-cs</b></p><a name=\"mpox-cs-gender-cs\"> </a><a name=\"hcmpox-cs-gender-cs\"> </a><a name=\"mpox-cs-gender-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-gender-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">WOMAN<a name=\"mpox-cs-gender-cs-WOMAN\"> </a></td><td>Woman</td></tr><tr><td style=\"white-space:nowrap\">MAN<a name=\"mpox-cs-gender-cs-MAN\"> </a></td><td>Man</td></tr><tr><td style=\"white-space:nowrap\">TRANSGENDER<a name=\"mpox-cs-gender-cs-TRANSGENDER\"> </a></td><td>Transgender</td></tr><tr><td style=\"white-space:nowrap\">NON_BINARY<a name=\"mpox-cs-gender-cs-NON_BINARY\"> </a></td><td>Non-binary</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-gender-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-gender-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-gender-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSGenderCS",
+  "title" : "MPOX CS: Gender",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "WOMAN",
+    "display" : "Woman"
+  },
+  {
+    "code" : "MAN",
+    "display" : "Man"
+  },
+  {
+    "code" : "TRANSGENDER",
+    "display" : "Transgender"
+  },
+  {
+    "code" : "NON_BINARY",
+    "display" : "Non-binary"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  }]
+}

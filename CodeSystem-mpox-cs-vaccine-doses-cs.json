@@ -1,0 +1,48 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-vaccine-doses-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-vaccine-doses-cs</b></p><a name=\"mpox-cs-vaccine-doses-cs\"> </a><a name=\"hcmpox-cs-vaccine-doses-cs\"> </a><a name=\"mpox-cs-vaccine-doses-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-vaccine-doses-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">0_DOSE_UNVACCINATED<a name=\"mpox-cs-vaccine-doses-cs-0_DOSE_UNVACCINATED\"> </a></td><td>0 dose unvaccinated</td></tr><tr><td style=\"white-space:nowrap\">1_DOSE<a name=\"mpox-cs-vaccine-doses-cs-1_DOSE\"> </a></td><td>1 dose</td></tr><tr><td style=\"white-space:nowrap\">2_DOSES<a name=\"mpox-cs-vaccine-doses-cs-2_DOSES\"> </a></td><td>2 doses</td></tr><tr><td style=\"white-space:nowrap\">3_DOSES<a name=\"mpox-cs-vaccine-doses-cs-3_DOSES\"> </a></td><td>3 doses</td></tr><tr><td style=\"white-space:nowrap\">VACCINATED_UNKNOWN_NUMBER_DOSES<a name=\"mpox-cs-vaccine-doses-cs-VACCINATED_UNKNOWN_NUMBER_DOSES\"> </a></td><td>Vaccinated with unknown number of doses</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN_VACCINATION_STATUS<a name=\"mpox-cs-vaccine-doses-cs-UNKNOWN_VACCINATION_STATUS\"> </a></td><td>Unknown vaccination status</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-vaccine-doses-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSVaccineDosesCS",
+  "title" : "MPOX CS: Vaccine doses",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "0_DOSE_UNVACCINATED",
+    "display" : "0 dose unvaccinated"
+  },
+  {
+    "code" : "1_DOSE",
+    "display" : "1 dose"
+  },
+  {
+    "code" : "2_DOSES",
+    "display" : "2 doses"
+  },
+  {
+    "code" : "3_DOSES",
+    "display" : "3 doses"
+  },
+  {
+    "code" : "VACCINATED_UNKNOWN_NUMBER_DOSES",
+    "display" : "Vaccinated with unknown number of doses"
+  },
+  {
+    "code" : "UNKNOWN_VACCINATION_STATUS",
+    "display" : "Unknown vaccination status"
+  }]
+}

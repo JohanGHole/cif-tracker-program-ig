@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-outcome-disease-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-outcome-disease-cs</b></p><a name="mpox-cs-outcome-disease-cs"> </a><a name="hcmpox-cs-outcome-disease-cs"> </a><a name="mpox-cs-outcome-disease-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-outcome-disease-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">RECOVERED<a name="mpox-cs-outcome-disease-cs-RECOVERED"> </a></td><td>Recovered</td></tr><tr><td style="white-space:nowrap">STILL_ILL<a name="mpox-cs-outcome-disease-cs-STILL_ILL"> </a></td><td>Still ill</td></tr><tr><td style="white-space:nowrap">DEAD<a name="mpox-cs-outcome-disease-cs-DEAD"> </a></td><td>Dead</td></tr><tr><td style="white-space:nowrap">UNKWNON_LOST_FU<a name="mpox-cs-outcome-disease-cs-UNKWNON_LOST_FU"> </a></td><td>Unknwon/lost to follow-up</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-outcome-disease-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSOutcomeDiseaseCS"/>
+  <title value="MPOX CS: Outcome disease"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="RECOVERED"/>
+    <display value="Recovered"/>
+  </concept>
+  <concept>
+    <code value="STILL_ILL"/>
+    <display value="Still ill"/>
+  </concept>
+  <concept>
+    <code value="DEAD"/>
+    <display value="Dead"/>
+  </concept>
+  <concept>
+    <code value="UNKWNON_LOST_FU"/>
+    <display value="Unknwon/lost to follow-up"/>
+  </concept>
+</CodeSystem>

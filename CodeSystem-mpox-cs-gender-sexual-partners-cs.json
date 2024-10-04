@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mpox-cs-gender-sexual-partners-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-gender-sexual-partners-cs</b></p><a name=\"mpox-cs-gender-sexual-partners-cs\"> </a><a name=\"hcmpox-cs-gender-sexual-partners-cs\"> </a><a name=\"mpox-cs-gender-sexual-partners-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ONLY_MEN<a name=\"mpox-cs-gender-sexual-partners-cs-ONLY_MEN\"> </a></td><td>Only men</td></tr><tr><td style=\"white-space:nowrap\">ONLY_WOMEN<a name=\"mpox-cs-gender-sexual-partners-cs-ONLY_WOMEN\"> </a></td><td>Only women</td></tr><tr><td style=\"white-space:nowrap\">BOTH_MEN_WOMEN<a name=\"mpox-cs-gender-sexual-partners-cs-BOTH_MEN_WOMEN\"> </a></td><td>Both men and women</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"mpox-cs-gender-sexual-partners-cs-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-gender-sexual-partners-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs",
+  "version" : "0.1.0",
+  "name" : "MPOXCSGenderSexualPartnersCS",
+  "title" : "MPOX CS: Gender sexual partners",
+  "status" : "draft",
+  "date" : "2024-10-04T08:16:56+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "ONLY_MEN",
+    "display" : "Only men"
+  },
+  {
+    "code" : "ONLY_WOMEN",
+    "display" : "Only women"
+  },
+  {
+    "code" : "BOTH_MEN_WOMEN",
+    "display" : "Both men and women"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

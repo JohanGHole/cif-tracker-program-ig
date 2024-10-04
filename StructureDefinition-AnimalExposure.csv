@@ -1,0 +1,60 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"AnimalExposure","AnimalExposure","","","",0,*,"","","","null {[]} {[]}
+","Animal exposure","Animal exposure","","","","","","","","","",,,,,"",,,,"BackboneElement",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","n/a"
+"AnimalExposure.id","AnimalExposure.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"AnimalExposure.extension","AnimalExposure.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"AnimalExposure.modifierExtension","AnimalExposure.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"AnimalExposure.executionDate","AnimalExposure.executionDate","","","",0,1,"","","","date {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"AnimalExposure.executionDate",0,1,"",""
+"AnimalExposure.typeOfAnimal","AnimalExposure.typeOfAnimal","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Type of animal","MPOX CS: Type of animal","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-type-of-animal-vs","",,,,"AnimalExposure.typeOfAnimal",0,1,"",""
+"AnimalExposure.specifyTheOtherTypeOfAnimals","AnimalExposure.specifyTheOtherTypeOfAnimals","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify the other type of animals","MPOX CS: Specify the other type of animals","","","","","","","","","",,,,,"",,,,"AnimalExposure.specifyTheOtherTypeOfAnimals",0,1,"",""
+"AnimalExposure.speciesIfKnownOrAnyOtherIdentifyingCharacteristics","AnimalExposure.speciesIfKnownOrAnyOtherIdentifyingCharacteristics","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Species, if known, or any other identifying characteristics","MPOX CS: Species, if known, or any other identifying characteristics","","","","","","","","","",,,,,"",,,,"AnimalExposure.speciesIfKnownOrAnyOtherIdentifyingCharacteristics",0,1,"",""
+"AnimalExposure.frequencyOfContact","AnimalExposure.frequencyOfContact","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Frequency of contact with animal","MPOX CS: Frequency of contact with animal","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-contact-frequency-vs","",,,,"AnimalExposure.frequencyOfContact",0,1,"",""
+"AnimalExposure.howManyTimes","AnimalExposure.howManyTimes","","","",0,1,"","","","positiveInt {[]} {[]}
+","MPOX CS: How many contact with animals","MPOX CS: How many contact with animals","","","","","","","","","",,,,,"",,,,"AnimalExposure.howManyTimes",0,1,"",""
+"AnimalExposure.whenDidTheContactOccur","AnimalExposure.whenDidTheContactOccur","","","",0,1,"","","","date {[]} {[]}
+","MPOX CS: When did the animal contact occur?","MPOX CS: When did the animal contact occur?","","","","","","","","","",,,,,"",,,,"AnimalExposure.whenDidTheContactOccur",0,1,"",""
+"AnimalExposure.whereDiTheContactOccur","AnimalExposure.whereDiTheContactOccur","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: Where di the animal contact occur?","MPOX CS: Where di the animal contact occur?","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-place-animal-contact-vs","",,,,"AnimalExposure.whereDiTheContactOccur",0,1,"",""
+"AnimalExposure.specifyOtherPlaceOfAnimalContact","AnimalExposure.specifyOtherPlaceOfAnimalContact","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other place of animal contact","MPOX CS: Specify other place of animal contact","","","","","","","","","",,,,,"",,,,"AnimalExposure.specifyOtherPlaceOfAnimalContact",0,1,"",""
+"AnimalExposure.exactLocationOfContact","AnimalExposure.exactLocationOfContact","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Exact location of animal contact","MPOX CS: Exact location of animal contact","","","","","","","","","",,,,,"",,,,"AnimalExposure.exactLocationOfContact",0,1,"",""
+"AnimalExposure.hunting","AnimalExposure.hunting","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Type of contact with animal - Hunting","MPOX CS: Type of contact with animal - Hunting","","","","","","","","","",,,,,"",,,,"AnimalExposure.hunting",0,1,"",""
+"AnimalExposure.slaughterAndOrHandlingRawMeat","AnimalExposure.slaughterAndOrHandlingRawMeat","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Type of contact with animal - Slaughter and/or handling raw meat","MPOX CS: Type of contact with animal - Slaughter and/or handling raw meat","","","","","","","","","",,,,,"",,,,"AnimalExposure.slaughterAndOrHandlingRawMeat",0,1,"",""
+"AnimalExposure.directContactWithLiveAnimal","AnimalExposure.directContactWithLiveAnimal","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Type of contact with animal - Direct contact with live animal","MPOX CS: Type of contact with animal - Direct contact with live animal","","","","","","","","","",,,,,"",,,,"AnimalExposure.directContactWithLiveAnimal",0,1,"",""
+"AnimalExposure.biteScratch","AnimalExposure.biteScratch","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Type of contact with animal - Bite/scratch","MPOX CS: Type of contact with animal - Bite/scratch","","","","","","","","","",,,,,"",,,,"AnimalExposure.biteScratch",0,1,"",""
+"AnimalExposure.consumptionOfRawUndercookedMeat","AnimalExposure.consumptionOfRawUndercookedMeat","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Type of contact with animal - Consumption of raw/undercooked meat","MPOX CS: Type of contact with animal - Consumption of raw/undercooked meat","","","","","","","","","",,,,,"",,,,"AnimalExposure.consumptionOfRawUndercookedMeat",0,1,"",""
+"AnimalExposure.indirectContact","AnimalExposure.indirectContact","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Type of contact with animal - Indirect contact","MPOX CS: Type of contact with animal - Indirect contact","","","","","","","","","",,,,,"",,,,"AnimalExposure.indirectContact",0,1,"",""
+"AnimalExposure.occupationalContact","AnimalExposure.occupationalContact","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Type of contact with animal - Occupational contact","MPOX CS: Type of contact with animal - Occupational contact","","","","","","","","","",,,,,"",,,,"AnimalExposure.occupationalContact",0,1,"",""
+"AnimalExposure.otherContact","AnimalExposure.otherContact","","","",0,1,"","","","boolean {[]} {[]}
+","MPOX CS: Type of contact with animal - Other contact","MPOX CS: Type of contact with animal - Other contact","","","","","","","","","",,,,,"",,,,"AnimalExposure.otherContact",0,1,"",""
+"AnimalExposure.specifyOtherTypeOfAnimalContact","AnimalExposure.specifyOtherTypeOfAnimalContact","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Type of contact with animal - Specify other","MPOX CS: Type of contact with animal - Specify other","","","","","","","","","",,,,,"",,,,"AnimalExposure.specifyOtherTypeOfAnimalContact",0,1,"",""
+"AnimalExposure.atTheTimeOfContactTheAnimalWas","AnimalExposure.atTheTimeOfContactTheAnimalWas","","","",0,1,"","","","code {[]} {[]}
+","MPOX CS: At the time of contact, the animal was","MPOX CS: At the time of contact, the animal was","","","","","","","","","",,"required","","http://example.org/ValueSet/mpox-cs-animal-status-vs","",,,,"AnimalExposure.atTheTimeOfContactTheAnimalWas",0,1,"",""
+"AnimalExposure.specifyOtherAnimalStatus","AnimalExposure.specifyOtherAnimalStatus","","","",0,1,"","","","string {[]} {[]}
+","MPOX CS: Specify other animal status","MPOX CS: Specify other animal status","","","","","","","","","",,,,,"",,,,"AnimalExposure.specifyOtherAnimalStatus",0,1,"",""

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-ppe-used-during-exposure-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-ppe-used-during-exposure-cs</b></p><a name="mpox-cs-ppe-used-during-exposure-cs"> </a><a name="hcmpox-cs-ppe-used-during-exposure-cs"> </a><a name="mpox-cs-ppe-used-during-exposure-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-ppe-used-during-exposure-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">YES<a name="mpox-cs-ppe-used-during-exposure-cs-YES"> </a></td><td>Yes</td></tr><tr><td style="white-space:nowrap">NO<a name="mpox-cs-ppe-used-during-exposure-cs-NO"> </a></td><td>No</td></tr><tr><td style="white-space:nowrap">SOME<a name="mpox-cs-ppe-used-during-exposure-cs-SOME"> </a></td><td>Some but not all PPE pieces</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-ppe-used-during-exposure-cs-UNKNOWN"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-ppe-used-during-exposure-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSPPEUsedDuringExposureCS"/>
+  <title value="MPOX CS: PPE used during exposure"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="YES"/>
+    <display value="Yes"/>
+  </concept>
+  <concept>
+    <code value="NO"/>
+    <display value="No"/>
+  </concept>
+  <concept>
+    <code value="SOME"/>
+    <display value="Some but not all PPE pieces"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

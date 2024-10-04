@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-vaccination-current-event-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-vaccination-current-event-cs</b></p><a name="mpox-cs-vaccination-current-event-cs"> </a><a name="hcmpox-cs-vaccination-current-event-cs"> </a><a name="mpox-cs-vaccination-current-event-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-vaccination-current-event-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">YES_PRE_EXPOSURE_PROPHYLAXIS<a name="mpox-cs-vaccination-current-event-cs-YES_PRE_EXPOSURE_PROPHYLAXIS"> </a></td><td>Yes - Pre-exposure prophylaxis</td></tr><tr><td style="white-space:nowrap">YES_POST_EXPOSURE_PROPHYLAXIS<a name="mpox-cs-vaccination-current-event-cs-YES_POST_EXPOSURE_PROPHYLAXIS"> </a></td><td>Yes - Post-exposure prophylaxis</td></tr><tr><td style="white-space:nowrap">NO<a name="mpox-cs-vaccination-current-event-cs-NO"> </a></td><td>No</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-vaccination-current-event-cs-UNKNOWN"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-vaccination-current-event-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSVaccinationCurrentEventCS"/>
+  <title value="MPOX CS: Vaccination current event"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="YES_PRE_EXPOSURE_PROPHYLAXIS"/>
+    <display value="Yes - Pre-exposure prophylaxis"/>
+  </concept>
+  <concept>
+    <code value="YES_POST_EXPOSURE_PROPHYLAXIS"/>
+    <display value="Yes - Post-exposure prophylaxis"/>
+  </concept>
+  <concept>
+    <code value="NO"/>
+    <display value="No"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

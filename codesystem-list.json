@@ -1,0 +1,252 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/CodeSystem/gen---countries-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GENCountriesCS",
+      "title" : "GEN - Countries",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-animal-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSAnimalStatusCS",
+      "title" : "MPOX CS: Animal status",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-case-classification-crf-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSCaseClassificationCRFCS",
+      "title" : "MPOX CS: Case classification (CRF)",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-clade-mpox-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSCladeMpoxCS",
+      "title" : "MPOX CS: Clade Mpox",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-contact-frequency-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSContactFrequencyCS",
+      "title" : "MPOX CS: Contact frequency",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-current-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSCurrentStatusCS",
+      "title" : "MPOX CS: Current status",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-gender-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSGenderCS",
+      "title" : "MPOX CS: Gender",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSGenderSexualPartnersCS",
+      "title" : "MPOX CS: Gender sexual partners",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-hand-hygiene-ppe-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSHandHygienePPECS",
+      "title" : "MPOX CS: Hand hygiene PPE",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-hiv-status-assessment-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSHIVStatusAssessmentCS",
+      "title" : "MPOX CS: HIV status assessment",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-hiv-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSHIVStatusCS",
+      "title" : "MPOX CS: HIV status",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-immunosuppressed-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSImmunosuppressedStatusCS",
+      "title" : "MPOX CS: Immunosuppressed status",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSLikelyModeOfTransmissionMpoxCS",
+      "title" : "MPOX CS: Likely mode of transmission (Mpox)",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-maximum-duration-encounters-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSMaximumDurationEncountersCS",
+      "title" : "MPOX CS: Maximum duration encounters",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-outcome-disease-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSOutcomeDiseaseCS",
+      "title" : "MPOX CS: Outcome disease",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-place-animal-contact-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSPlaceAnimalContactCS",
+      "title" : "MPOX CS: Place animal contact",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-ppe-used-during-exposure-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSPPEUsedDuringExposureCS",
+      "title" : "MPOX CS: PPE used during exposure",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-pregnancy-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSPregnancyStatusCS",
+      "title" : "MPOX CS: Pregnancy status",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-protected-sex-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSProtectedSexCS",
+      "title" : "MPOX CS: Protected sex",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-relationship-case-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSRelationshipCaseCS",
+      "title" : "MPOX CS: Relationship case",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-result-sample-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSResultSampleCS",
+      "title" : "MPOX CS: Result sample",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-sex-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSSexCS",
+      "title" : "MPOX CS: Sex",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-sexual-behavior-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSSexualBehaviorCS",
+      "title" : "MPOX CS: Sexual behavior",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-sexual-partner-last-3-months-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSSexualPartnerLast3MonthsCS",
+      "title" : "MPOX CS: Sexual partner last 3 months",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-type-of-animal-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSTypeOfAnimalCS",
+      "title" : "MPOX CS: Type of animal",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSTypeOfContactForwardTracingCS",
+      "title" : "MPOX CS: Type of contact (forward tracing)",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-vaccination-current-event-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSVaccinationCurrentEventCS",
+      "title" : "MPOX CS: Vaccination current event",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-vaccine-brand-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSVaccineBrandCS",
+      "title" : "MPOX CS: Vaccine brand",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-vaccine-doses-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSVaccineDosesCS",
+      "title" : "MPOX CS: Vaccine doses",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-viral-load-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSViralLoadCS",
+      "title" : "MPOX CS: Viral load",
+      "description" : null
+    },
+    {
+      "url" : "http://example.org/CodeSystem/mpox-cs-yes-no-unknown-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MPOXCSYesNoUnknownCS",
+      "title" : "MPOX CS: Yes/No/Unknown",
+      "description" : null
+    }
+  ]
+}

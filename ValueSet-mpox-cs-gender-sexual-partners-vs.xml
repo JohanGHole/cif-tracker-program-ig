@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-gender-sexual-partners-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet mpox-cs-gender-sexual-partners-vs</b></p><a name="mpox-cs-gender-sexual-partners-vs"> </a><a name="hcmpox-cs-gender-sexual-partners-vs"> </a><a name="mpox-cs-gender-sexual-partners-vs-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-mpox-cs-gender-sexual-partners-cs.html"><code>http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/mpox-cs-gender-sexual-partners-vs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSGenderSexualPartnersVS"/>
+  <title value="MPOX CS: Gender sexual partners value set"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://example.org/CodeSystem/mpox-cs-gender-sexual-partners-cs"/>
+    </include>
+  </compose>
+</ValueSet>

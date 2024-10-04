@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mpox-cs-result-sample-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mpox-cs-result-sample-cs</b></p><a name="mpox-cs-result-sample-cs"> </a><a name="hcmpox-cs-result-sample-cs"> </a><a name="mpox-cs-result-sample-cs-en-US"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-result-sample-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">POSITIVE<a name="mpox-cs-result-sample-cs-POSITIVE"> </a></td><td>Positive</td></tr><tr><td style="white-space:nowrap">NEGATIVE<a name="mpox-cs-result-sample-cs-NEGATIVE"> </a></td><td>Negative</td></tr><tr><td style="white-space:nowrap">INCONCLUSIVE<a name="mpox-cs-result-sample-cs-INCONCLUSIVE"> </a></td><td>Inconclusive</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="mpox-cs-result-sample-cs-UNKNOWN"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/mpox-cs-result-sample-cs"/>
+  <version value="0.1.0"/>
+  <name value="MPOXCSResultSampleCS"/>
+  <title value="MPOX CS: Result sample"/>
+  <status value="draft"/>
+  <date value="2024-10-04T08:16:56+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="POSITIVE"/>
+    <display value="Positive"/>
+  </concept>
+  <concept>
+    <code value="NEGATIVE"/>
+    <display value="Negative"/>
+  </concept>
+  <concept>
+    <code value="INCONCLUSIVE"/>
+    <display value="Inconclusive"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

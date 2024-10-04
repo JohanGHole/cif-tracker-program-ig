@@ -1,0 +1,981 @@
+CIFIG : Validation Results
+=========================================
+
+err = 15, warn = 242, info = 31
+$--
+Generated $--. FHIR version $-- for fhir.example#$-- (canonical = http://example.org)
+ Build Errors : 524 / 81 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-gen---countries-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-animal-status-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-case-classification-crf-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-clade-mpox-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-contact-frequency-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-current-status-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-gender-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-gender-sexual-partners-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-hand-hygiene-ppe-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-hiv-status-assessment-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-hiv-status-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-immunosuppressed-status-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-likely-mode-of-transmission-mpox-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-maximum-duration-encounters-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-outcome-disease-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-place-animal-contact-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-ppe-used-during-exposure-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-pregnancy-status-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-protected-sex-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-relationship-case-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-result-sample-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-sex-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-sexual-behavior-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-sexual-partner-last-3-months-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-type-of-animal-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-type-of-contact-forward-tracing-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-vaccination-current-event-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-vaccine-brand-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-vaccine-doses-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-viral-load-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mpox-cs-yes-no-unknown-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.example : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-AnimalExposure : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-CaseSurveillanceMpoxCIF : 1 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ClinicalAndVaccinationInformation : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ContactDetails : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DiagnosticPathogenTesting : 1 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DiseaseSeverityAndOutcome : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ExposureEvents : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ExposureInHouseholdSetting : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ExposureToProbableOrConfirmedCase : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ForwardTracing : 1 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MostLikelyModeOfTransmission : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-OccupationalExposureInHealthcareSettings : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SexualActivity : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SexualPartners : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-TravelHistory : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-gen---countries-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-animal-status-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-case-classification-crf-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-clade-mpox-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-contact-frequency-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-current-status-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-gender-sexual-partners-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-gender-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-hand-hygiene-ppe-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-hiv-status-assessment-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-hiv-status-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-immunosuppressed-status-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-likely-mode-of-transmission-mpox-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-maximum-duration-encounters-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-outcome-disease-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-place-animal-contact-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-ppe-used-during-exposure-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-pregnancy-status-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-protected-sex-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-relationship-case-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-result-sample-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-sex-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-sexual-behavior-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-sexual-partner-last-3-months-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-type-of-animal-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-type-of-contact-forward-tracing-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-vaccination-current-event-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-vaccine-brand-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-vaccine-doses-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-viral-load-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mpox-cs-yes-no-unknown-vs : 0 / 2 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/AnimalExposure.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/CaseSurveillanceMpoxCIF.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ClinicalAndVaccinationInformation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ContactDetails.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/DiagnosticPathogenTesting.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/DiseaseSeverityAndOutcome.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ExposureEvents.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ExposureInHouseholdSetting.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ExposureToProbableOrConfirmedCase.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ForwardTracing.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MostLikelyModeOfTransmission.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/OccupationalExposureInHealthcareSettings.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/SexualActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/SexualPartners.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/TravelHistory.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/gen---countries-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-animal-status-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-case-classification-crf-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-clade-mpox-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-contact-frequency-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-current-status-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-gender-sexual-partners-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-gender-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-hiv-status-assessment-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-hiv-status-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-hand-hygiene-ppe-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-immunosuppressed-status-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-likely-mode-of-transmission-mpox-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-maximum-duration-encounters-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-outcome-disease-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-ppe-used-during-exposure-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-place-animal-contact-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-pregnancy-status-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-protected-sex-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-relationship-case-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-result-sample-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-sex-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-sexual-behavior-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-sexual-partner-last-3-months-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-type-of-animal-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-type-of-contact-forward-tracing-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-vaccination-current-event-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-vaccine-brand-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-vaccine-doses-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-viral-load-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mpox-cs-yes-no-unknown-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/gen---countries-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-animal-status-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-case-classification-crf-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-clade-mpox-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-contact-frequency-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-current-status-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-gender-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-gender-sexual-partners-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-hiv-status-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-hiv-status-assessment-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-hand-hygiene-ppe-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-immunosuppressed-status-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-maximum-duration-encounters-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-outcome-disease-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-ppe-used-during-exposure-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-place-animal-contact-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-pregnancy-status-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-protected-sex-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-relationship-case-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-result-sample-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-sex-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-sexual-behavior-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-sexual-partner-last-3-months-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-type-of-animal-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-vaccination-current-event-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-vaccine-brand-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-vaccine-doses-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-viral-load-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/mpox-cs-yes-no-unknown-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/CodeSystem-gen---countries-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gen---countries-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gen---countries-cs.html#/html/body/div/div/div/p/span/a at Line 783, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gen---countries-cs.json.html#/html/body/div/div/div/p/span/a at Line 1280, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gen---countries-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 1035, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gen---countries-cs.xml.html#/html/body/div/div/div/p/span/a at Line 1274, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-animal-status-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-animal-status-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-animal-status-cs.html#/html/body/div/div/div/p/span/a at Line 293, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-animal-status-cs.json.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-animal-status-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-animal-status-cs.xml.html#/html/body/div/div/div/p/span/a at Line 294, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-case-classification-crf-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-case-classification-crf-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-case-classification-crf-cs.html#/html/body/div/div/div/p/span/a at Line 293, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-case-classification-crf-cs.json.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-case-classification-crf-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-case-classification-crf-cs.xml.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-clade-mpox-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-clade-mpox-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-clade-mpox-cs.html#/html/body/div/div/div/p/span/a at Line 299, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-clade-mpox-cs.json.html#/html/body/div/div/div/p/span/a at Line 312, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-clade-mpox-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 309, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-clade-mpox-cs.xml.html#/html/body/div/div/div/p/span/a at Line 306, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-contact-frequency-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-contact-frequency-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-contact-frequency-cs.html#/html/body/div/div/div/p/span/a at Line 291, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-contact-frequency-cs.json.html#/html/body/div/div/div/p/span/a at Line 296, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-contact-frequency-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-contact-frequency-cs.xml.html#/html/body/div/div/div/p/span/a at Line 290, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-current-status-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-current-status-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-current-status-cs.html#/html/body/div/div/div/p/span/a at Line 291, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-current-status-cs.json.html#/html/body/div/div/div/p/span/a at Line 296, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-current-status-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-current-status-cs.xml.html#/html/body/div/div/div/p/span/a at Line 290, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-cs.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-cs.json.html#/html/body/div/div/div/p/span/a at Line 308, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 306, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-cs.xml.html#/html/body/div/div/div/p/span/a at Line 302, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-sexual-partners-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-sexual-partners-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-sexual-partners-cs.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-sexual-partners-cs.json.html#/html/body/div/div/div/p/span/a at Line 304, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-sexual-partners-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 303, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-gender-sexual-partners-cs.xml.html#/html/body/div/div/div/p/span/a at Line 299, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hand-hygiene-ppe-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hand-hygiene-ppe-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hand-hygiene-ppe-cs.html#/html/body/div/div/div/p/span/a at Line 291, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hand-hygiene-ppe-cs.json.html#/html/body/div/div/div/p/span/a at Line 296, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hand-hygiene-ppe-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hand-hygiene-ppe-cs.xml.html#/html/body/div/div/div/p/span/a at Line 290, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-assessment-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-assessment-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-assessment-cs.html#/html/body/div/div/div/p/span/a at Line 293, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-assessment-cs.json.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-assessment-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-assessment-cs.xml.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-cs.html#/html/body/div/div/div/p/span/a at Line 291, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-cs.json.html#/html/body/div/div/div/p/span/a at Line 296, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-hiv-status-cs.xml.html#/html/body/div/div/div/p/span/a at Line 290, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-immunosuppressed-status-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-immunosuppressed-status-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-immunosuppressed-status-cs.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-immunosuppressed-status-cs.json.html#/html/body/div/div/div/p/span/a at Line 304, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-immunosuppressed-status-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 303, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-immunosuppressed-status-cs.xml.html#/html/body/div/div/div/p/span/a at Line 299, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-likely-mode-of-transmission-mpox-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-likely-mode-of-transmission-mpox-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-likely-mode-of-transmission-mpox-cs.html#/html/body/div/div/div/p/span/a at Line 305, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-likely-mode-of-transmission-mpox-cs.json.html#/html/body/div/div/div/p/span/a at Line 324, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-likely-mode-of-transmission-mpox-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 318, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-likely-mode-of-transmission-mpox-cs.xml.html#/html/body/div/div/div/p/span/a at Line 324, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-maximum-duration-encounters-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-maximum-duration-encounters-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-maximum-duration-encounters-cs.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-maximum-duration-encounters-cs.json.html#/html/body/div/div/div/p/span/a at Line 308, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-maximum-duration-encounters-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 306, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-maximum-duration-encounters-cs.xml.html#/html/body/div/div/div/p/span/a at Line 303, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-outcome-disease-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-outcome-disease-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-outcome-disease-cs.html#/html/body/div/div/div/p/span/a at Line 293, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-outcome-disease-cs.json.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-outcome-disease-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-outcome-disease-cs.xml.html#/html/body/div/div/div/p/span/a at Line 294, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-place-animal-contact-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-place-animal-contact-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-place-animal-contact-cs.html#/html/body/div/div/div/p/span/a at Line 299, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-place-animal-contact-cs.json.html#/html/body/div/div/div/p/span/a at Line 312, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-place-animal-contact-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 309, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-place-animal-contact-cs.xml.html#/html/body/div/div/div/p/span/a at Line 306, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-ppe-used-during-exposure-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-ppe-used-during-exposure-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-ppe-used-during-exposure-cs.html#/html/body/div/div/div/p/span/a at Line 293, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-ppe-used-during-exposure-cs.json.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-ppe-used-during-exposure-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-ppe-used-during-exposure-cs.xml.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-pregnancy-status-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-pregnancy-status-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-pregnancy-status-cs.html#/html/body/div/div/div/p/span/a at Line 299, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-pregnancy-status-cs.json.html#/html/body/div/div/div/p/span/a at Line 312, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-pregnancy-status-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 309, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-pregnancy-status-cs.xml.html#/html/body/div/div/div/p/span/a at Line 306, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-protected-sex-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-protected-sex-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-protected-sex-cs.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-protected-sex-cs.json.html#/html/body/div/div/div/p/span/a at Line 304, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-protected-sex-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 303, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-protected-sex-cs.xml.html#/html/body/div/div/div/p/span/a at Line 298, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-relationship-case-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-relationship-case-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-relationship-case-cs.html#/html/body/div/div/div/p/span/a at Line 301, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-relationship-case-cs.json.html#/html/body/div/div/div/p/span/a at Line 316, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-relationship-case-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 312, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-relationship-case-cs.xml.html#/html/body/div/div/div/p/span/a at Line 310, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-result-sample-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-result-sample-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-result-sample-cs.html#/html/body/div/div/div/p/span/a at Line 293, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-result-sample-cs.json.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-result-sample-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-result-sample-cs.xml.html#/html/body/div/div/div/p/span/a at Line 294, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sex-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sex-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sex-cs.html#/html/body/div/div/div/p/span/a at Line 293, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sex-cs.json.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sex-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sex-cs.xml.html#/html/body/div/div/div/p/span/a at Line 294, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-behavior-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-behavior-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-behavior-cs.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-behavior-cs.json.html#/html/body/div/div/div/p/span/a at Line 308, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-behavior-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 306, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-behavior-cs.xml.html#/html/body/div/div/div/p/span/a at Line 302, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-partner-last-3-months-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-partner-last-3-months-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-partner-last-3-months-cs.html#/html/body/div/div/div/p/span/a at Line 301, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-partner-last-3-months-cs.json.html#/html/body/div/div/div/p/span/a at Line 316, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-partner-last-3-months-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 312, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-sexual-partner-last-3-months-cs.xml.html#/html/body/div/div/div/p/span/a at Line 311, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-animal-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-animal-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-animal-cs.html#/html/body/div/div/div/p/span/a at Line 301, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-animal-cs.json.html#/html/body/div/div/div/p/span/a at Line 316, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-animal-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 312, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-animal-cs.xml.html#/html/body/div/div/div/p/span/a at Line 310, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-contact-forward-tracing-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-contact-forward-tracing-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-contact-forward-tracing-cs.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-contact-forward-tracing-cs.json.html#/html/body/div/div/div/p/span/a at Line 304, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-contact-forward-tracing-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 303, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-type-of-contact-forward-tracing-cs.xml.html#/html/body/div/div/div/p/span/a at Line 299, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccination-current-event-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccination-current-event-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccination-current-event-cs.html#/html/body/div/div/div/p/span/a at Line 293, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccination-current-event-cs.json.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccination-current-event-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 300, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccination-current-event-cs.xml.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-brand-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-brand-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-brand-cs.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-brand-cs.json.html#/html/body/div/div/div/p/span/a at Line 304, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-brand-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 303, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-brand-cs.xml.html#/html/body/div/div/div/p/span/a at Line 298, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-doses-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-doses-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-doses-cs.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-doses-cs.json.html#/html/body/div/div/div/p/span/a at Line 308, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-doses-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 306, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-vaccine-doses-cs.xml.html#/html/body/div/div/div/p/span/a at Line 302, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-viral-load-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-viral-load-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-viral-load-cs.html#/html/body/div/div/div/p/span/a at Line 291, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-viral-load-cs.json.html#/html/body/div/div/div/p/span/a at Line 296, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-viral-load-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-viral-load-cs.xml.html#/html/body/div/div/div/p/span/a at Line 290, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-yes-no-unknown-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-yes-no-unknown-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-yes-no-unknown-cs.html#/html/body/div/div/div/p/span/a at Line 291, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-yes-no-unknown-cs.json.html#/html/body/div/div/div/p/span/a at Line 296, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-yes-no-unknown-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 297, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-mpox-cs-yes-no-unknown-cs.xml.html#/html/body/div/div/div/p/span/a at Line 290, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.html#/html/body/div/div/div/p/span/a at Line 240, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.json.html#/html/body/div/div/div/p/span/a at Line 260, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.ttl.html#/html/body/div/div/div/p/span/a at Line 266, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.xml.html#/html/body/div/div/div/p/span/a at Line 254, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalExposure-definitions.html#/html/body/div/div/div/p/span/a at Line 517, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalExposure-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalExposure-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalExposure-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalExposure.html#/html/body/div/div/div/p/span/a at Line 1546, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalExposure.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalExposure.profile.json.html#/html/body/div/div/div/p/span/a at Line 1194, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalExposure.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 919, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalExposure.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1101, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CaseSurveillanceMpoxCIF-definitions.html#/html/body/div/div/div/p/span/a at Line 868, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CaseSurveillanceMpoxCIF-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CaseSurveillanceMpoxCIF-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CaseSurveillanceMpoxCIF-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CaseSurveillanceMpoxCIF.html#/html/body/div/div/div/p/span/a at Line 3070, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CaseSurveillanceMpoxCIF.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CaseSurveillanceMpoxCIF.profile.json.html#/html/body/div/div/div/p/span/a at Line 2462, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CaseSurveillanceMpoxCIF.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1772, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CaseSurveillanceMpoxCIF.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2208, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ClinicalAndVaccinationInformation-definitions.html#/html/body/div/div/div/p/span/a at Line 1075, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ClinicalAndVaccinationInformation-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ClinicalAndVaccinationInformation-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ClinicalAndVaccinationInformation-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ClinicalAndVaccinationInformation.html#/html/body/div/div/div/p/span/a at Line 4160, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ClinicalAndVaccinationInformation.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ClinicalAndVaccinationInformation.profile.json.html#/html/body/div/div/div/p/span/a at Line 3460, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ClinicalAndVaccinationInformation.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2589, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ClinicalAndVaccinationInformation.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3349, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ContactDetails-definitions.html#/html/body/div/div/div/p/span/a at Line 418, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ContactDetails-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ContactDetails-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ContactDetails-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ContactDetails.html#/html/body/div/div/div/p/span/a at Line 1110, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ContactDetails.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ContactDetails.profile.json.html#/html/body/div/div/div/p/span/a at Line 829, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ContactDetails.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 669, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ContactDetails.profile.xml.html#/html/body/div/div/div/p/span/a at Line 752, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiagnosticPathogenTesting-definitions.html#/html/body/div/div/div/p/span/a at Line 589, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiagnosticPathogenTesting-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiagnosticPathogenTesting-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiagnosticPathogenTesting-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiagnosticPathogenTesting.html#/html/body/div/div/div/p/span/a at Line 1856, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiagnosticPathogenTesting.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiagnosticPathogenTesting.profile.json.html#/html/body/div/div/div/p/span/a at Line 1450, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiagnosticPathogenTesting.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1089, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiagnosticPathogenTesting.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1327, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiseaseSeverityAndOutcome-definitions.html#/html/body/div/div/div/p/span/a at Line 481, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiseaseSeverityAndOutcome-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiseaseSeverityAndOutcome-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiseaseSeverityAndOutcome-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiseaseSeverityAndOutcome.html#/html/body/div/div/div/p/span/a at Line 1382, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiseaseSeverityAndOutcome.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiseaseSeverityAndOutcome.profile.json.html#/html/body/div/div/div/p/span/a at Line 1054, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiseaseSeverityAndOutcome.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 819, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-DiseaseSeverityAndOutcome.profile.xml.html#/html/body/div/div/div/p/span/a at Line 959, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureEvents-definitions.html#/html/body/div/div/div/p/span/a at Line 706, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureEvents-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureEvents-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureEvents-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureEvents.html#/html/body/div/div/div/p/span/a at Line 2356, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureEvents.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureEvents.profile.json.html#/html/body/div/div/div/p/span/a at Line 1861, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureEvents.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1359, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureEvents.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1721, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureInHouseholdSetting-definitions.html#/html/body/div/div/div/p/span/a at Line 355, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureInHouseholdSetting-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureInHouseholdSetting-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureInHouseholdSetting-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureInHouseholdSetting.html#/html/body/div/div/div/p/span/a at Line 814, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureInHouseholdSetting.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureInHouseholdSetting.profile.json.html#/html/body/div/div/div/p/span/a at Line 604, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureInHouseholdSetting.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 519, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureInHouseholdSetting.profile.xml.html#/html/body/div/div/div/p/span/a at Line 569, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureToProbableOrConfirmedCase-definitions.html#/html/body/div/div/div/p/span/a at Line 418, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureToProbableOrConfirmedCase-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureToProbableOrConfirmedCase-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureToProbableOrConfirmedCase-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureToProbableOrConfirmedCase.html#/html/body/div/div/div/p/span/a at Line 1134, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureToProbableOrConfirmedCase.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureToProbableOrConfirmedCase.profile.json.html#/html/body/div/div/div/p/span/a at Line 861, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureToProbableOrConfirmedCase.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 709, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ExposureToProbableOrConfirmedCase.profile.xml.html#/html/body/div/div/div/p/span/a at Line 848, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ForwardTracing-definitions.html#/html/body/div/div/div/p/span/a at Line 454, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ForwardTracing-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ForwardTracing-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ForwardTracing-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ForwardTracing.html#/html/body/div/div/div/p/span/a at Line 1262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ForwardTracing.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ForwardTracing.profile.json.html#/html/body/div/div/div/p/span/a at Line 953, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ForwardTracing.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 749, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ForwardTracing.profile.xml.html#/html/body/div/div/div/p/span/a at Line 893, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MostLikelyModeOfTransmission-definitions.html#/html/body/div/div/div/p/span/a at Line 346, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MostLikelyModeOfTransmission-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MostLikelyModeOfTransmission-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MostLikelyModeOfTransmission-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MostLikelyModeOfTransmission.html#/html/body/div/div/div/p/span/a at Line 806, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MostLikelyModeOfTransmission.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MostLikelyModeOfTransmission.profile.json.html#/html/body/div/div/div/p/span/a at Line 581, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MostLikelyModeOfTransmission.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 509, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MostLikelyModeOfTransmission.profile.xml.html#/html/body/div/div/div/p/span/a at Line 553, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/span/a at Line 587, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/span/a at Line 299, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/span/a at Line 400, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/span/a at Line 295, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.html#/html/body/div/div/div/p/span/a at Line 1644, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/span/a at Line 277, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/span/a at Line 2501, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1880, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2348, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-OccupationalExposureInHealthcareSettings-definitions.html#/html/body/div/div/div/p/span/a at Line 382, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-OccupationalExposureInHealthcareSettings-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-OccupationalExposureInHealthcareSettings-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-OccupationalExposureInHealthcareSettings-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-OccupationalExposureInHealthcareSettings.html#/html/body/div/div/div/p/span/a at Line 970, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-OccupationalExposureInHealthcareSettings.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-OccupationalExposureInHealthcareSettings.profile.json.html#/html/body/div/div/div/p/span/a at Line 721, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-OccupationalExposureInHealthcareSettings.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 609, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-OccupationalExposureInHealthcareSettings.profile.xml.html#/html/body/div/div/div/p/span/a at Line 699, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualActivity-definitions.html#/html/body/div/div/div/p/span/a at Line 364, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualActivity-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualActivity-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualActivity-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualActivity.html#/html/body/div/div/div/p/span/a at Line 894, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualActivity.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualActivity.profile.json.html#/html/body/div/div/div/p/span/a at Line 659, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualActivity.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 569, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualActivity.profile.xml.html#/html/body/div/div/div/p/span/a at Line 625, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualPartners-definitions.html#/html/body/div/div/div/p/span/a at Line 418, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualPartners-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualPartners-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualPartners-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualPartners.html#/html/body/div/div/div/p/span/a at Line 1110, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualPartners.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualPartners.profile.json.html#/html/body/div/div/div/p/span/a at Line 829, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualPartners.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 669, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-SexualPartners.profile.xml.html#/html/body/div/div/div/p/span/a at Line 754, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-TravelHistory-definitions.html#/html/body/div/div/div/p/span/a at Line 373, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-TravelHistory-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-TravelHistory-mappings.html#/html/body/div/div/div/p/span/a at Line 284, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-TravelHistory-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-TravelHistory.html#/html/body/div/div/div/p/span/a at Line 920, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-TravelHistory.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-TravelHistory.profile.json.html#/html/body/div/div/div/p/span/a at Line 674, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-TravelHistory.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 569, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-TravelHistory.profile.xml.html#/html/body/div/div/div/p/span/a at Line 620, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gen---countries-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gen---countries-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gen---countries-vs.html#/html/body/div/div/div/p/span/a at Line 327, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gen---countries-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gen---countries-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gen---countries-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-animal-status-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-animal-status-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-animal-status-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-animal-status-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-animal-status-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-animal-status-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-case-classification-crf-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-case-classification-crf-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-case-classification-crf-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-case-classification-crf-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-case-classification-crf-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-case-classification-crf-vs.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-clade-mpox-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-clade-mpox-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-clade-mpox-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-clade-mpox-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-clade-mpox-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-clade-mpox-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-contact-frequency-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-contact-frequency-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-contact-frequency-vs.html#/html/body/div/div/div/p/span/a at Line 328, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-contact-frequency-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-contact-frequency-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-contact-frequency-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-current-status-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-current-status-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-current-status-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-current-status-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-current-status-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-current-status-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-sexual-partners-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-sexual-partners-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-sexual-partners-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-sexual-partners-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-sexual-partners-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-sexual-partners-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-gender-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hand-hygiene-ppe-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hand-hygiene-ppe-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hand-hygiene-ppe-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hand-hygiene-ppe-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hand-hygiene-ppe-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hand-hygiene-ppe-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-assessment-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-assessment-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-assessment-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-assessment-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-assessment-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-assessment-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-hiv-status-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-immunosuppressed-status-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-immunosuppressed-status-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-immunosuppressed-status-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-immunosuppressed-status-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-immunosuppressed-status-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-immunosuppressed-status-vs.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-likely-mode-of-transmission-mpox-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-likely-mode-of-transmission-mpox-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-likely-mode-of-transmission-mpox-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-likely-mode-of-transmission-mpox-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-likely-mode-of-transmission-mpox-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-likely-mode-of-transmission-mpox-vs.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-maximum-duration-encounters-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-maximum-duration-encounters-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-maximum-duration-encounters-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-maximum-duration-encounters-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-maximum-duration-encounters-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-maximum-duration-encounters-vs.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-outcome-disease-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-outcome-disease-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-outcome-disease-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-outcome-disease-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-outcome-disease-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-outcome-disease-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-place-animal-contact-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-place-animal-contact-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-place-animal-contact-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-place-animal-contact-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-place-animal-contact-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-place-animal-contact-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-ppe-used-during-exposure-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-ppe-used-during-exposure-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-ppe-used-during-exposure-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-ppe-used-during-exposure-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-ppe-used-during-exposure-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-ppe-used-during-exposure-vs.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-pregnancy-status-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-pregnancy-status-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-pregnancy-status-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-pregnancy-status-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-pregnancy-status-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-pregnancy-status-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-protected-sex-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-protected-sex-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-protected-sex-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-protected-sex-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-protected-sex-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-protected-sex-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-relationship-case-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-relationship-case-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-relationship-case-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-relationship-case-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-relationship-case-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-relationship-case-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-result-sample-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-result-sample-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-result-sample-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-result-sample-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-result-sample-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-result-sample-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sex-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sex-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sex-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sex-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sex-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sex-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-behavior-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-behavior-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-behavior-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-behavior-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-behavior-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-behavior-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-partner-last-3-months-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-partner-last-3-months-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-partner-last-3-months-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-partner-last-3-months-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-partner-last-3-months-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-sexual-partner-last-3-months-vs.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-animal-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-animal-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-animal-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-animal-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-animal-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-animal-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-contact-forward-tracing-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-contact-forward-tracing-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-contact-forward-tracing-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-contact-forward-tracing-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-contact-forward-tracing-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-type-of-contact-forward-tracing-vs.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccination-current-event-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccination-current-event-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccination-current-event-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccination-current-event-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccination-current-event-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccination-current-event-vs.xml.html#/html/body/div/div/div/p/span/a at Line 283, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-brand-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-brand-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-brand-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-brand-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-brand-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-brand-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-doses-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-doses-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-doses-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-doses-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-doses-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-vaccine-doses-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-viral-load-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-viral-load-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-viral-load-vs.html#/html/body/div/div/div/p/span/a at Line 326, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-viral-load-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-viral-load-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-viral-load-vs.xml.html#/html/body/div/div/div/p/span/a at Line 281, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-yes-no-unknown-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-yes-no-unknown-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-yes-no-unknown-vs.html#/html/body/div/div/div/p/span/a at Line 333, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-yes-no-unknown-vs.json.html#/html/body/div/div/div/p/span/a at Line 287, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-yes-no-unknown-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 289, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-mpox-cs-yes-no-unknown-vs.xml.html#/html/body/div/div/div/p/span/a at Line 282, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/span/a at Line 732, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/span/a at Line 245, column 108: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/span/a at Line 187, column 108: The link 'license.html' for "License" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-gen---countries-cs.json ==
+INFORMATION: CodeSystem/gen---countries-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/gen---countries-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/gen---countries-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/gen---countries-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-animal-status-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-animal-status-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-animal-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-animal-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-animal-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-case-classification-crf-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-case-classification-crf-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-case-classification-crf-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-case-classification-crf-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-case-classification-crf-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-clade-mpox-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-clade-mpox-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-clade-mpox-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-clade-mpox-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-clade-mpox-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-contact-frequency-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-contact-frequency-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-contact-frequency-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-contact-frequency-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-contact-frequency-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-current-status-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-current-status-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-current-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-current-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-current-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-gender-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-gender-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-gender-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-gender-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-gender-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-gender-sexual-partners-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-gender-sexual-partners-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-gender-sexual-partners-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-gender-sexual-partners-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-gender-sexual-partners-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-hand-hygiene-ppe-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-hand-hygiene-ppe-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-hand-hygiene-ppe-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-hand-hygiene-ppe-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-hand-hygiene-ppe-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-hiv-status-assessment-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-hiv-status-assessment-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-hiv-status-assessment-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-hiv-status-assessment-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-hiv-status-assessment-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-hiv-status-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-hiv-status-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-immunosuppressed-status-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-immunosuppressed-status-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-immunosuppressed-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-immunosuppressed-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-immunosuppressed-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-likely-mode-of-transmission-mpox-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-likely-mode-of-transmission-mpox-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-maximum-duration-encounters-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-maximum-duration-encounters-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-maximum-duration-encounters-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-maximum-duration-encounters-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-maximum-duration-encounters-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-outcome-disease-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-outcome-disease-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-outcome-disease-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-outcome-disease-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-outcome-disease-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-place-animal-contact-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-place-animal-contact-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-place-animal-contact-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-place-animal-contact-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-place-animal-contact-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-ppe-used-during-exposure-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-ppe-used-during-exposure-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-ppe-used-during-exposure-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-ppe-used-during-exposure-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-ppe-used-during-exposure-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-pregnancy-status-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-pregnancy-status-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-pregnancy-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-pregnancy-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-pregnancy-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-protected-sex-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-protected-sex-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-protected-sex-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-protected-sex-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-protected-sex-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-relationship-case-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-relationship-case-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-relationship-case-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-relationship-case-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-relationship-case-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-result-sample-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-result-sample-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-result-sample-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-result-sample-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-result-sample-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-sex-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-sex-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-sex-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-sex-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-sex-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-sexual-behavior-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-sexual-behavior-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-sexual-behavior-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-sexual-behavior-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-sexual-behavior-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-sexual-partner-last-3-months-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-sexual-partner-last-3-months-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-sexual-partner-last-3-months-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-sexual-partner-last-3-months-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-sexual-partner-last-3-months-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-type-of-animal-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-type-of-animal-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-type-of-animal-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-type-of-animal-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-type-of-animal-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-type-of-contact-forward-tracing-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-type-of-contact-forward-tracing-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-vaccination-current-event-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-vaccination-current-event-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-vaccination-current-event-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-vaccination-current-event-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-vaccination-current-event-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-vaccine-brand-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-vaccine-brand-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-vaccine-brand-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-vaccine-brand-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-vaccine-brand-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-vaccine-doses-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-vaccine-doses-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-vaccine-doses-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-vaccine-doses-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-vaccine-doses-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-viral-load-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-viral-load-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-viral-load-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-viral-load-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-viral-load-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mpox-cs-yes-no-unknown-cs.json ==
+INFORMATION: CodeSystem/mpox-cs-yes-no-unknown-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mpox-cs-yes-no-unknown-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-yes-no-unknown-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/mpox-cs-yes-no-unknown-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-fhir.example.json ==
+== fsh-generated/resources/Patient-PatientExample.json ==
+== fsh-generated/resources/StructureDefinition-AnimalExposure.json ==
+ERROR: StructureDefinition/AnimalExposure: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-CaseSurveillanceMpoxCIF.json ==
+ERROR: StructureDefinition/CaseSurveillanceMpoxCIF: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+WARNING: StructureDefinition/CaseSurveillanceMpoxCIF: StructureDefinition.snapshot.element[27].short: value should not start or finish with whitespace 'If age &lt;5 years, is the child malnourished? '
+WARNING: StructureDefinition/CaseSurveillanceMpoxCIF: StructureDefinition.differential.element[24].short: value should not start or finish with whitespace 'If age &lt;5 years, is the child malnourished? '
+== fsh-generated/resources/StructureDefinition-ClinicalAndVaccinationInformation.json ==
+ERROR: StructureDefinition/ClinicalAndVaccinationInformation: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-ContactDetails.json ==
+ERROR: StructureDefinition/ContactDetails: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-DiagnosticPathogenTesting.json ==
+ERROR: StructureDefinition/DiagnosticPathogenTesting: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+WARNING: StructureDefinition/DiagnosticPathogenTesting: StructureDefinition.snapshot.element[28].short: value should not start or finish with whitespace 'MPOX CS: Accession number of the sequence uploaded to a public database '
+WARNING: StructureDefinition/DiagnosticPathogenTesting: StructureDefinition.differential.element[25].short: value should not start or finish with whitespace 'MPOX CS: Accession number of the sequence uploaded to a public database '
+== fsh-generated/resources/StructureDefinition-DiseaseSeverityAndOutcome.json ==
+ERROR: StructureDefinition/DiseaseSeverityAndOutcome: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-ExposureEvents.json ==
+ERROR: StructureDefinition/ExposureEvents: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-ExposureInHouseholdSetting.json ==
+ERROR: StructureDefinition/ExposureInHouseholdSetting: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-ExposureToProbableOrConfirmedCase.json ==
+ERROR: StructureDefinition/ExposureToProbableOrConfirmedCase: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-ForwardTracing.json ==
+ERROR: StructureDefinition/ForwardTracing: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+WARNING: StructureDefinition/ForwardTracing: StructureDefinition.snapshot.element[7].short: value should not start or finish with whitespace 'MPOX CS: How many of the reported contacts are unidentified? '
+WARNING: StructureDefinition/ForwardTracing: StructureDefinition.differential.element[4].short: value should not start or finish with whitespace 'MPOX CS: How many of the reported contacts are unidentified? '
+== fsh-generated/resources/StructureDefinition-MostLikelyModeOfTransmission.json ==
+ERROR: StructureDefinition/MostLikelyModeOfTransmission: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-MyPatient.json ==
+== fsh-generated/resources/StructureDefinition-OccupationalExposureInHealthcareSettings.json ==
+ERROR: StructureDefinition/OccupationalExposureInHealthcareSettings: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-SexualActivity.json ==
+ERROR: StructureDefinition/SexualActivity: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-SexualPartners.json ==
+ERROR: StructureDefinition/SexualPartners: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/StructureDefinition-TravelHistory.json ==
+ERROR: StructureDefinition/TravelHistory: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+== fsh-generated/resources/ValueSet-gen---countries-vs.json ==
+WARNING: ValueSet/gen---countries-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/gen---countries-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-animal-status-vs.json ==
+WARNING: ValueSet/mpox-cs-animal-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-animal-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-case-classification-crf-vs.json ==
+WARNING: ValueSet/mpox-cs-case-classification-crf-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-case-classification-crf-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-clade-mpox-vs.json ==
+WARNING: ValueSet/mpox-cs-clade-mpox-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-clade-mpox-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-contact-frequency-vs.json ==
+WARNING: ValueSet/mpox-cs-contact-frequency-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-contact-frequency-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-current-status-vs.json ==
+WARNING: ValueSet/mpox-cs-current-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-current-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-gender-sexual-partners-vs.json ==
+WARNING: ValueSet/mpox-cs-gender-sexual-partners-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-gender-sexual-partners-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-gender-vs.json ==
+WARNING: ValueSet/mpox-cs-gender-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-gender-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-hand-hygiene-ppe-vs.json ==
+WARNING: ValueSet/mpox-cs-hand-hygiene-ppe-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-hand-hygiene-ppe-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-hiv-status-assessment-vs.json ==
+WARNING: ValueSet/mpox-cs-hiv-status-assessment-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-hiv-status-assessment-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-hiv-status-vs.json ==
+WARNING: ValueSet/mpox-cs-hiv-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-hiv-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-immunosuppressed-status-vs.json ==
+WARNING: ValueSet/mpox-cs-immunosuppressed-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-immunosuppressed-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-likely-mode-of-transmission-mpox-vs.json ==
+WARNING: ValueSet/mpox-cs-likely-mode-of-transmission-mpox-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-likely-mode-of-transmission-mpox-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-maximum-duration-encounters-vs.json ==
+WARNING: ValueSet/mpox-cs-maximum-duration-encounters-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-maximum-duration-encounters-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-outcome-disease-vs.json ==
+WARNING: ValueSet/mpox-cs-outcome-disease-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-outcome-disease-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-place-animal-contact-vs.json ==
+WARNING: ValueSet/mpox-cs-place-animal-contact-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-place-animal-contact-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-ppe-used-during-exposure-vs.json ==
+WARNING: ValueSet/mpox-cs-ppe-used-during-exposure-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-ppe-used-during-exposure-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-pregnancy-status-vs.json ==
+WARNING: ValueSet/mpox-cs-pregnancy-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-pregnancy-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-protected-sex-vs.json ==
+WARNING: ValueSet/mpox-cs-protected-sex-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-protected-sex-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-relationship-case-vs.json ==
+WARNING: ValueSet/mpox-cs-relationship-case-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-relationship-case-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-result-sample-vs.json ==
+WARNING: ValueSet/mpox-cs-result-sample-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-result-sample-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-sex-vs.json ==
+WARNING: ValueSet/mpox-cs-sex-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-sex-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-sexual-behavior-vs.json ==
+WARNING: ValueSet/mpox-cs-sexual-behavior-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-sexual-behavior-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-sexual-partner-last-3-months-vs.json ==
+WARNING: ValueSet/mpox-cs-sexual-partner-last-3-months-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-sexual-partner-last-3-months-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-type-of-animal-vs.json ==
+WARNING: ValueSet/mpox-cs-type-of-animal-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-type-of-animal-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-type-of-contact-forward-tracing-vs.json ==
+WARNING: ValueSet/mpox-cs-type-of-contact-forward-tracing-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-type-of-contact-forward-tracing-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-vaccination-current-event-vs.json ==
+WARNING: ValueSet/mpox-cs-vaccination-current-event-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-vaccination-current-event-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-vaccine-brand-vs.json ==
+WARNING: ValueSet/mpox-cs-vaccine-brand-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-vaccine-brand-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-vaccine-doses-vs.json ==
+WARNING: ValueSet/mpox-cs-vaccine-doses-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-vaccine-doses-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-viral-load-vs.json ==
+WARNING: ValueSet/mpox-cs-viral-load-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-viral-load-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mpox-cs-yes-no-unknown-vs.json ==
+WARNING: ValueSet/mpox-cs-yes-no-unknown-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/mpox-cs-yes-no-unknown-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present

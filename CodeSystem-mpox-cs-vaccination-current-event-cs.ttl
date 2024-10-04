@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/mpox-cs-vaccination-current-event-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mpox-cs-vaccination-current-event-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mpox-cs-vaccination-current-event-cs</b></p><a name=\"mpox-cs-vaccination-current-event-cs\"> </a><a name=\"hcmpox-cs-vaccination-current-event-cs\"> </a><a name=\"mpox-cs-vaccination-current-event-cs-en-US\"> </a><p>This  code system <code>http://example.org/CodeSystem/mpox-cs-vaccination-current-event-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">YES_PRE_EXPOSURE_PROPHYLAXIS<a name=\"mpox-cs-vaccination-current-event-cs-YES_PRE_EXPOSURE_PROPHYLAXIS\"> </a></td><td>Yes - Pre-exposure prophylaxis</td></tr><tr><td style=\"white-space:nowrap\">YES_POST_EXPOSURE_PROPHYLAXIS<a name=\"mpox-cs-vaccination-current-event-cs-YES_POST_EXPOSURE_PROPHYLAXIS\"> </a></td><td>Yes - Post-exposure prophylaxis</td></tr><tr><td style=\"white-space:nowrap\">NO<a name=\"mpox-cs-vaccination-current-event-cs-NO\"> </a></td><td>No</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"mpox-cs-vaccination-current-event-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/mpox-cs-vaccination-current-event-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MPOXCSVaccinationCurrentEventCS"] ; # 
+  fhir:title [ fhir:v "MPOX CS: Vaccination current event"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-10-04T08:16:56+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org/" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "YES_PRE_EXPOSURE_PROPHYLAXIS" ] ;
+     fhir:display [ fhir:v "Yes - Pre-exposure prophylaxis" ]
+  ] [
+     fhir:code [ fhir:v "YES_POST_EXPOSURE_PROPHYLAXIS" ] ;
+     fhir:display [ fhir:v "Yes - Post-exposure prophylaxis" ]
+  ] [
+     fhir:code [ fhir:v "NO" ] ;
+     fhir:display [ fhir:v "No" ]
+  ] [
+     fhir:code [ fhir:v "UNKNOWN" ] ;
+     fhir:display [ fhir:v "Unknown" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
